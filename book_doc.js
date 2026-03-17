@@ -563,6 +563,95 @@ const ch9 = [
   expandNote("Consider adding a visual reference or quick-reference card format for the essential functions checklist, similar to the manual page 18 reference from class."),
 ];
 
+const ch13 = [
+  chapterHead("Chapter Thirteen: Communication Strategies"),
+  legendNote(),
+
+  sectionHead("Simplex"),
+
+  bodyAI("The simplest form of radio communication is simplex: one frequency, used for both transmitting and receiving. You talk on it, you listen on it. Nothing moves. It is one lane used for both directions. Simplex is where every radio operator should start, because it strips away every variable except the ones that matter: are you on the right frequency, and can the other person hear you?"),
+
+  expandNote("Consider expanding the simplex section with the national calling frequency (146.520) and FRS channel references from the class transcript. Also explain why simplex is limited by line of sight and power."),
+
+  sectionHead("The Radio Net"),
+
+  body("A net is many-to-many information sharing. If there are fifteen people, all fifteen people both participate and hear the check-ins of all other fifteen people. It is like fifteen times fifteen combinations. It would take a tremendous amount of time to do that any other way. Going door to door with a notepad, collecting information, creating a report, distributing that report. With a radio net, you accomplish it in one setting."),
+
+  sectionHead("Running a Net"),
+
+  body("The first thing I do is announce the net. I pause. I announce it again. I pause. I might even announce it a third time and pause again. Why am I announcing it so many times? Because some of you are always late. If we say our net is at nine o'clock, I am going to announce it at 8:59, at 9:00, at 9:01, maybe 9:02. All our clocks are not synchronized. Especially if there is an internet outage and a power outage, you may not even have your cell phone with an accurate clock on it. We want to cast a wide net for the opening."),
+
+  sectionHead("Yielding for Emergency Traffic"),
+
+  body("You will notice a lot of yielding and giving space for emergency or priority traffic. It is a courtesy, and you practice like you want to do it in real life. In real life, somebody might need that channel, and it is more important than your stupid little radio net. You better believe they are sick of waiting for you to be done to do something important."),
+
+  bodyMixed([
+    ["I have been sitting and waiting way too many times during disaster relief for people to talk about what they ate for breakfast and how their blood pressure is not going down because they are on the wrong statins. Meanwhile, I need to announce that there is free water at the local fire department, and can we please open up this repeater. ", false],
+    ["It is ignorance and discourteousness. You do not own a frequency. It is not yours. Even if it is your repeater, you do not own where it is operating. Just like if you are flying an airplane, you might own the airplane, but you do not own the air it is flying through. You do not own the lake. You do not create wakes in the middle of the dock. Yield. Make space. Pause. Make room for other people.", false],
+  ]),
+
+  bodyMixed([
+    ["Even if you did own it, somebody might have something important. ", true],
+    ["Like a red status. Do you think you are going to wait your turn to give your red status if you are last? No. You are jumping in line. That is the reason we make space.", false],
+  ]),
+
+  sectionHead("Brevity Codes"),
+
+  body("I gave the instructions using color codes: green, yellow, red. Green means I am okay. Yellow means I might need some help, let us talk about it. Red means I need help right now, urgently. Are they top secret? No. I said what they mean. So why are we using them if they are not top secret? It is a brevity code. Saves us time."),
+
+  body("If I said give me your name and status, here is what would happen. The first two or three people would be reasonable. This is Evan, I am good to go. And then the next guy has to give a novel. This is Matt, lunch was pretty good, class is okay, it is a little hot for me but you know it is summer, I guess I am eight out of ten. Now it is a competition for everybody else to see who can be the cutest, and now our fifteen-second net is a fifteen-minute net and we are all ready to kill each other at the end of it."),
+
+  body("I do not need the novel. I just want to know: are you okay or not? I want to do that as quickly and efficiently as possible so we can get on with doing stuff. Radio is not the point of our life. For some people, radio is the point of their life and they want to be on a net for three hours. I do not."),
+
+  sectionHead("Do Not Say Words You Do Not Know"),
+
+  body("If you show up at a net and this is the first time you have heard people using names and colors, and they have already started, and it is about to be your turn, and you have heard everybody use a certain color, and you are feeling a lot of peer pressure to go ahead and say that even though you have no idea what that word means: do not use that word. Do not use words you do not know what they mean. Ask. Act like a normal person. Sorry, I was not here for the intro, you mind giving the instructions again?"),
+
+  sectionHead("The Repeat-Back and Pause"),
+
+  body("After every check-in, I repeated it and then I paused. The pause is there to allow for a correction. I have to artificially force that pause, or there is no time for a correction. If everybody just goes one after another, and the first person's name was wrong, they are ten people in before they can get my attention. If I deal with what I got wrong right then and there, that is the right time and place for it. One one-thousand, two one-thousand. Go. Do not spend a bunch of time pausing."),
+
+  bodyMixed([
+    ["Also, while I paused for emergency traffic, I was getting my ducks in a row. Logging check-ins, getting my template up, getting my pen ready. ", false],
+    ["Those pauses are not dead time. They are admin time that keeps the net running smoothly.", true],
+  ]),
+
+  sectionHead("Enforcing Discipline"),
+
+  body("If somebody does something you did not ask them to do, nip it in the bud right off the bat. The first time somebody deviates from what you want, politely address it. Hey, I got that one, Sonia, you are green. Hey guys, from here on out, just wait for me to ask for the next check-in, I am keeping a log here. It just gives me time to jot it down."),
+
+  body("You do not need to be a jerk. But you have to enforce anything that deviates from what you want. I know this sounds dictatorial. Here is the deal: we only have our voice. All we have is the radio. We have to make order out of a very chaotic situation. I am trying to get check-ins for fifteen people in an orderly way, and everyone is counting on the person running it to keep order. If they do not do a good job, everyone is being held hostage by the people running amok. You decide how you come across. You can be gentle. But you have to address it. Do not let it go further."),
+
+  sectionHead("Handling Doubles"),
+
+  body("When people are not going in a prescribed order, they are going to step on each other. Two people transmit at the same time and it sounds like robot wars. Here is what works almost every time: hey, I heard two there, doubling up, let us go one at a time please. I do not know what it is, but if you just say go one at a time, even in a room of a hundred people, only one person is brave enough to go again. And by the time they go, everyone else is like, oh thank God somebody else went. It fixes it. That is the magic pill."),
+
+  body("If that does not work, you might have to get creative. Names that start with a certain letter, people of a certain age, people with a certain color shirt. Figure out something to divide people up. The more reluctant everybody is, the more likely it is that one person is slightly less reluctant, and it resolves itself."),
+
+  sectionHead("The Read-Back"),
+
+  body("At the end, I gave a read-back. A summary. That is dealer's choice depending on how important the information is. In a neighborhood net that happens when the power goes out, somebody got there late and did not hear the first three check-ins. They might want to know: is Miss Barbara okay? It would be nice to hear the list."),
+
+  bodyMixed([
+    ["If you need to pause during a long read-back, say break. ", false],
+    ["Saying break is an indicator: hey, I am pausing, I am going to start back, hang on. It keeps the line open for you. Then you start back when you are ready.", false],
+  ]),
+
+  sectionHead("Closing the Net"),
+
+  body("At the end, announce that it is over. And at the end is an essential time to inform everyone when the next net is. If there is a power outage in the neighborhood and we do this every night at nine on a certain channel, I would reiterate to everyone: it is 9:10 now, we are synchronizing clocks, we will meet again here at the same frequency tomorrow night at nine. If there is a more urgent situation, we will meet every hour at the top of the hour on the same frequency. Why are we announcing all of this? We do not have email. This might be the only source of information. They may not know it is every night. You need to remind everybody."),
+
+  sectionHead("Why Not Call People by Name First"),
+
+  body("I ask for check-ins. I do not call on specific people. Why? In some circumstances, it could be an impersonator. If you just say a name, it is really easy for someone to respond as that person. I am not expecting to operate in that environment. But context is king. You might not always want to give away people's names. You might want to wait for them to give it to you."),
+
+  sectionHead("The Bidirectional Comms Check"),
+
+  body("Just being able to hear somebody does not guarantee they can hear you. You have to do a bidirectional comms check. Unless it is life or death, if you are doing a legitimate comms check, it is two-way. Just because you can hear me does not mean I can hear you. You might be on the right channel with all the right settings, but your radio physically cannot transmit. You will not know unless you test it both ways."),
+
+  expandNote("Add material on repeaters and cross-band repeat from the class. Also consider adding the dispersed net exercise results and what they revealed about radio coverage and dead spots."),
+];
+
 const bookDoc = new Document({
   styles: {
     default: { document: { run: { font: "Georgia", size: 24 } } },
@@ -600,7 +689,8 @@ const bookDoc = new Document({
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Four") }, children: [...ch4, pageBreak()] },
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Five") }, children: [...ch5, pageBreak()] },
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Six") }, children: [...ch6, pageBreak()] },
-    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Nine") }, children: ch9 }
+    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Nine") }, children: [...ch9, pageBreak()] },
+    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Thirteen") }, children: ch13 }
   ]
 });
 
