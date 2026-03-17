@@ -930,95 +930,62 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
-  // ── TTS Engine ──
-  var tts = {
-    synth: window.speechSynthesis,
-    playing: false,
-    paused: false,
+  // ── Audio Player (Edge TTS MP3s) ──
+  var player = {
+    audio: new Audio(),
     chapterIdx: -1,
-    paraIdx: 0,
-    rate: 1.0,
-    voice: null,
-    utterance: null
+    manifest: null,
+    playing: false
   };
 
-  // Pick the best available voice (prefer natural/enhanced voices)
-  function pickVoice() {
-    var voices = tts.synth.getVoices();
-    var prefs = ['jenny', 'guy', 'aria', 'zira', 'david', 'natural', 'enhanced'];
-    for (var p = 0; p < prefs.length; p++) {
-      for (var v = 0; v < voices.length; v++) {
-        if (voices[v].lang.startsWith('en') && voices[v].name.toLowerCase().indexOf(prefs[p]) >= 0) {
-          return voices[v];
-        }
-      }
-    }
-    // Fallback: first English voice
-    for (var v = 0; v < voices.length; v++) {
-      if (voices[v].lang.startsWith('en')) return voices[v];
-    }
-    return null;
-  }
+  // Load audio manifest
+  fetch('audio/manifest.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      player.manifest = data;
+      console.log('Audio manifest loaded:', data.length, 'chapters');
+    })
+    .catch(function() {
+      console.warn('No audio manifest found — TTS buttons will use browser fallback');
+    });
 
-  // Voices load async in some browsers
-  if (tts.synth.getVoices().length) tts.voice = pickVoice();
-  tts.synth.onvoiceschanged = function() { tts.voice = pickVoice(); };
-
-  function getChapterParas(chIdx) {
-    var section = document.querySelectorAll('.chapter:not(.placeholder-chapter)')[chIdx];
-    if (!section) return [];
-    return Array.from(section.querySelectorAll('.book-para, .expand-note'));
-  }
-
-  function getChapterTitle(chIdx) {
-    var section = document.querySelectorAll('.chapter:not(.placeholder-chapter)')[chIdx];
-    if (!section) return '';
-    var h = section.querySelector('.chapter-title');
-    return h ? h.textContent : '';
-  }
-
-  function highlightPara(el) {
-    document.querySelectorAll('.tts-active').forEach(function(e) { e.classList.remove('tts-active'); });
-    if (el) {
-      el.classList.add('tts-active');
-      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
+  function formatTime(s) {
+    var m = Math.floor(s / 60);
+    var sec = Math.floor(s % 60);
+    return m + ':' + (sec < 10 ? '0' : '') + sec;
   }
 
   function updatePlayerUI() {
     var bar = document.getElementById('playerBar');
     var pp = document.getElementById('playerPP');
     var title = document.getElementById('playerTitle');
-    var paraEl = document.getElementById('playerPara');
+    var timeEl = document.getElementById('playerPara');
 
-    if (!tts.playing && !tts.paused) {
+    if (player.chapterIdx < 0) {
       bar.classList.remove('visible');
       document.querySelectorAll('.tts-btn.playing, .tts-btn.paused').forEach(function(b) {
         b.classList.remove('playing', 'paused');
         b.innerHTML = '&#9654; Listen';
       });
-      highlightPara(null);
       return;
     }
 
     bar.classList.add('visible');
-    title.innerHTML = '<strong>Reading:</strong> ' + getChapterTitle(tts.chapterIdx);
+    var ch = player.manifest[player.chapterIdx];
+    title.innerHTML = '<strong>Playing:</strong> ' + ch.title;
 
-    var paras = getChapterParas(tts.chapterIdx);
-    paraEl.textContent = (tts.paraIdx + 1) + ' / ' + paras.length;
+    var cur = player.audio.currentTime || 0;
+    var dur = player.audio.duration || 0;
+    timeEl.textContent = formatTime(cur) + ' / ' + (dur ? formatTime(dur) : '--:--');
 
-    if (tts.paused) {
-      pp.innerHTML = '&#9654;';
-    } else {
-      pp.innerHTML = '&#10074;&#10074;';
-    }
+    var paused = player.audio.paused;
+    pp.innerHTML = paused ? '&#9654;' : '&#10074;&#10074;';
 
-    // Update chapter button state
     document.querySelectorAll('.tts-btn').forEach(function(b, i) {
-      if (i === tts.chapterIdx) {
-        b.classList.toggle('playing', tts.playing && !tts.paused);
-        b.classList.toggle('paused', tts.paused);
-        b.innerHTML = tts.paused ? '&#9654; Resume' : '&#10074;&#10074; Playing';
+      if (i === player.chapterIdx) {
+        b.classList.toggle('playing', !paused);
+        b.classList.toggle('paused', paused);
+        b.innerHTML = paused ? '&#9654; Resume' : '&#10074;&#10074; Playing';
       } else {
         b.classList.remove('playing', 'paused');
         b.innerHTML = '&#9654; Listen';
@@ -1026,123 +993,72 @@
     });
   }
 
-  function speakPara() {
-    var paras = getChapterParas(tts.chapterIdx);
-    if (tts.paraIdx >= paras.length) {
-      stopTTS();
-      return;
-    }
-
-    // Cancel any prior speech to avoid queue buildup
-    tts.synth.cancel();
-
-    var el = paras[tts.paraIdx];
-    var text = el.textContent.replace(/^EXPAND:s*/, '');
-    highlightPara(el);
-    updatePlayerUI();
-
-    // Re-pick voice each time in case voices loaded late
-    if (!tts.voice) tts.voice = pickVoice();
-
-    var u = new SpeechSynthesisUtterance(text);
-    u.rate = tts.rate;
-    u.pitch = 1.0;
-    u.volume = 1.0;
-    if (tts.voice) u.voice = tts.voice;
-
-    // Show voice info in player for debugging
-    var paraEl = document.getElementById('playerPara');
-    paraEl.textContent = (tts.paraIdx + 1) + '/' + paras.length + (tts.voice ? ' [' + tts.voice.name.split(' ').pop() + ']' : ' [no voice]');
-
-    u.onend = function() {
-      tts.paraIdx++;
-      if (tts.playing && !tts.paused) {
-        // Small delay between paragraphs for natural pacing
-        setTimeout(function() { speakPara(); }, 300);
-      }
-    };
-    u.onerror = function(e) {
-      console.error('TTS error:', e);
-      tts.paraIdx++;
-      if (tts.playing && !tts.paused) speakPara();
-    };
-    tts.utterance = u;
-    tts.synth.speak(u);
-  }
-
-  function startTTS(chIdx) {
-    tts.synth.cancel();
-    tts.chapterIdx = chIdx;
-    tts.paraIdx = 0;
-    tts.playing = true;
-    tts.paused = false;
-    speakPara();
-  }
-
-  function stopTTS() {
-    tts.synth.cancel();
-    tts.playing = false;
-    tts.paused = false;
-    tts.chapterIdx = -1;
-    tts.paraIdx = 0;
+  function playChapter(idx) {
+    if (!player.manifest || !player.manifest[idx]) return;
+    player.chapterIdx = idx;
+    player.audio.src = player.manifest[idx].file;
+    player.audio.playbackRate = parseFloat(document.getElementById('playerSpeed').textContent);
+    player.audio.play();
     updatePlayerUI();
   }
 
-  function togglePause() {
-    if (tts.paused) {
-      tts.paused = false;
-      tts.synth.resume();
-      updatePlayerUI();
+  function stopPlayer() {
+    player.audio.pause();
+    player.audio.currentTime = 0;
+    player.chapterIdx = -1;
+    updatePlayerUI();
+  }
+
+  // Time update for progress display
+  player.audio.addEventListener('timeupdate', updatePlayerUI);
+  player.audio.addEventListener('ended', function() {
+    // Auto-advance to next chapter
+    if (player.manifest && player.chapterIdx + 1 < player.manifest.length) {
+      playChapter(player.chapterIdx + 1);
     } else {
-      tts.paused = true;
-      tts.synth.pause();
-      updatePlayerUI();
+      stopPlayer();
     }
-  }
+  });
 
   // Chapter play buttons
   document.querySelectorAll('.tts-btn').forEach(function(btn) {
     btn.addEventListener('click', function() {
       var ch = parseInt(this.dataset.chapter);
-      if (tts.playing && tts.chapterIdx === ch) {
-        if (tts.paused) {
-          togglePause();
+      if (player.chapterIdx === ch) {
+        // Toggle play/pause
+        if (player.audio.paused) {
+          player.audio.play();
         } else {
-          togglePause();
+          player.audio.pause();
         }
+        updatePlayerUI();
       } else {
-        startTTS(ch);
+        playChapter(ch);
       }
     });
   });
 
   // Player bar controls
-  document.getElementById('playerPP').addEventListener('click', togglePause);
-  document.getElementById('playerStop').addEventListener('click', stopTTS);
+  document.getElementById('playerPP').addEventListener('click', function() {
+    if (player.chapterIdx < 0) return;
+    if (player.audio.paused) {
+      player.audio.play();
+    } else {
+      player.audio.pause();
+    }
+    updatePlayerUI();
+  });
+
+  document.getElementById('playerStop').addEventListener('click', stopPlayer);
 
   var speeds = [0.75, 1.0, 1.25, 1.5, 2.0];
   var speedIdx = 1;
   document.getElementById('playerSpeed').addEventListener('click', function() {
     speedIdx = (speedIdx + 1) % speeds.length;
-    tts.rate = speeds[speedIdx];
-    this.textContent = speeds[speedIdx] + 'x';
-    // If currently speaking, restart current para at new speed
-    if (tts.playing && !tts.paused) {
-      tts.synth.cancel();
-      speakPara();
-    }
+    var rate = speeds[speedIdx];
+    this.textContent = rate + 'x';
+    player.audio.playbackRate = rate;
   });
-
-  // Chrome has a bug where synthesis stops after ~15s.
-  // Workaround: restart the current utterance if it goes silent.
-  setInterval(function() {
-    if (tts.playing && !tts.paused) {
-      if (!tts.synth.speaking) {
-        // Synthesis died silently — restart current paragraph
-        speakPara();
-      }
-    }
-  }, 14000);
 </script>
 
 </body>
