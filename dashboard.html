@@ -302,6 +302,135 @@
     padding: 20px 0;
   }
 
+  /* ── TTS CONTROLS ── */
+  .chapter-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .chapter-header .chapter-title {
+    flex: 1;
+  }
+
+  .tts-btn {
+    flex-shrink: 0;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    background: #242428;
+    color: #a1a1aa;
+    border: 1px solid #3f3f46;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+    margin-top: 4px;
+    white-space: nowrap;
+  }
+
+  .tts-btn:hover {
+    background: #2e2e32;
+    color: #e4e4e7;
+    border-color: #d4a030;
+  }
+
+  .tts-btn.playing {
+    background: #d4a030;
+    color: #1c1c1e;
+    border-color: #d4a030;
+  }
+
+  .tts-btn.paused {
+    background: #3f3f46;
+    color: #d4a030;
+    border-color: #d4a030;
+  }
+
+  /* ── PLAYER BAR ── */
+  .player-bar {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #161618;
+    border-top: 1px solid #2e2e32;
+    padding: 10px 20px;
+    z-index: 250;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .player-bar.visible {
+    display: flex;
+  }
+
+  .player-bar .player-title {
+    flex: 1;
+    font-family: Georgia, serif;
+    font-size: 0.85em;
+    color: #a1a1aa;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .player-bar .player-title strong {
+    color: #e4e4e7;
+  }
+
+  .player-bar .player-para {
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    color: #71717a;
+    white-space: nowrap;
+  }
+
+  .player-bar button {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    background: #242428;
+    color: #a1a1aa;
+    border: 1px solid #3f3f46;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .player-bar button:hover {
+    background: #2e2e32;
+    color: #e4e4e7;
+  }
+
+  .player-bar .player-stop {
+    color: #ef4444;
+    border-color: #52525b;
+  }
+
+  .player-bar .player-stop:hover {
+    border-color: #ef4444;
+  }
+
+  .player-bar .player-speed {
+    min-width: 44px;
+    text-align: center;
+  }
+
+  /* ── HIGHLIGHT ACTIVE PARAGRAPH ── */
+  .book-para.tts-active {
+    background: rgba(107, 163, 214, 0.08);
+    border-radius: 3px;
+    outline: 1px solid rgba(107, 163, 214, 0.2);
+  }
+
+  @media (max-width: 900px) {
+    .player-bar { padding: 8px 12px; }
+    .player-bar .player-title { font-size: 0.78em; }
+  }
+
   /* ── OVERLAY for mobile ── */
   .sidebar-overlay {
     display: none;
@@ -403,7 +532,10 @@
 
   
     <section id="ch1" class="chapter">
-      <h2 class="chapter-title">Chapter One: The Conversation That Started Everything</h2>
+      <div class="chapter-header">
+        <h2 class="chapter-title">Chapter One: The Conversation That Started Everything</h2>
+        <button class="tts-btn" data-chapter="0" title="Read aloud">&#9654; Listen</button>
+      </div>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       <p class="book-para mixed" data-idx="0"><span class="ai-added">About fifteen years ago, I was sitting in a cubicle at a large bank in Charlotte, North Carolina, doing what IT professionals at large banks in Charlotte do: waiting for the next ticket, watching the clock, and trying to remember why I had chosen this career path. The answer, I suspect, was the same as most of my colleagues. You do not so much choose to work IT at a bank in Charlotte as you end up there. </span>There is a saying in the industry, at least in that part of the world: if you are in IT, you have to do your time at a bank, much like doing your time in prison. <span class="ai-added">Most of us were just trying to finish our sentences.</span></p>
       <p class="book-para ai-added" data-idx="1">The man sitting across from me was closer to parole than I was. He was a quiet, methodical guy who kept to himself, counted his days, and had his retirement mapped out with the precision of someone who had been waiting a long time to get back to the things that actually mattered to him. One of those things, I was about to accidentally discover, was amateur radio.</p>
@@ -418,7 +550,10 @@
       <p class="book-para mixed" data-idx="10">Looking back, I wonder if I read it wrong. <span class="ai-added">He may have been more willing to talk than I gave him credit for. He may have warmed up if I had pressed a little more gently, or asked better questions, or caught him at a different moment. I will never know. What I know is that I left that conversation with a question I could not put down and no one to help me answer it. That missed opportunity, real or imagined, is probably what sent me to the internet. And the internet, as we will get to shortly, was not particularly helpful.</span></p>
     </section>
     <section id="ch2" class="chapter">
-      <h2 class="chapter-title">Chapter Two: The Internet Was Not Very Helpful</h2>
+      <div class="chapter-header">
+        <h2 class="chapter-title">Chapter Two: The Internet Was Not Very Helpful</h2>
+        <button class="tts-btn" data-chapter="1" title="Read aloud">&#9654; Listen</button>
+      </div>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       <p class="book-para ai-added" data-idx="0">So I did what any millennial without a real-life mentor does: I turned to the internet.</p>
       <p class="book-para ai-added" data-idx="1">This was not the internet of today. It was a less polished, less indexed, and in some ways less trustworthy place. But it was still the internet, and the internet has always been a treasure trove if you are willing to wade through the swamp to find the treasure. In the world of amateur radio, the swamp was considerable.</p>
@@ -428,7 +563,10 @@
       <p class="book-para ai-added" data-idx="5">That process, of sifting through noise for signal, of almost giving up and then finding the one thing that gave you the will to continue, is familiar to almost everyone who has tried to learn amateur radio on their own. It is also, I would argue, the reason this book exists. There should have been a better on-ramp. There still should be.</p>
     </section>
     <section id="ch3" class="chapter">
-      <h2 class="chapter-title">Chapter Three: First Contact</h2>
+      <div class="chapter-header">
+        <h2 class="chapter-title">Chapter Three: First Contact</h2>
+        <button class="tts-btn" data-chapter="2" title="Read aloud">&#9654; Listen</button>
+      </div>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       <p class="book-para" data-idx="0">After some time, I managed to order a radio and a couple of antennas, got it programmed through CHIRP, and turned it on to one of the local repeaters in the Charlotte area.</p>
       <div class="expand-note" data-idx="1"><strong>EXPAND:</strong> Walk the reader through what this process actually looked like. What radio did you get? What was CHIRP like for a first-timer? What is a repeater and why does it matter? This is instructional territory and deserves a fuller treatment, either here or in a companion chapter.</div>
@@ -443,7 +581,10 @@
       <p class="book-para mixed" data-idx="10">I eventually earned my amateur radio license, made some contacts, and did not make it my whole personality. I moved on. <span class="ai-added">That was not the point. The point was that I had proved to myself that the door was real and that I could walk through it. That was enough, for a while.</span></p>
     </section>
     <section id="ch4" class="chapter">
-      <h2 class="chapter-title">Chapter Four: Allowed versus Able</h2>
+      <div class="chapter-header">
+        <h2 class="chapter-title">Chapter Four: Allowed versus Able</h2>
+        <button class="tts-btn" data-chapter="3" title="Read aloud">&#9654; Listen</button>
+      </div>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       <p class="book-para mixed" data-idx="0"><span class="ai-added">My next chapter took me in a direction that might seem unrelated: </span>firearms and medical training. I traveled to Tennessee and trained at a school called Tactical Response, and from there I got plugged into a community of people who took preparedness seriously across multiple disciplines.</p>
       <div class="expand-note" data-idx="1"><strong>EXPAND:</strong> This transition is worth more space in the book. What drew you to tactical training? How does it connect to the broader worldview that led you to radio in the first place? Readers coming from a preparedness background will recognize this path. Readers who are not will benefit from understanding it.</div>
@@ -458,7 +599,10 @@
       <p class="book-para ai-added" data-idx="10">I said yes. That was, in retrospect, a pivotal decision that led somewhere I could not have predicted.</p>
     </section>
     <section id="ch5" class="chapter">
-      <h2 class="chapter-title">Chapter Five: 413 Slides</h2>
+      <div class="chapter-header">
+        <h2 class="chapter-title">Chapter Five: 413 Slides</h2>
+        <button class="tts-btn" data-chapter="4" title="Read aloud">&#9654; Listen</button>
+      </div>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       <p class="book-para mixed" data-idx="0"><span class="ai-added">My first attempt at teaching radio </span><span class="ai-added">was exactly what you would expect from someone with a background in corporate IT who had never taught anything before. </span>I built a PowerPoint presentation. It had 413 slides. It covered every technical detail I had managed to accumulate over years of self-directed learning. The students in that room found it useful. They told me so.</p>
       <p class="book-para mixed" data-idx="1">But I knew something was wrong. <span class="ai-added">I had set out to build the class I wished had existed when I was starting out, and what I had built instead was a technical reference that happened to be delivered out loud. That is not the same thing. The people in that room learned something. They did not leave as radio operators.</span></p>
@@ -471,7 +615,10 @@
       <p class="book-para ai-added" data-idx="8">That is why I built it. And that is why you are holding this book.</p>
     </section>
     <section id="ch6" class="chapter">
-      <h2 class="chapter-title">Chapter Six: Why Radio</h2>
+      <div class="chapter-header">
+        <h2 class="chapter-title">Chapter Six: Why Radio</h2>
+        <button class="tts-btn" data-chapter="5" title="Read aloud">&#9654; Listen</button>
+      </div>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       <p class="book-para" data-idx="0">You probably understand this, just observing that you are here, that communication is an absolutely critical aspect of life. It underpins everything we do. It allows us to scale beyond the distance of our voice when we add systems to it. But communication, even within voice range, can be a challenge in certain circumstances or environments. If you are in a loud environment, a stressful environment, an emergency. If you have ever been in a high-stress situation, you have probably noticed that communication is one of the first things to fall apart.</p>
       <p class="book-para ai-added" data-idx="1">It is a cliche even in relationships. When marriages fail or partnerships dissolve, the reason cited most often is the same: we could not communicate. Radio does not fix that particular problem. But the broader observation holds. Communication is so fundamental that when it breaks down, everything downstream of it breaks with it.</p>
@@ -517,7 +664,10 @@
       <div class="expand-note" data-idx="41"><strong>EXPAND:</strong> Add the radio summary statement from class: 'Radios are a versatile communication medium' and the breakdown of each phrase: silent/invisible, multiple recipients, at distance, mechanically simple, minimal visual interruption, when other means are ineffective or unavailable.</div>
     </section>
     <section id="ch7" class="chapter">
-      <h2 class="chapter-title">Chapter Nine: Your First Radio</h2>
+      <div class="chapter-header">
+        <h2 class="chapter-title">Chapter Nine: Your First Radio</h2>
+        <button class="tts-btn" data-chapter="6" title="Read aloud">&#9654; Listen</button>
+      </div>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       <p class="book-para mixed" data-idx="0">If you have ever done firearms training, you have probably heard of Clint Smith. He has a philosophy that he wants students to be students of weapons craft, not students of a particular weapon. What does that mean? If I pick up an AK-47 off the ground, I can make it work, even if what I run at home is an AR. You ought to be able to load it, unload it, make it safe, make it fire, clear basic malfunctions, because you are not guaranteed to be fighting with your gun. You might fight with somebody else's gun.</p>
       <p class="book-para" data-idx="1">I love that philosophy, and I am applying it here with radio. You are not guaranteed to be using your radio. I think it is even more likely with radio than with firearms that you will end up with something unfamiliar in your hands. Someone just handed you a radio and you have to make it work. So we are approaching this at a generalized level so that it will work for you regardless of what you are holding.</p>
@@ -570,7 +720,10 @@
       <div class="expand-note" data-idx="48"><strong>EXPAND:</strong> Consider adding a visual reference or quick-reference card format for the essential functions checklist, similar to the manual page 18 reference from class.</div>
     </section>
     <section id="ch8" class="chapter">
-      <h2 class="chapter-title">Chapter Thirteen: Communication Strategies</h2>
+      <div class="chapter-header">
+        <h2 class="chapter-title">Chapter Thirteen: Communication Strategies</h2>
+        <button class="tts-btn" data-chapter="7" title="Read aloud">&#9654; Listen</button>
+      </div>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       <h3 class="section-title" data-idx="0">Simplex</h3>
       <p class="book-para ai-added" data-idx="1">The simplest form of radio communication is simplex: one frequency, used for both transmitting and receiving. You talk on it, you listen on it. Nothing moves. It is one lane used for both directions. Simplex is where every radio operator should start, because it strips away every variable except the ones that matter: are you on the right frequency, and can the other person hear you?</p>
@@ -610,7 +763,10 @@
       <div class="expand-note" data-idx="35"><strong>EXPAND:</strong> Add material on repeaters and cross-band repeat from the class. Also consider adding the dispersed net exercise results and what they revealed about radio coverage and dead spots.</div>
     </section>
     <section id="ch9" class="chapter">
-      <h2 class="chapter-title">Chapter Ten: Programming</h2>
+      <div class="chapter-header">
+        <h2 class="chapter-title">Chapter Ten: Programming</h2>
+        <button class="tts-btn" data-chapter="8" title="Read aloud">&#9654; Listen</button>
+      </div>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       <h3 class="section-title" data-idx="0">The Iron Sights of Radio</h3>
       <p class="book-para" data-idx="1">Programming a repeater by hand is the iron sights of radio. You have to know how to do it. Are you going to use it all the time? Of course not. Is it fast? No. But it might be all you have. You have to know how to do it. This is probably the hardest thing we will cover, but you will leave here confidently knowing how. And if you can do it on a Baofeng, you can do it on any radio.</p>
@@ -627,7 +783,10 @@
       <div class="expand-note" data-idx="12"><strong>EXPAND:</strong> Add detailed step-by-step for saving to memory on a Baofeng: MENU &gt; 027 &gt; select channel number &gt; MENU to confirm. Also cover programming a repeater by hand (offset, CTCSS tone) and computer programming via CHIRP. Reference the chirp-tutorial-outline.md for the CHIRP section.</div>
     </section>
     <section id="ch10" class="chapter">
-      <h2 class="chapter-title">Chapter Eleven: Principles of Use</h2>
+      <div class="chapter-header">
+        <h2 class="chapter-title">Chapter Eleven: Principles of Use</h2>
+        <button class="tts-btn" data-chapter="9" title="Read aloud">&#9654; Listen</button>
+      </div>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       <h3 class="section-title" data-idx="0">On, On the Right Channel, Volume Up</h3>
       <p class="book-para" data-idx="1">If the radio is on, it is on the right channel, and the volume is up, you cannot ignore me. I am in your ear. You cannot get rid of me. That is the whole point.</p>
@@ -644,7 +803,10 @@
       <div class="expand-note" data-idx="12"><strong>EXPAND:</strong> Expand on CTCSS/DCS tones as the primary tool for filtering unwanted traffic. Also cover channel discipline, monitoring etiquette, and the difference between scan monitoring and dedicated channel monitoring.</div>
     </section>
     <section id="ch11" class="chapter">
-      <h2 class="chapter-title">Chapter Seventeen: Gear Recommendations</h2>
+      <div class="chapter-header">
+        <h2 class="chapter-title">Chapter Seventeen: Gear Recommendations</h2>
+        <button class="tts-btn" data-chapter="10" title="Read aloud">&#9654; Listen</button>
+      </div>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       <p class="book-para ai-added" data-idx="0">There are five tiers of radio deployment, ranging from most portable and least capable to least portable and most capable. As you move down the list, portability decreases but reliability, dependability, and capability increase. Understanding where each tier fits will help you decide what to invest in and where.</p>
       <h3 class="section-title" data-idx="1">Tier 1: EDC (Everyday Carry)</h3>
@@ -712,6 +874,14 @@
     </section>
 </div>
 
+<div class="player-bar" id="playerBar">
+  <button class="player-pp" id="playerPP" title="Play/Pause">&#10074;&#10074;</button>
+  <button class="player-stop" id="playerStop" title="Stop">&#9632; Stop</button>
+  <div class="player-title" id="playerTitle"></div>
+  <div class="player-para" id="playerPara"></div>
+  <button class="player-speed" id="playerSpeed" title="Change speed">1x</button>
+</div>
+
 <script>
   // ── Sidebar toggle (mobile) ──
   var sidebar = document.getElementById('sidebar');
@@ -759,6 +929,201 @@
   }
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
+
+  // ── TTS Engine ──
+  var tts = {
+    synth: window.speechSynthesis,
+    playing: false,
+    paused: false,
+    chapterIdx: -1,
+    paraIdx: 0,
+    rate: 1.0,
+    voice: null,
+    utterance: null
+  };
+
+  // Pick the best available voice (prefer natural/enhanced voices)
+  function pickVoice() {
+    var voices = tts.synth.getVoices();
+    var prefs = ['jenny', 'guy', 'aria', 'zira', 'david', 'natural', 'enhanced'];
+    for (var p = 0; p < prefs.length; p++) {
+      for (var v = 0; v < voices.length; v++) {
+        if (voices[v].lang.startsWith('en') && voices[v].name.toLowerCase().indexOf(prefs[p]) >= 0) {
+          return voices[v];
+        }
+      }
+    }
+    // Fallback: first English voice
+    for (var v = 0; v < voices.length; v++) {
+      if (voices[v].lang.startsWith('en')) return voices[v];
+    }
+    return null;
+  }
+
+  // Voices load async in some browsers
+  if (tts.synth.getVoices().length) tts.voice = pickVoice();
+  tts.synth.onvoiceschanged = function() { tts.voice = pickVoice(); };
+
+  function getChapterParas(chIdx) {
+    var section = document.querySelectorAll('.chapter:not(.placeholder-chapter)')[chIdx];
+    if (!section) return [];
+    return Array.from(section.querySelectorAll('.book-para, .expand-note'));
+  }
+
+  function getChapterTitle(chIdx) {
+    var section = document.querySelectorAll('.chapter:not(.placeholder-chapter)')[chIdx];
+    if (!section) return '';
+    var h = section.querySelector('.chapter-title');
+    return h ? h.textContent : '';
+  }
+
+  function highlightPara(el) {
+    document.querySelectorAll('.tts-active').forEach(function(e) { e.classList.remove('tts-active'); });
+    if (el) {
+      el.classList.add('tts-active');
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+
+  function updatePlayerUI() {
+    var bar = document.getElementById('playerBar');
+    var pp = document.getElementById('playerPP');
+    var title = document.getElementById('playerTitle');
+    var paraEl = document.getElementById('playerPara');
+
+    if (!tts.playing && !tts.paused) {
+      bar.classList.remove('visible');
+      document.querySelectorAll('.tts-btn.playing, .tts-btn.paused').forEach(function(b) {
+        b.classList.remove('playing', 'paused');
+        b.innerHTML = '&#9654; Listen';
+      });
+      highlightPara(null);
+      return;
+    }
+
+    bar.classList.add('visible');
+    title.innerHTML = '<strong>Reading:</strong> ' + getChapterTitle(tts.chapterIdx);
+
+    var paras = getChapterParas(tts.chapterIdx);
+    paraEl.textContent = (tts.paraIdx + 1) + ' / ' + paras.length;
+
+    if (tts.paused) {
+      pp.innerHTML = '&#9654;';
+    } else {
+      pp.innerHTML = '&#10074;&#10074;';
+    }
+
+    // Update chapter button state
+    document.querySelectorAll('.tts-btn').forEach(function(b, i) {
+      if (i === tts.chapterIdx) {
+        b.classList.toggle('playing', tts.playing && !tts.paused);
+        b.classList.toggle('paused', tts.paused);
+        b.innerHTML = tts.paused ? '&#9654; Resume' : '&#10074;&#10074; Playing';
+      } else {
+        b.classList.remove('playing', 'paused');
+        b.innerHTML = '&#9654; Listen';
+      }
+    });
+  }
+
+  function speakPara() {
+    var paras = getChapterParas(tts.chapterIdx);
+    if (tts.paraIdx >= paras.length) {
+      stopTTS();
+      return;
+    }
+
+    var el = paras[tts.paraIdx];
+    var text = el.textContent.replace(/^EXPAND:s*/, '');
+    highlightPara(el);
+    updatePlayerUI();
+
+    var u = new SpeechSynthesisUtterance(text);
+    u.rate = tts.rate;
+    u.pitch = 1.0;
+    if (tts.voice) u.voice = tts.voice;
+    u.onend = function() {
+      tts.paraIdx++;
+      if (tts.playing && !tts.paused) speakPara();
+    };
+    u.onerror = function() {
+      tts.paraIdx++;
+      if (tts.playing && !tts.paused) speakPara();
+    };
+    tts.utterance = u;
+    tts.synth.speak(u);
+  }
+
+  function startTTS(chIdx) {
+    tts.synth.cancel();
+    tts.chapterIdx = chIdx;
+    tts.paraIdx = 0;
+    tts.playing = true;
+    tts.paused = false;
+    speakPara();
+  }
+
+  function stopTTS() {
+    tts.synth.cancel();
+    tts.playing = false;
+    tts.paused = false;
+    tts.chapterIdx = -1;
+    tts.paraIdx = 0;
+    updatePlayerUI();
+  }
+
+  function togglePause() {
+    if (tts.paused) {
+      tts.paused = false;
+      tts.synth.resume();
+      updatePlayerUI();
+    } else {
+      tts.paused = true;
+      tts.synth.pause();
+      updatePlayerUI();
+    }
+  }
+
+  // Chapter play buttons
+  document.querySelectorAll('.tts-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var ch = parseInt(this.dataset.chapter);
+      if (tts.playing && tts.chapterIdx === ch) {
+        if (tts.paused) {
+          togglePause();
+        } else {
+          togglePause();
+        }
+      } else {
+        startTTS(ch);
+      }
+    });
+  });
+
+  // Player bar controls
+  document.getElementById('playerPP').addEventListener('click', togglePause);
+  document.getElementById('playerStop').addEventListener('click', stopTTS);
+
+  var speeds = [0.75, 1.0, 1.25, 1.5, 2.0];
+  var speedIdx = 1;
+  document.getElementById('playerSpeed').addEventListener('click', function() {
+    speedIdx = (speedIdx + 1) % speeds.length;
+    tts.rate = speeds[speedIdx];
+    this.textContent = speeds[speedIdx] + 'x';
+    // If currently speaking, restart current para at new speed
+    if (tts.playing && !tts.paused) {
+      tts.synth.cancel();
+      speakPara();
+    }
+  });
+
+  // Chrome has a bug where synthesis stops after ~15s. Keep-alive workaround.
+  setInterval(function() {
+    if (tts.playing && !tts.paused && tts.synth.speaking) {
+      tts.synth.pause();
+      tts.synth.resume();
+    }
+  }, 10000);
 </script>
 
 </body>

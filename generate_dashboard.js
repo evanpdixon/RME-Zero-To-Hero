@@ -179,7 +179,10 @@ function renderChapter(ch, chIdx) {
   const paras = ch.paragraphs.map((p, i) => renderParagraph(p, i)).join('\n      ');
   return `
     <section id="${id}" class="chapter">
-      <h2 class="chapter-title">${escHtml(ch.title)}</h2>
+      <div class="chapter-header">
+        <h2 class="chapter-title">${escHtml(ch.title)}</h2>
+        <button class="tts-btn" data-chapter="${chIdx}" title="Read aloud">&#9654; Listen</button>
+      </div>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       ${paras}
     </section>`;
@@ -525,6 +528,135 @@ const html = `<!DOCTYPE html>
     padding: 20px 0;
   }
 
+  /* ── TTS CONTROLS ── */
+  .chapter-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .chapter-header .chapter-title {
+    flex: 1;
+  }
+
+  .tts-btn {
+    flex-shrink: 0;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    background: #242428;
+    color: #a1a1aa;
+    border: 1px solid #3f3f46;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+    margin-top: 4px;
+    white-space: nowrap;
+  }
+
+  .tts-btn:hover {
+    background: #2e2e32;
+    color: #e4e4e7;
+    border-color: #d4a030;
+  }
+
+  .tts-btn.playing {
+    background: #d4a030;
+    color: #1c1c1e;
+    border-color: #d4a030;
+  }
+
+  .tts-btn.paused {
+    background: #3f3f46;
+    color: #d4a030;
+    border-color: #d4a030;
+  }
+
+  /* ── PLAYER BAR ── */
+  .player-bar {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #161618;
+    border-top: 1px solid #2e2e32;
+    padding: 10px 20px;
+    z-index: 250;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .player-bar.visible {
+    display: flex;
+  }
+
+  .player-bar .player-title {
+    flex: 1;
+    font-family: Georgia, serif;
+    font-size: 0.85em;
+    color: #a1a1aa;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .player-bar .player-title strong {
+    color: #e4e4e7;
+  }
+
+  .player-bar .player-para {
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    color: #71717a;
+    white-space: nowrap;
+  }
+
+  .player-bar button {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    background: #242428;
+    color: #a1a1aa;
+    border: 1px solid #3f3f46;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .player-bar button:hover {
+    background: #2e2e32;
+    color: #e4e4e7;
+  }
+
+  .player-bar .player-stop {
+    color: #ef4444;
+    border-color: #52525b;
+  }
+
+  .player-bar .player-stop:hover {
+    border-color: #ef4444;
+  }
+
+  .player-bar .player-speed {
+    min-width: 44px;
+    text-align: center;
+  }
+
+  /* ── HIGHLIGHT ACTIVE PARAGRAPH ── */
+  .book-para.tts-active {
+    background: rgba(107, 163, 214, 0.08);
+    border-radius: 3px;
+    outline: 1px solid rgba(107, 163, 214, 0.2);
+  }
+
+  @media (max-width: 900px) {
+    .player-bar { padding: 8px 12px; }
+    .player-bar .player-title { font-size: 0.78em; }
+  }
+
   /* ── OVERLAY for mobile ── */
   .sidebar-overlay {
     display: none;
@@ -602,6 +734,14 @@ const html = `<!DOCTYPE html>
   ${renderChapters()}
 </div>
 
+<div class="player-bar" id="playerBar">
+  <button class="player-pp" id="playerPP" title="Play/Pause">&#10074;&#10074;</button>
+  <button class="player-stop" id="playerStop" title="Stop">&#9632; Stop</button>
+  <div class="player-title" id="playerTitle"></div>
+  <div class="player-para" id="playerPara"></div>
+  <button class="player-speed" id="playerSpeed" title="Change speed">1x</button>
+</div>
+
 <script>
   // ── Sidebar toggle (mobile) ──
   var sidebar = document.getElementById('sidebar');
@@ -649,6 +789,201 @@ const html = `<!DOCTYPE html>
   }
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
+
+  // ── TTS Engine ──
+  var tts = {
+    synth: window.speechSynthesis,
+    playing: false,
+    paused: false,
+    chapterIdx: -1,
+    paraIdx: 0,
+    rate: 1.0,
+    voice: null,
+    utterance: null
+  };
+
+  // Pick the best available voice (prefer natural/enhanced voices)
+  function pickVoice() {
+    var voices = tts.synth.getVoices();
+    var prefs = ['jenny', 'guy', 'aria', 'zira', 'david', 'natural', 'enhanced'];
+    for (var p = 0; p < prefs.length; p++) {
+      for (var v = 0; v < voices.length; v++) {
+        if (voices[v].lang.startsWith('en') && voices[v].name.toLowerCase().indexOf(prefs[p]) >= 0) {
+          return voices[v];
+        }
+      }
+    }
+    // Fallback: first English voice
+    for (var v = 0; v < voices.length; v++) {
+      if (voices[v].lang.startsWith('en')) return voices[v];
+    }
+    return null;
+  }
+
+  // Voices load async in some browsers
+  if (tts.synth.getVoices().length) tts.voice = pickVoice();
+  tts.synth.onvoiceschanged = function() { tts.voice = pickVoice(); };
+
+  function getChapterParas(chIdx) {
+    var section = document.querySelectorAll('.chapter:not(.placeholder-chapter)')[chIdx];
+    if (!section) return [];
+    return Array.from(section.querySelectorAll('.book-para, .expand-note'));
+  }
+
+  function getChapterTitle(chIdx) {
+    var section = document.querySelectorAll('.chapter:not(.placeholder-chapter)')[chIdx];
+    if (!section) return '';
+    var h = section.querySelector('.chapter-title');
+    return h ? h.textContent : '';
+  }
+
+  function highlightPara(el) {
+    document.querySelectorAll('.tts-active').forEach(function(e) { e.classList.remove('tts-active'); });
+    if (el) {
+      el.classList.add('tts-active');
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+
+  function updatePlayerUI() {
+    var bar = document.getElementById('playerBar');
+    var pp = document.getElementById('playerPP');
+    var title = document.getElementById('playerTitle');
+    var paraEl = document.getElementById('playerPara');
+
+    if (!tts.playing && !tts.paused) {
+      bar.classList.remove('visible');
+      document.querySelectorAll('.tts-btn.playing, .tts-btn.paused').forEach(function(b) {
+        b.classList.remove('playing', 'paused');
+        b.innerHTML = '&#9654; Listen';
+      });
+      highlightPara(null);
+      return;
+    }
+
+    bar.classList.add('visible');
+    title.innerHTML = '<strong>Reading:</strong> ' + getChapterTitle(tts.chapterIdx);
+
+    var paras = getChapterParas(tts.chapterIdx);
+    paraEl.textContent = (tts.paraIdx + 1) + ' / ' + paras.length;
+
+    if (tts.paused) {
+      pp.innerHTML = '&#9654;';
+    } else {
+      pp.innerHTML = '&#10074;&#10074;';
+    }
+
+    // Update chapter button state
+    document.querySelectorAll('.tts-btn').forEach(function(b, i) {
+      if (i === tts.chapterIdx) {
+        b.classList.toggle('playing', tts.playing && !tts.paused);
+        b.classList.toggle('paused', tts.paused);
+        b.innerHTML = tts.paused ? '&#9654; Resume' : '&#10074;&#10074; Playing';
+      } else {
+        b.classList.remove('playing', 'paused');
+        b.innerHTML = '&#9654; Listen';
+      }
+    });
+  }
+
+  function speakPara() {
+    var paras = getChapterParas(tts.chapterIdx);
+    if (tts.paraIdx >= paras.length) {
+      stopTTS();
+      return;
+    }
+
+    var el = paras[tts.paraIdx];
+    var text = el.textContent.replace(/^EXPAND:\s*/, '');
+    highlightPara(el);
+    updatePlayerUI();
+
+    var u = new SpeechSynthesisUtterance(text);
+    u.rate = tts.rate;
+    u.pitch = 1.0;
+    if (tts.voice) u.voice = tts.voice;
+    u.onend = function() {
+      tts.paraIdx++;
+      if (tts.playing && !tts.paused) speakPara();
+    };
+    u.onerror = function() {
+      tts.paraIdx++;
+      if (tts.playing && !tts.paused) speakPara();
+    };
+    tts.utterance = u;
+    tts.synth.speak(u);
+  }
+
+  function startTTS(chIdx) {
+    tts.synth.cancel();
+    tts.chapterIdx = chIdx;
+    tts.paraIdx = 0;
+    tts.playing = true;
+    tts.paused = false;
+    speakPara();
+  }
+
+  function stopTTS() {
+    tts.synth.cancel();
+    tts.playing = false;
+    tts.paused = false;
+    tts.chapterIdx = -1;
+    tts.paraIdx = 0;
+    updatePlayerUI();
+  }
+
+  function togglePause() {
+    if (tts.paused) {
+      tts.paused = false;
+      tts.synth.resume();
+      updatePlayerUI();
+    } else {
+      tts.paused = true;
+      tts.synth.pause();
+      updatePlayerUI();
+    }
+  }
+
+  // Chapter play buttons
+  document.querySelectorAll('.tts-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var ch = parseInt(this.dataset.chapter);
+      if (tts.playing && tts.chapterIdx === ch) {
+        if (tts.paused) {
+          togglePause();
+        } else {
+          togglePause();
+        }
+      } else {
+        startTTS(ch);
+      }
+    });
+  });
+
+  // Player bar controls
+  document.getElementById('playerPP').addEventListener('click', togglePause);
+  document.getElementById('playerStop').addEventListener('click', stopTTS);
+
+  var speeds = [0.75, 1.0, 1.25, 1.5, 2.0];
+  var speedIdx = 1;
+  document.getElementById('playerSpeed').addEventListener('click', function() {
+    speedIdx = (speedIdx + 1) % speeds.length;
+    tts.rate = speeds[speedIdx];
+    this.textContent = speeds[speedIdx] + 'x';
+    // If currently speaking, restart current para at new speed
+    if (tts.playing && !tts.paused) {
+      tts.synth.cancel();
+      speakPara();
+    }
+  });
+
+  // Chrome has a bug where synthesis stops after ~15s. Keep-alive workaround.
+  setInterval(function() {
+    if (tts.playing && !tts.paused && tts.synth.speaking) {
+      tts.synth.pause();
+      tts.synth.resume();
+    }
+  }, 10000);
 </script>
 
 </body>
