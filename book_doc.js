@@ -22,6 +22,15 @@ function chapterHead(text) {
   });
 }
 
+// Section heading within a chapter (not a new chapter)
+function sectionHead(text) {
+  return new Paragraph({
+    children: [new TextRun({ text, bold: true, size: 28, font: "Georgia", color: NAVY })],
+    spacing: { before: 480, after: 160 },
+    border: { bottom: { style: BorderStyle.SINGLE, size: 3, color: BLUE, space: 4 } }
+  });
+}
+
 // Evan's words - plain text
 function body(text) {
   return new Paragraph({
@@ -305,6 +314,126 @@ const ch5 = [
   })
 ];
 
+const ch6 = [
+  chapterHead("Chapter Six: Why Radio"),
+  legendNote(),
+
+  body("You probably understand this, just observing that you are here, that communication is an absolutely critical aspect of life. It underpins everything we do. It allows us to scale beyond the distance of our voice when we add systems to it. But communication, even within voice range, can be a challenge in certain circumstances or environments. If you are in a loud environment, a stressful environment, an emergency. If you have ever been in a high-stress situation, you have probably noticed that communication is one of the first things to fall apart."),
+
+  bodyAI("It is a cliche even in relationships. When marriages fail or partnerships dissolve, the reason cited most often is the same: we could not communicate. Radio does not fix that particular problem. But the broader observation holds. Communication is so fundamental that when it breaks down, everything downstream of it breaks with it."),
+
+  body("Another aspect of communication is that the systems we use to do it are pretty fragile. The world has given me lots of examples of this recently. I do not really have to explain it because we get a new example on the news every day. When we are not in times like this, people get a little bit too comfortable and they do not have an awareness of it."),
+
+  body("Anyone ever played the game Jenga? You stack the blocks up. What do you do in Jenga? You pull a block out. With what intention? You want to get as close to total destruction as possible without causing total destruction. You want the next guy to knock the tower down. Well, I used to work at Wells Fargo. I have worked in technology infrastructure for decades. Anybody who has worked on any kind of system will agree with this: stuff is always falling apart. It is a law of nature that things just fall apart."),
+
+  body("Now, as an end user, you are blissfully unaware of this. If things are going right, we have redundancies, we have backups, and we help you feel very warm and fuzzy about that app on your phone or your Facebook account or your Gmail account or your power working at your house or the plumbing working when you flush the toilet. All those systems that have tons of complexity and are always breaking, you are blissfully unaware of the game of Jenga that is happening. The reason you are unaware is there is a whole army of people that are fixing that stuff all day every day. Someone runs into a telephone pole, they get a call at two in the morning, and they go fix it. You do not even know. But the people involved, they very much know. Their whole life is making sure you never know."),
+
+  body("What happens, and what we get to see in recent times, is that the Jenga tower is not in balance anymore. The outages and the problems are starting to be more visible. My phone that I thought was always going to work did not work for fourteen hours. Or a week, depending on what place you have been in the last couple of years."),
+
+  bodyMixed([
+    ["Under stress, even when the systems work, the quality of the communication degrades. ", false],
+    ["There is a phenomenon called auditory exclusion. Under the effects of adrenaline, some people's ears just stop listening. Your ears still work. Your brain just says we do not need that right now. Some people get visual tunnel vision. Their visual information goes downhill and they get very focused on one thing. ", true],
+    ["I have heard of people yelling at someone in a stressful situation and not being heard because that person has auditory exclusion.", false],
+  ]),
+
+  bodyMixed([
+    ["On top of that, at a big scale, what happens to the quality of information during an emergency, say on your Facebook feed? ", false],
+    ["Is that high quality information? Is it even from people that know anything? ", false],
+    ["I watched it during Hurricane Helene. I-40 is shut down in Statesville, we cannot go any further west than Statesville. I physically drove on it for 200 more miles from there after people were saying that. Facebook truth and real-life truth are not the same thing. ", false],
+    ["Are those people up to no good? Some of them, if you give them the benefit of the doubt, they think they are being helpful. They think they are warning you of something important. But is it correct? Is it from the source, or is it second, third, fourth, fifth-hand information that has been degraded like a miserable game of telephone in the third grade?", false],
+  ]),
+
+  bodyAI("All of this falls apart. And if the direction is not obvious by now: radio is a powerful way to address some of these vulnerabilities."),
+
+  divider(),
+
+  sectionHead("What Radio Does Well"),
+
+  body("This is everything I can think of that radio does well."),
+
+  body("It covers a distance further than your voice can go. That is sometimes really important. Even if I could get my voice to work in a given moment, it cannot travel that far. Is it appropriate to speak that loud? Maybe not."),
+
+  body("It can go through barriers. Even if you are not that far away but you are on the other side of a block wall, I can talk through that. Otherwise, I cannot."),
+
+  body("Versatility. I can talk to one person. I can talk to an army of people. Or I can gather information from an army of people and share it with all other members of the army, many to many, all at one time. That right there is unique to radio. Without other systems, how can you do many-to-many information sharing? You are going to go door to door with your notepad, collect information, create a report, and then distribute that report to all people. It is going to take hours. You could do that with a radio for a hundred people in thirty minutes. It will take you days on foot with a notepad, and it is going to be days old when it gets there."),
+
+  body("Simplicity. This is why so many people use radios in high-stress environments. What do you have to do to make it work once it is set up? Mash the button and talk. I do not have to do Face ID. I do not have to remember your phone number. I do not have to look you up in my contacts. I do not have to remember how to trigger Siri. I just mash the button. They are not easy to set up, and that is why this book exists. But once they are set up, it is easy."),
+
+  body("They are instant. You cannot miss a call. If it is on, it is on the right channel, the volume is up, you cannot ignore me. I am in your ear. You cannot get rid of me. There is no delay. I am not waiting on you to read the message. I am not waiting on you to answer your ring. I am in your ear right now. Very valuable."),
+
+  body("It is portable. Anyone ever had to go take equipment to set up an entire network off grid? You need crates full of stuff and power for all that stuff. It is a nightmare. It can be done, but it is not portable. With a radio in a backpack, I can carry around enough stuff to equip thirty people with instant communication, all in one little box."),
+
+  body("Power. Radios, at least handheld radios, come with their own power. I do not have to bring a generator. I do not have to bring a big EcoFlow solar generator. I do not have to have a car. It just has its own power. And if I need to get it power, most of it runs on twelve volt, which I can find everywhere. Every vehicle, every motorcycle, every lawnmower. They all have a twelve volt battery. Have some alligator clamps, you have got power."),
+
+  body("Independence. Here is one of my favorites because I am an American. I do not have to depend on anybody else. Now, you might think you control your stuff because you log into it and you do the stuff on it and it is within your supervision, but do you have control of much of anything in your life? It is served up to you usually for free. That does not make any sense. It is very expensive to deliver the things to you that are free. The trade is we get to sell you stuff while you are using it, or we get to mine your data, or we get to control what you say on it. That is not that way with radio. You are fully in control. Radio to radio, all you need to be working are the laws of physics. Which so far, pretty reliable. I cannot guarantee them, but we have been batting a thousand for a while with physics."),
+
+  body("Reliability. Because it is independent, I do not really have to worry about stuff breaking or falling apart. If I want to replace it, it is as easy as just grab another one. I do not have to get a new SIM card. I do not need to load a new firmware. I do not need to do a Windows update. It is just a radio."),
+
+  body("Redundancy. Who carries a spare duplicate of their cell phone randomly in the box, untouched, in case you drop and break yours or it gets stolen? Probably not. Most of us have one cell phone. Why? It is expensive. It is twelve hundred dollars for a new phone these days. Single point of failure. You are keenly aware of that the moment it breaks. But I can have a backpack full of radios for next to nothing, a fraction of the cost of one cell phone. I can have what I call a bucket of Baofengs. Thirty Baofengs for six hundred dollars. Thirty. You cannot afford thirty phones. I do not care who you are. Any American can afford thirty Baofengs. And what you can do with thirty Baofengs is incredible."),
+
+  bodyMixed([
+    ["I am not here to evangelize the Baofeng radio. We use it for what it is, and I will explain a lot more about that. ", false],
+    ["But the ability to afford redundancy is a significant advantage. ", true],
+    ["If I break this one, I swap it out with a brand new one. I am not stressed. It cost me eighteen dollars to swap it out. I can carry on. You know when you drop your phone and it is face down, that moment where you kind of pray for the first time in the last year? You do not have to worry about that with radios. If it is broken, get a new one.", false],
+  ]),
+
+  body("Durability. What are our phones made out of? Metal and glass. Mostly glass. It is almost like they are trolling us. Here, we are going to give you this thing that your life depends on. We are going to encase it in glass. Good luck. What do we do with the phone to prevent that? We put a case on it that robs it of all its elegance and usability. Radios, if you get certain ones, they are waterproof. They are droppable. You can use them as a weapon, even. And if you break it, replace it."),
+
+  body("Ownership. I own it. I control it. Nobody can turn it off. Nobody can stop it. Nobody can take it from me. Do you know how easy it is to turn off your phone? It is a line in a database that is currently set to true that is set to false with one command from a keyboard. Nobody has to do any kind of physical work. It is just a line in a database that changes. Why would it change? You do not pay your phone bill. That is the number one reason. Well, nobody can turn your radio off because you did not pay your bill."),
+
+  bodyMixed([
+    ["I am a big fan of owning things, but we are owning less and less every day as a culture. We do not control anything. ", false],
+    ["The more uncomfortable possibility, which I am not going to say is imminent but it is possible, is that you say the wrong thing. ", false],
+    ["We have seen this in various capacities in recent history where someone says the wrong thing, they no longer have a YouTube account. They say the wrong thing, they cannot be on Twitter anymore. Even the President of the United States can have his Twitter taken away. I am not making a claim about that president as much as just that fact: a commonly available communication method was taken from a very powerful person, and you are not that powerful. So what is going to happen to you? It cannot happen with a radio. It is not a line in the database that somebody can just flip off. You own it. You control it.", false],
+  ]),
+
+  body("Security. A lot of people are concerned about this. They want encryption. They want a way to conceal or obscure the information in their communication. I think that is a basic human right, to have some privacy. We are given that right as citizens in the Constitution to some level of privacy. Radios give us that ability when other technology really does not. If you send an email, who has access to that email? You, the person you sent it to, the server it sits on, everything it went through to get there, and then anyone that can access any of those accounts that is not actually that person. With a radio, I can personally encrypt it with my own keys that only I have, that I made offline, that nobody knows, and they are not stored anywhere except in my head."),
+
+  bodyMixed([
+    ["Is it perfect? Is it impenetrable to the NSA? No. ", false],
+    ["But to Billy Bob down the street that wants to steal your chainsaw when you are not home so he can get another eight ball this weekend, we can encrypt against him. Or if I am running a security operation and I do not want the local pickpockets to know where my people are set up watching, I can encrypt my traffic. That is something radio makes accessible to us.", false],
+  ]),
+
+  divider(),
+
+  sectionHead("Where It Fits in Real Life"),
+
+  bodyMixed([
+    ["If you are a preparedness-minded person, you have probably heard of PACE planning: primary, alternate, contingency, emergency. ", false],
+    ["It is a layered strategy to having systems that work. You have one thing, a backup, and two more layers under it. ", true],
+    ["Radio fits in there. Sometimes it is the primary. Sometimes it is at the end of the road. Even as the radio guy, I have radio low in that list a lot of days. But it is there.", false],
+  ]),
+
+  bodyAI("Without radio, when the internet is out and the phone is out, most of us have nothing. We do not have landlines anymore. We do not have pay phones. The alternative is what I call caveman comms: walking, yelling, running, smoke signals, carrier pigeon."),
+
+  body("Farms and homesteads. Where do we typically buy land to build a homestead? Middle of nowhere. Why? Is it because you are antisocial? Maybe. But the main reason is it is cheap. Why is it cheap? There is nothing there. All these utilities you are accustomed to, like gigabit fiber internet, does the free market lay gigabit fiber in the middle of nowhere? No. It depends on a government grant. Supply and demand. There are three guys on that road. Only one of them even knows what gigabit ethernet is. They are not going to make back the half a million dollars it costs to put it in."),
+
+  body("Teams. Every team on Earth is running on radios. Whether it is Walmart and the guy that runs the mop, because cleanup on aisle ten does not need to be broadcast over the intercom. We do not want a crowd of spectators. I can talk to him right in his earpiece. Instantly. Very valuable. Everybody from Walmart mop guy to a sniper on the SWAT team to a Navy SEAL, they all use radios on teams. You do not have to be dressed up like that to need a radio. Anybody can use it."),
+
+  body("Vehicles. What is a convoy? It is just a fancy word for two or more vehicles traveling together. This is a game changer with radios. It completely unifies a group of cars because now I can be right in your ear immediately, and every vehicle is completely synchronized through communication. I can give directions. I can alert you of hazards. I can let you know what is going on inside my car. This is a non-negotiable feature of every vehicle I own. It has a radio in it that comes on with the car. The volume is up. It is on a certain channel. I know if I can see that car and it is on, I can talk to it."),
+
+  body("I travel with my family a lot. I have three kids under seven and a wonderful wife that raises them for me while I teach people radio. When they go places with me, we usually take two vehicles so she is not stranded, and we travel in a convoy. What happens a lot with a bunch of kids on a road trip? A lot of bathroom breaks. On the road, it is like the three-year-old now has the power with four simple words to bring the whole operation to a screeching halt: I need to go potty. Well, when you are out west, that exit you just passed might be the last one for eighty miles. My point is radio can enhance a road trip. If you ever split up into multiple vehicles with people on a trip, this just makes it better."),
+
+  body("Hiking, boating, mountain biking. Any of these life-endangering things we do outside, where do we go to do them? Far away from things where we cannot call 911, we cannot get help, and we certainly cannot call our buddy who might be out of sight on the trail behind us."),
+
+  body("Trades and heavy equipment. When you are running a piece of equipment, what is one of the big problems with communication? It is loud, noisy, and vibrating. Not the greatest time to be texting or calling someone. What do you also need to be using on heavy equipment? All your limbs. An excavator requires ten levels deep of hand-eye coordination. Your visibility is limited. You are in a roll cage a lot of times. If you have a hundred-thousand-dollar thirty-ton excavator right next to you, you could run right into his bucket without realizing it. Radios give you one button to push to let him know. Total game changer."),
+
+  body("In the trades, I supply a lot of radios to guys that are electricians. What do you do a lot as an electrician in new construction? You pull a lot of wire. You pull wire from a place far away from where you are pulling it to, and you cannot see that person. What do you really need them to do before you run out of wire on your side? Stop. If they do not stop, you start completely over because the wire you just fished through that hole is going to go into that hole and you cannot get it back. Ask me how I know. An eighteen-dollar radio can fix that. Hey, stop. Got it. Milliseconds."),
+
+  body("Children and elderly. We decided with our kids not to feed them meth yet, and by that I mean screens. We do not give our kids iPads. That comes at a cost. I cannot communicate with my kids because they do not have devices. When they get a little older, I want to let the leash out a little. Let them go play in the woods. A radio is a cool way to do that. All my kids got radios several years ago when I really got into this. I painted them their favorite colors and programmed them just for what they needed. If you give this to a five-year-old, they appreciate the miracle that this is. They are not cynical like us. You give them something that can talk through walls, it is like you have given them a lightsaber. They are pumped, and they will take it everywhere."),
+
+  bodyMixed([
+    ["What is cool is now I can let them go do stuff beyond what I can see and have a reasonable expectation that I can stay in touch with them without having to give them a phone. ", false],
+    ["A phone is not just giving them access to a bunch of stuff. It is giving everyone access to them also. Two problems I am not willing to compromise on.", false],
+  ]),
+
+  body("At the other end, with elderly folks, hopefully we come into the world in diapers and leave in diapers. At the other end, we need simple, easy-to-use ways to communicate. If you have ever been the family iPhone instructor for grandma and grandpa, you know. With a radio, if it is on, it is on the right channel, the volume is up. What do you have to do? Mash the button. Very handy way to take someone who might have dementia, might have physical impediments. If they can just mash the button, it works. Basically, I have a DIY intercom system that can work for miles."),
+
+  expandNote("The transcript continues with a detailed section on church and school security, including the vulnerability of unencrypted carpool line radios and the value of encrypted comms for church security teams. Also includes a story about a Renaissance Festival weather alert via radio. Consider expanding here."),
+
+  expandNote("Add the radio summary statement from class: 'Radios are a versatile communication medium' and the breakdown of each phrase: silent/invisible, multiple recipients, at distance, mechanically simple, minimal visual interruption, when other means are ineffective or unavailable."),
+];
+
 const bookDoc = new Document({
   styles: {
     default: { document: { run: { font: "Georgia", size: 24 } } },
@@ -340,7 +469,8 @@ const bookDoc = new Document({
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Two") }, children: [...ch2, pageBreak()] },
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Three") }, children: [...ch3, pageBreak()] },
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Four") }, children: [...ch4, pageBreak()] },
-    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Five") }, children: ch5 }
+    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Five") }, children: [...ch5, pageBreak()] },
+    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Six") }, children: ch6 }
   ]
 });
 

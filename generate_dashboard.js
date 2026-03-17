@@ -39,6 +39,13 @@ let bookSrc = fs.readFileSync(bookPath, 'utf-8');
 // Replace content functions with data extractors
 bookSrc = bookSrc
   .replace(
+    /\/\/ Section heading within a chapter[\s\S]*?function sectionHead\(text\)\s*\{[\s\S]*?\n\}/,
+    `function sectionHead(text) {
+  if (__currentChapter) __currentChapter.paragraphs.push({ type: 'sectionHead', text });
+  return {};
+}`
+  )
+  .replace(
     /function chapterHead\(text\)\s*\{[\s\S]*?\n\}/,
     `function chapterHead(text) {
   if (__currentChapter) __chapters.push(__currentChapter);
@@ -158,6 +165,8 @@ function renderParagraph(p, idx) {
       ).join('');
       return `<p class="book-para mixed" data-idx="${idx}">${spans}</p>`;
     }
+    case 'sectionHead':
+      return `<h3 class="section-title" data-idx="${idx}">${escHtml(p.text)}</h3>`;
     case 'expand':
       return `<div class="expand-note" data-idx="${idx}"><strong>EXPAND:</strong> ${escHtml(p.text)}</div>`;
     default:
@@ -445,6 +454,15 @@ const html = `<!DOCTYPE html>
     padding-bottom: 10px;
     border-bottom: 2px solid #4A90D9;
     margin-bottom: 20px;
+  }
+
+  .section-title {
+    font-size: 1.2em;
+    color: #1F3C6E;
+    font-weight: 700;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #4A90D9;
+    margin: 32px 0 16px;
   }
 
   .legend {

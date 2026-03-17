@@ -1,0 +1,840 @@
+Okay, so what I'm going to show you guys what I'm after here is kind of what if
+you ever doing firearms training probably heard of Clint Smith he's got a
+philosophy that he wants students to be students of weapons craft not students
+of a particular weapon right what does that mean if I pick up an ak-47 off the
+ground can make it work even if what I run at home is an AR right you ought to
+be able to load it unload it make it safe make it fire clear basic
+malfunctions whatever right because you're not guaranteed to be fighting
+with your gun you might fight with somebody else's gun right so great
+philosophy I love it I'm applying it here with radio in that you are not
+guaranteed to be using your radio today I think it's even more likely than the
+I got to get this radio I just found or some dude just handed me and I got to
+make it work right so we're approaching this at a at a vague kind of generalized
+level so that this will work for you I've put it on page 18 I've revised this
+manual probably a hundred times and I have kept it on page 18 to help me
+remember and on your 18th birthday you're you're a grown man now right you're on
+you're officially an adult when you're officially adult you buy a new radio
+come to page 18 and do this stuff right in this order this is a way to ensure
+success with a new radio and kind of give you the basics so in the bag with
+the radio in it go ahead and pull out the radio itself there'll be a white box
+with a battery grab that we'll start there don't put them together yet just
+get them out we'll all enjoy the aroma of child labor together I don't make
+the rules all right and we just need the radio and the battery to start with
+don't put them together yet just get them I want to show you something now
+why am I so deliberately slowing you down here I have watched hundreds of
+students do this and still manage to break things even even when we're being
+careful your battery and your radio almost never come put together when you
+get a new radio it's manufacturing I'm sorry a shipping regulation that the
+radio needs to be separate from the battery so what happens is people get
+real excited you get a brand new thing take it out of the box and you want to
+use it immediately right so you start shoving stuff together well batteries
+and radios go together differently depending on what you're using right in
+this case lay lay radio kind of flat in your hand and then lay the battery on
+the back of the radio with a little gap and then push it into place right but
+it's gonna slide in right other radios don't work that way like this yesu it
+has a flap I fold the battery into place right it kind of drops in like that and
+then I do this flap if I try to do this one the way that one goes or that one
+the way this one goes I'm gonna break something right so when you first get
+the radio just take a second and look at deliberately look at how does this
+battery go in does it slide does it fold does it latch don't break it okay
+now up here at the top you see a little button that says push push it and slide
+it off right slide the rate the battery back off well I'll show you some things
+about the battery if you look down the barrel look down the bottom you see
+those two little holes at the bottom those align with the two nubs on the
+bottom of the radio that's what holds the battery on to the bottom of the
+radio now you guys probably have seen these extended batteries unfortunately I
+love these these used to be the only batteries you could field charge over
+USB you'll notice yours is USB C now that's a $19 battery that I add to this
+radio for you guys it doesn't come with it you used to only be able to do that
+with the big batteries well here's something that happens all right all the
+time because you've created this big long lever and when you drop it those
+little nubs just shear right off right with this little battery there is no
+chance of shearing those off unless you do something weird like click it in here
+and try to push it on right so putting it on right is important now you also
+see there's a little sawtooth latch on the battery and that little sawtooth
+engages with another sawtooth on the battery I'm sorry on the radio body
+right that's what holds it at the top that doesn't break very often usually
+you get breaking at the bottom if it breaks it doesn't matter right tape it
+up glue it right you're gonna lose some functionality but it still works none of
+my kids radios have those little nubs right there's an easy way to fix a radio
+that those nubs are broken off of all right you take all the stuff off of it
+you hold in your hand and you find a trash can and you drop it into the trash
+and you get a new one right that's how we fix bow things we don't operate on
+them okay I don't really love these unless it's gonna live in a pouch or a
+plate carrier and I need the extra runtime nowadays I'm almost always using
+these small USB-C batteries the fact that they're USB-C is a game-changer to
+me and that's one of my non-negotiables on a radio these days is it has to be
+USB-C chargeable all right these are not chargeable by default but we upgrade
+them so you guys get that with this now in your bag you should have a little
+adapter a little black adapter and a coiled up antenna that if you're not
+careful we'll smack you in the face so watch out
+yeah it's part of why I say wait for my instructions all right now if you look
+down the barrel of where the antenna goes on your radio what do you see in
+the middle there there's a little copper wire is that incredibly confidence
+inspiring does it look nice and rugged and tough all right that's one of those
+things about these radios that if something were to kink or break that
+wire it's it's ruined and going in the trash right it's very fragile if you got
+a pin lodged in there in your backpack and it pushes it over you go to put on
+your antenna it breaks it off it's done okay yes you can solder in new stuff but
+you wouldn't be in this class if you did that kind of thing right we want to deal
+with that but first one of the things I struggled with getting into radio is
+identifying this connector right if you know there's SMA female SMA male type
+antennas out there when you go searching on eBay and Amazon well I have done a
+lot of plumbing and electrical work in my life and when I look at this I see
+female threads and I think I need male stuff because that's female in radio
+that's backwards in radio you don't worry about threads you look at the
+center conductor that determines gender on coax on antennas on anything that
+center conductor what gender is this one not trying to be controversial just
+keeping it to keeping it old-school that's male right and that's all that's
+all we're gonna do about that okay now if you look at the bottom of your
+adapter it's female right now this is an SMA male radio but it takes an SMA
+female antenna right we get that so the antenna is gendered based on its center
+conductor and it's SMA female and we're not using an antenna right now we're
+using an adapter but it's the same story now go ahead and thread that adapter on
+there you're gonna notice you get about seven turns and it'll get finger tight
+you don't need the Godzilla gorilla tighten it just get it finger tight now
+where's that where's that scary little fragile wire it's totally enveloped by
+this adapter never to be seen again all right totally protected never gonna have
+a problem with it this adapter will now live on this radio it should never come
+off all right we have now changed to what gender female this is a different
+style antenna Jack this is BNC right and you notice is it threaded it's another
+cool feature with this if you take your antenna that you got you'll feel it
+slide on and quarter turn on to lock in that's it there's no threads what
+happens with threads they can cross thread they can wear out they can jam
+they get dirty threading and radios not my favorite thing this is one place I
+can eliminate that now I put that adapter on every radio I own no matter
+what gender it starts out as it ends up being see female no matter what so
+what's cool is I now have one antenna type for my Yesu which is SMA female
+natively for my Balfang that's SMA male and this Balfang that's SMA male the
+same antenna works on all three of them I don't have to go buy a $40 antenna
+for my Balfang that I can't put on my good radio right I buy BNC antennas they
+work on everything all right I really love that standardization so for me very
+first thing I'm gonna do with any radio it's gonna get a BNC adapter this one
+you got costs about nine dollars to find those you can only buy them in packs of
+three they're the best that's all we sell every radio we put together comes
+with one that also for me as a retailer how many antennas do I have to carry one
+right so I don't have to deal with BNC plus SMA female plus SMA male I get one
+kind of antenna and I only carry them in one color all right I get yellow ones so
+you don't steal mine all right OD green is all we get I don't know what this
+business is of people building businesses where you have 40 color
+choices I'd say nightmare nightmare all right okay now you're gonna notice this
+radio has a screen what do you think is gonna be on that screen all the
+information that you need to know about the radio right some radios don't have
+screens what can you infer from that if there's no screen your boss doesn't
+trust you to be able to interact with that radio right or it's just a dumber
+radio as far as you're not likely gonna be doing any programming on it right it
+might have a channel knob and that's it I think the radios Tony had that he said
+where he hands out to security guys there's no screen it just has a channel
+one two three knob and that's it there's no programming on those radios right so
+you don't want to have a radio with a screen if there's no screen you're not
+gonna be doing any life-saving programming on it right power so on
+this radio the power is a part of the volume knob so everyone all together now
+we'll just go ahead and crank that volume all the way up once and for all
+oh yeah oh yeah right let's let that be the last time you know that will probably
+get annoying throughout the day it's gonna turn it back off and when you turn
+on a bow thing you turn it on just past the click okay we don't need crank the
+volume I like to leave that voice on on this radio that's a hot take I think it
+has some benefits that I'll talk about later but any bow thing it's just good
+practice what whether you know the voice is on or off just turn it on past the
+click wait a second and then crank it from there nobody wants to hear mrs.
+chin announcing what mode you're in unless you need to know right what are
+some reasons you might need to hear that can't see screens broken it's foggy my
+eyes are blinded I don't know it could be handy I like to leave it on it
+announces everything about the radio no other radio does that I think it's cool
+it's easy to turn it off don't turn the volume up all right so that's how I run
+it now power on a volume switch is cheap okay it's cheap to manufacture one cool
+thing about it is it actually helps not drain the battery it's a physical switch
+on this radio right you hear that click there's a physical switch getting thrown
+in the radio on my esu it's a press to press and hold the power button right now
+for that current has to be running through that button all the time and it
+will drain this battery dead sitting in a bag just the fact that it has that
+kind of power button right so the physical switch is cheaper to manufacture
+and it has that but what's the vulnerability of it being on this
+volume knob it's super easy to get it rubbing on something my first class
+fighting rifle I wore my radio on my strong side and I had a sling on and
+every time we'd run a drill on the first drill that you know I'd pull my rifle up
+and it would say channel mode because it was grabbing that volume knob and the
+first thing I did when I went to reload was move that thing over here but the
+exoskeletons you guys see on my kids radios those protect that volume knob
+right they physically envelop it so you can't actually have to get your finger
+down in here to turn it on and off so no way to deal with that otherwise everyone
+know the universal symbol for the power button it looks like a ping-pong paddle
+a one and a zero on off that's what that means all right volume so volume on
+this radio is that same knob not not so complicated it's infinitely variable
+right so you have any place along that way it's gonna max out where it stops
+turning and then obviously as you turn it down you'll feel yourself getting to
+the wall right before it turns off you don't want to turn it off usually some
+radios like these digital radios that Mike has they take about 15 seconds to
+boot so you don't want to be needing to turn it on when you need it right and
+you also don't want to accidentally turn it off when you need it so get familiar
+with that that power switch that's something to really kind of have muscle
+memory with and leave it alone once it's in that state channel select on this
+radio we're gonna use arrow keys to change channels don't worry about that
+right now but just know that is how we do it some radios have a knob dedicated
+to that so for instance those same digital radios I was just mentioning if
+you can listen real intently it's a baldie tinted knob right it clicks it's
+a clicky knob if you feel a clicky knob that's channel change your knob on a
+radio if it's infinitely variable there's no clicks that's a volume knob
+all right why does it click that's to indicate a change right so why would
+that be useful I don't need to look at the radio if I'm on channel 1 I want to
+get to channel 8 feeling it 2 3 4 5 6 7 8 it can stay in the pouch it's pretty
+foolproof right each of those clicks does indicate a change it's expensive to
+manufacture there's a little ball bearing popping into a socket at each
+of those positions it's way more expensive than throw two knobs that
+press on the circuit board on the front of the radio right two buttons that's
+what we get on this so anyone ever had to punch their zip code into the gas
+pump right I don't know about you guys every time I get to the end I've missed
+a number somehow buttons are not a reliable information entry system so
+you're gonna have to really look at the radio there's not going to be you're
+not going to change the channel of this radio with it in a pocket you're gonna
+need to see what's happening just one of the downsides now if you hold the radio
+in your right hand your index finger is gonna naturally land on a big button on
+the side that's the one you want that's the push to talk the big one on that
+side it's always the big one on that side why am I emphasizing this well
+there's three buttons on the side of this none of them are labeled which
+one's the push to talk it's not a mystery it's the big one right why they
+make it big that's the one you're gonna be dealing with this one is labeled but
+it's still the big one right again two buttons they're almost the same size but
+the big one is the push to talk right it's not on it's not underneath a
+button on this radio because there's only two so just keep that in mind don't
+overthink it it's always the big one it's like the skinny pedal on the right
+what does that do in a car it's the gas it's always the gas it's always gonna be
+the gas roll with it okay it is the push to talk not the push to think not the
+to ponder not to push to right be ready to talk when you push it that might mean
+wait in a minute not a minute but a second to gather your thoughts before
+you push it what do we know about radio as far as if someone's transmitting can
+anybody do anything while you're transmitting right you are clogging up
+that whole channel the whole time you press that button so when you press it
+you better get down to business all right monitor button and this radio and
+most of the time if there is one it is directly beneath the push to talk you'll
+see it's labeled money all right what the heck does that mean all right well it
+sets the squelch to zero it fully opens your squelch we have not talked about
+so let me explain that squelch is essentially a filter based on signal
+strength okay so think of a fence if I have a fence that's one foot tall what
+does it keep in or out of the area that I've fenced one foot tall turtles is
+all I can come up with not much okay but it keeps out you know anything under
+eight inches tall right as I raise that fence it keeps in or out more stuff
+right but at what expense it's more difficult to get over it when you want
+to get over it right now if I set my fence to ten feet tall that's about the
+biggest fence you encounter right ten foot tall it basically keeps out
+everything right but if I want to get over it it's a lot of work right so
+squelch is very similar one foot tall fence is like setting your squelch to
+one it keeps out basically nothing right if something if a thing shows up it can
+get over it but what it does keep out is nothingness right now with our radio it
+hears nothingness all the time and this is what it sounds like I don't know
+about you I don't want to listen to that all day but if I press that button it is
+as if I take the fence and push it down to the ground so people can get in
+right so why would I want to push it down on my radio why am I gonna push the
+fence all the way down if my fence is too high and it is preventing things I
+need to come in from getting in the quickest way for me to let them in is
+push the fence all the way down right set my squelch to zero well on this
+radio the squelch is way down in the menu so they give you a button that
+allows you to just fully open that squelch now it's gonna you're gonna
+hear all the other stuff too but if you hear somebody they're breaking up you
+can't really make out what they're saying it's cutting in and out you can
+hold down that monitor button sets the squelch to zero while you hold it as
+soon as you let off it goes back to its setting now much like with a fence
+about a three or a four foot squelch three or four foot fence is where I
+start right if I notice things are getting in past my fence that I don't
+want to what do I do with it make it higher so I make my squelch higher but
+that means all the people I want to talk to have to be tall enough to get over
+that fence right so it's it's never a free lunch I can set this fence ten foot
+tall but can my friends get in the yard not very easily right they got to be
+like in the same room with me on the radio their signal strength has to be
+sky-high so we're always doing this dance what I what I notice if I set to
+about a three or four I don't hear things that are annoying non-transmissions
+right so like interference type noises but I generally hear everybody I want to
+hear so that's where I start if I start hearing a noise in my radio that's not a
+person or a real transmission I can raise that squelch at the expense of
+potentially missing stuff I want to hear right does that make any sense all right
+so the monitor button pushes the fence down just imagine pushing it down so
+so the kids can get through right you don't stand there all day holding the
+fence down it's very temporary
+unwanted something that would make me raise the squelch is that what you mean
+just like a hiss or a pop or a weird sound that you can tell is RF
+interference yeah I mean it can come from garage door openers stuff in the
+in the area it could be a million things that your radio is hearing that is not
+an actual signal it's it's stuff in the atmosphere around you that's the most
+common thing the other thing it could be is something so far away that it's
+clearly not relevant to you but it's it's making it to your radio and you
+don't want to hear that so let's say running security for this building I
+know no one is further than a hundred yards from me I'm gonna go ahead and set
+the squelch up right if I'm hearing people at a school two blocks down the
+road that I where you just happen to be on that channel today I don't have time
+to fix it I'm just gonna raise my squelch when I because I can hear the
+carpool line from that spot in the building I'm just going to squelch them
+out that would be another reason every time you do that it's a risk it's a risk
+that you're not going to be able to hear the people you want to hear so I would
+err on the side of being more liberal against increasing squelch right keep it
+lower and just suck it up but if it's the difference between turning your
+radio down that's what I want to avoid right don't want people to turn the
+radio down that's not helpful if you turn the volume down then I can't get a
+hold of you so that's no it's set it's set permanently in the menu till you
+change it yep all right with the radio on remember we turned on just past the
+click you guys are doing great I've only heard Mrs. Chen a couple of times all
+right we're gonna look at this other button the VFO MR button in this case
+every radio is going to have something along these lines V slash M this is
+another one of those situations we're knowing what the word stands with a
+letter stand for is not helpful VFO anybody want to take a stab at it
+variable frequency oscillator all right I don't know what that is we're not going
+to worry about that M is for memory the EFO is the other one all right M is for
+memory what do you think we do over in memory mode we look at what's in the
+memory our saved stuff the other one is manual or variable entry mode that's
+where we're going to do our programming okay now this button is a big orange one
+on the front there's two types of people in the world when they come across a
+button they don't know what it does all right one of them cowers in fear and
+they set it on the table and they run and hide from it and wait for a
+millennial to show up to teach them all right there's other group of people that
+they see a button they're like I wonder what that does and they press it over and
+over and they observe what happens all right that's who I'm inviting you to be
+in this class if become a button presser at least for today all right in this
+case press it and tell me literally use your most autistic interpretation what is
+actually happening on the screen not not what you think it means but what is
+happening what numbers okay the right-hand side is where we want to
+direct our attention all right numbers and then no numbers all right what do
+you think those numbers mean when they appear and those are channel numbers
+that's what's stored in that spot when they disappear what mode do you think
+you're in frequency mode or manual entry mode right so when they appear
+we're in channel mode or memory mode right we're going to use our channels
+we're going to use our memories they are assigned to numbers right they are saved
+in there have we saved anything yet so those aren't useful all right if those
+numbers disappear we can punch stuff into the radio right that's where we
+want to be we want to be in frequency mode right now now if you want to save
+something into memory on this radio you have to start in frequency mode right
+there is no editing a memory in this radio I will remind you of this over and
+over and over and one of you is still going to be trying to edit something
+that's in memory because it will allow you to appear to edit it it doesn't say
+error it just says cool you thought you changed the offset to five instead of
+point six cool did I change it no did I tell you no just let you try over and
+over and over and over and over until you remember oh Evan said you can't do
+that I forgot so please don't try to edit memories you have to work from
+frequency mode all right now your a B button what do we do with buttons all
+right what does it do all right arrow points up arrow points down what do you
+think that means which one is currently active right this radio has kind of two
+parking spots they're fully independent all right all your settings are
+independent for the a line and the B line it's a quick change all right so in
+frequency mode I can set up two different things or in memory mode I can
+have channel 8 and channel 42 right a primary and an alternate it's a quick
+change now if you didn't have that you'd have to press your button you know 30
+some times to get from 8 to 42 but you can set them up to quickly alternate in
+memory mode over here in frequency mode I can store stuff in either parking spot
+you have to be on the a line which one's a line you think a for above B for below
+all right the a line is the only place that can be written into memory mode
+all right if you do a bunch of work on the B line the bottom line can you save
+it you can do all that work there all you want you can't save it you're gonna
+start totally over and do it on the a line please don't work from the B line
+work from the a line that arrow should be pointing up all right last thing on
+this radio or any radio that little hole above the a B button if you can believe
+it that tiny little hole is the microphone hole now why am I pointing
+that out to you well that is where you need to talk into all right so please
+don't be one of these people this is Evan do you hear me this is Evan I can
+just barely hear you Evan I don't know what the problem is I'm talking right
+in it must be a broken radio I'm gonna tell Evan I need a new one what's the
+problem talk into the microphone I know you're used to this cell phone on
+speaker right don't be doing this this this that straight up and down right
+another problem is your antenna needs to be vertical right I don't want another
+Instagram video or some hamfud tells me don't you know you're supposed to hold
+it vertical you should tell your students yes I tell them every time they
+still walk around like this I don't know what to do with y'all you're making me
+look bad all right why don't we want the antenna vertical is it I think of
+the signal it's emanating from this wire perpendicular unless the people I want
+to talk to you are in the basement or or above or below me this is not the way I
+want to go now it's forgiving because it's bulbous right so you get away with
+it like this when you're in the same room and it gives you a bad habit right
+because it works in here where it doesn't work is at the edges of its
+capability so it's a good idea straight up and down right in front of your face
+please okay I'm begging you right these are this is the manual of arms of the
+radio right any radio you get find this stuff now some exceptions like these
+DMR radios it does not have a V slash M button this is a pet peeve of mine some
+radios they have eliminated that and made it weird to find on this it's not
+weird to find we have a p1 and a p2 button on this radio those are user
+programmable buttons I decide what they do I can set them to do anything one of
+them usually does that job okay switching between channel and memory
+mode all right now if there is nothing on there like with this radio I have to
+power it on while holding the menu button completely retarded right like how
+would you figure that out without having a manual actually I think it's
+the exit button see I don't even know there's some button while you power it
+on I don't like that I don't want to be turning the radio on and off I want a VM
+button all right I'm sick of them making new radios that don't have it but that's
+I think it's going that way to be honest because so few people know how to hand
+program the radio anyway they just take the button off so when you hand it to
+some some idiot that has no business in frequency mode he doesn't accidentally
+change it I think it's I think that's why it's so it but for my philosophy it's
+essential questions about this stuff we are not talking about everything these
+are the essentials right all right essential functions this is everything
+with a new radio you better figure out how to do all right if you don't know
+how to do all this you have no business carrying it around okay this is the bare
+minimum I need to know how to switch between VFO and memory mode all right
+that VFO slash MR right what might it be labeled sure don't even worry about the
+label what does it do when the numbers appear what what functionally is
+happening those numbers are what there's memories so you're in memory mode right
+the the reason I don't focus on it this radio says the voice says channel mode
+well that's called memory mode but they call it channel mode so now we got two
+names for the same thing all right VFO it calls it frequency mode we could call
+it that but it's labeled VFO all right so it's confusing so I I basically just
+want you to know that button it changes that thing but what I'm looking for is a
+visual cue which mode am I in by seeing do the numbers appear or disappear
+right don't worry about what it's called what do I want to do if I want to punch
+something in by hand should I see numbers on the right I can't punch it in
+by hand if I'm seeing numbers that indicates I'm in memory mode right if I
+want to use something I have saved okay now I want to see numbers right because
+that's what indicates they are saved so just primarily focus on this button
+changes the between modes I don't need to know what the button means I don't
+need to know what each mode is called use the context of do I see channel
+numbers okay that means I'm navigating by channels or memories there's so many
+different words for it that it it becomes very convoluted so I would
+recommend just depending on the context more than anything I hope that helps
+technically VFO is the manual entry or frequency mode without the channel
+numbers that's the that's the actual answer to your question all right you
+should know how to switch between those that's the very first thing I do when I
+get a radio out of the box the next thing is I want to know how to enter a
+frequency right a simplex channel just I'm going to talk on this channel I'm
+going to listen on this channel we don't move it's just one one lane we use that
+lane for both directions all right I want to know how to program a repeater
+by hand right non-negotiable it's the iron sites of radio you have to know how
+to use it are you going to use it all the time of course not is it fast no it
+might be all you have you have to know how to do it all right that is the
+hardest thing we'll do today but you will leave here confidently knowing how
+all right this is probably the worst radio to do it on so if you can do it on
+this one you can do it on any radio okay all right squelch adjustment you need to
+know how to adjust that we already talked about why it's down in the menu on
+this radio some radios there's a dedicated knob for it I don't like that
+but they do have knobs for squelch sometimes it's something you're gonna
+deal with occasionally it's good to know you know I want to know how to lock the
+keypad okay now on this radio the bottom right button the number sign or the
+pound sign has a little blue key icon yes a key is the opposite of lock but it
+was opposite day at the bow thing factory I guess if you press and hold
+that it'll lock the radio the way you know it's locked is the same icon shows
+up next to the battery level indicator okay now what does locked mean try to do
+stuff your front keys are all disabled it does not disable the side keys you
+can still transmit okay now if you want it also does not prevent you from
+adjusting volume or you know accidentally turning off the radio if
+you want to protect those other buttons from accidental presses that's where
+this exoskeleton comes in handy because it kind of forces you to push a finger
+in the hole instead of pushing up against something now why are we locking
+the keypad I got ahead of myself if this is going to go into a pouch or a pocket
+you need to lock the keypad right because what can happen when this is in
+your pocket you sit down your pants get tighter it presses the channel changer
+and you're on a different channel now do you know it no but you are and you spend
+four hours wondering why nobody talked to you and you look down at your radio
+and realize oh crap I'm on their own channel all right so we don't want to
+accidentally press buttons to unlock what do you think we do it's a it's very
+difficult press and hold again okay you might want to turn off the beep sound
+the beep is different than the voice it's the the sound it makes every key
+press on some radios I don't see a purpose in that so I usually turn that
+off on this radio it actually says what you're doing so if I press the number
+four well it's locked like it's kind of nice that it tells me what button I'm
+looking at if for some reason that button got worn off or I don't know it
+could be useful right you can disable that though so if you're going to be
+running CQB with your Balfang and that's going to give away your position turn it
+off but you probably should get a different radio all right scanning okay
+is this a scanner can it scan right so am I a marathon runner probably not
+could I run a marathon probably not but I guess if my life depended on it right
+like I can run I am NOT a runner right same deal with this this can scan it's
+not a scanner so what does scanning even mean it's gonna incrementally go
+through either frequencies or channels one at a time until it hears activity
+how does it define activity relates to something we talked about earlier has to
+break squelch something break squelch it stops all right now scanning is a lot
+like waiting for the bus right how do you know if you're early or late for the
+bus if it's not there so you don't know right you are there the only way you
+know if you're at the right place at the right time is if you and the bus are at
+the same place right so you wait till the bus comes you either are late or
+you're early you don't know same deal with scanning I have to be listening
+where the conversation happens if I'm scanning let's just imagine this is me
+cycling through my channels about this fast so I have four channels and move
+about this fast through them one two three four one two three four if I miss
+if this is activity and I'm over here and then they stop and then I'm over
+here and then they stop am I ever gonna hear it right so you can only hear when
+you land on the activity at the time it occurs this radio is slow as molasses at
+scanning it's about one per second right if you put a hundred twenty eight
+memories in here it has it takes almost over two minutes to get through the
+whole memory right cycling through if you're going by frequency good luck
+right it's going two and a half kilohertz at a time that's point oh two
+five at a time slowly moving through the frequencies right now if I put less
+things in the radio it's more valuable right let's say I have four things I
+want to possibly monitor it's gonna do that every three or four seconds that's
+that is useful what it's also useful for is if if I don't really know if anything
+is happening at all in my area I programmed it and I just want it to catch
+stuff I'm not on a mission I just kind of want it to sit there and monitor and I
+don't know where the activities happening I can leave it on scan all the
+time and it'll occasionally grab stuff but just know the the broader the
+scanning range the less likely it is to catch anything now a scanner like that
+does that and only that like a marathon runner it's better at scanning right so
+it's gonna go way faster like 10 per second and it can do quite a bit more
+have a higher likelihood of catching what you want to hear but you're
+talking six seven eight hundred dollars for a device that all it does is listen
+so very different can of worms the last thing is the power level change on this
+radio to change the power level you can just tap the number sign tap it don't
+hold it just tap it tell me what you see L appears and then disappears what does
+L stand for low low power right would we want to put underpowered ammo in our
+concealed carry pistol all right this is already a pistol we are not running low
+power ammo in our in our pistol okay I don't really know what the functional
+purposes of low power in real life but usually I don't know how much power it's
+gonna take to talk to the people I want to talk to I'm not really interested in
+experimenting right I'm gonna use all of it it's a handheld radio I'm gonna use
+all the power it has now if I know for sure I only want to talk to people in
+the same room as me it's not gonna go beyond this room there's nobody I don't
+know where they are I know it reaches that far with low power when that what
+would that gain me by going to low power if I know it's gonna function what's the
+benefit yeah it conserves battery right if I can't reach the people I need to
+reach do I care about conserving battery I'm not comprehending why this would be
+a common use if you see an L get it to go away please we're not using L for
+anything in this class all right it's only gonna hurt you does that make
+sense now on other radios that is not always true on a hundred watt radio you
+better believe I don't need to run a hundred watts all the time if five watts
+does the job that is crazy to be running a hundred watts so I'm talking to my
+wife in the backyard on a hundred watts it's a waste and it's polluting the
+environment with extra energy that I don't need to be occupying right I'm
+potentially interfering with people for no reason but for handhelds I'm running
+high power now some other radios will have more minute adjustment you know low
+medium high I think the BTEC has low medium high and turbo guess what I run
+all the time turbo right I'm a grown man we're running full bore all right I'm
+seriously I would not I would not consider low power for anything
+practical okay questions about anything how about we use some radios how's that
+sound finally we made it yes sir yes and then unlock is hold it again look for
+that key icon even though it means the opposite of lock all right so what we're
+going to do is we're going to program a simplex frequency into our radio if you
+turn to page 19 you'll see what simplex kind of does look at the two radios you
+see this I know this is a very impressive illustration I'm giving you
+here all right these are these are copyrighted so don't go copying my stuff
+all right now you'll notice the transmit and receive frequencies what what's the
+difference they're not they're the same right so this is simplex it's simple
+it's the simplest kind of comms we're going to transmit and receive in the
+same location we're not going to use this number but this number here is the
+national calling frequency for ham radio it's the most commonly monitored
+frequency in all of radio so it's a really good one to keep in your mind
+because that's a place you can find help sometimes if you need it when we're
+going to start with you want to write this down four six two six one two five
+that's four six two dot six one two five this is FRS channel three in your
+chart back on page 13 or 12 or so but four six two six one two five now you
+might already be realizing your radio doesn't go that many digits right it
+only goes three decimal places it will automatically add that five you don't
+have to type in that five so you're going to type four six two six one two
+now where do we want to start this procedure where do we go to put stuff
+into our radio frequency mode and how do we know we're there no numbers on the
+right how do we get to that place what button VFO MR all right no buttons on
+the right if I see I'm sorry no numbers on the right if I see numbers press the
+button all right and I want to be on the a line or the B line the a line how do
+I get there a B button and how do I know I'm there
+arrow points up for above a for above okay go ahead and type that number in four
+six two six one two
+all right four six two six one two and you should see that tiny little five up
+here all right turn your volume up you should be able to hear me this is Evan
+with radio made easy on frs channel three testing one two three three two
+one everybody hearing me I don't need to blast it all right okay so we did it we
+programmed a simplex frequency that'll be it that'll be it for the day no let's
+let's use it so what we're gonna do is what we call a net okay so a net is this
+many-to-many information sharing strategy so what I'm gonna do is gather
+some information from all of you and all of you will hear it from all other
+members so if there's 15 people in a room all 15 people both participate and
+hear the check-ins of all other 15 people so it's actually it's like 15
+times 15 combinations whatever that is it's a lot of handing out notes and
+passing information accomplished in one setting right it would take us
+tremendous amount of time to do it what I'm gonna do is give you all the
+instructions over the radio okay so have your volume up a reasonable level and
+just do exactly what you hear me ask you to do if I don't ask you to do
+anything should you do anything if I don't say if I don't specifically ask to
+do something please do nothing okay wait for me to ask if you're in doubt if you
+should do something don't do anything it will be very clear okay only do what
+you're asked and then it'll go just fine all right so I'm gonna give all the
+instructions over the radio just pretend we're not all in the room together we're
+gonna make it nice and easy for this first one this will be the last time we
+do it in the same room but we got to start somewhere right okay this is Evan
+with the zero to hero radio operator net here on frs channel three four six two
+dot six one two five that's four six two dot six one two five we're gonna have a
+little net here in just a moment we're gonna give our name and color code I'll
+explain that momentarily but I'm gonna pause here for ten seconds for any
+emergency traffic if you have priority or emergency traffic please come now
+all right again this is Evan with the zero to hero radio operator net here on
+frs channel three four six two six one two five we're gonna have a net here
+with our name and color code color codes are green yellow or red green means I am
+okay I'm just fine I'm doing good yellow means I might need some help let's talk
+about it and red means I need help right now urgently I can see that you all are
+just fine so I expect all greens please no silliness first name color code only
+that's all I need and we're gonna go in the order that we introduced ourselves
+so please keep that same order I'm gonna pause again for emergency traffic for
+five seconds any priority traffic now okay again same order as we introduced
+ourselves just your first name and your color code I'll take the first check-in
+please okay I don't hear awk I hear a beep in the room but I would not have
+heard that if we're not in the same room you didn't do anything wrong it's a trick
+everybody has the same problem but what would I do this is what I would do if I
+didn't hear anything nothing heard there I'll take that first check-in please if
+you can try again please okay so it's not working what you don't know is none
+of your radios are gonna work okay now this happened by accident the first time
+I did this these radios come locked from the factory they won't transmit on FRS
+they only transmit on the amateur frequencies and you have to unlock them
+like you're playing Nintendo and you got put in a cheat code all right so I'd
+leave this in here on purpose though because if I had just sent you guys out
+right you all can hear me must be working you can hear me all right rock
+and roll let's run the mission no all you have is half the equation just being
+able to hear somebody does not guarantee they can hear you you have to do a
+bi-directional comms check unless unless it's life or death right we can't but if
+you're doing a legit comms check it's two-way right just because you can hear
+me doesn't matter it does not mean I can hear you all right so in this case I
+have a radio that can receive on a frequency but it physically can't
+transmit there at all you're on the right channel you have all the right
+settings but when you you can try it press the button you're all gonna get a
+beep all right now thankfully that's easy to fix and one or two of you might
+have it working and that's just a manufacturing fluke that one got under
+the quality assurance radar of a child labor but we'll go all together and
+unlock these so turn them off all right and just to warn you we're like breaking
+15 that we're all gonna be felons after this so welcome to the jungle all right
+you're gonna want to hold it the way I'm describing or you're gonna need three
+hands so you decide but I'm warning you do it how I'm saying or you're not gonna
+be able to get it on all right thumb on VFO the orange button middle finger on
+monitor and pointer finger on PTT all those three at the same time VFO monitor
+and PTT you got to have them all pressed down while they are pressed down keep
+them held down power it on and wait to see the word factory on the screen what
+that does is it teleports you back to China it unlocks the radio and brings
+you back here and now it can transmit there just let go all right nobody
+laughed about the teleporting that's concerning I'm trying trying to keep
+spirit alive in here all right so if you didn't see factory you're not gonna
+get away with it check with your neighbor your radio is not gonna work if
+it didn't happen yep yep but if you didn't see factory it's gonna be no
+mystery here in a second well we will all know okay everybody good all right
+let's try again okay we had some technical difficulties there but we're
+back here zero to hero radio operator net again we're gonna take first name
+and color code green good yellow maybe need help red means I need help right
+now urgently I expect all greens are gonna go in the order that we introduced
+ourselves first name and color code only please take the first check-in all right
+I got green I'll take the next check-in please I got Sonia green next check-in
+please I got Matt green next check-in please I got Greg green next check-in
+please I got John green next check-in please I got Ian green next check-in
+please all right we caught you Mike you did not unlock your radio turn it off
+VFOMR monitor and push to talk and then turn it on it's a it's a fun one you
+guys see the word factory it opens up the transmit capability of the radio
+beyond the amateur frequencies and now it can do FRS it can do other stuff too
+but that's our primary goal is to do that far as I can talk a little bit more
+about that once we once we get through it let me see if I can help you
+no push to talk monitor and VFO and turn it on all right stand by just one
+second VC factory okay all right we'll take give him a moment let's go to the
+next check-in please I got Anderson green next check-in please I got Tony green
+next check-in please I got Aaron green next check-in please I got Nate green
+next check-in please I got Kyle green next check-in please I got Sean green I
+will go back for that one we missed got you there Mike green any additional
+check-ins all right nothing heard this is Evan I'm also green that makes 14
+total check-ins prepare for a read back here of all check-ins all right here's a
+read back here I have Oc Sonia Matt Greg John Ian Mike Anderson Tony Aaron
+Nate Kyle and Sean I am Evan and I'm also green all others were green that's 14
+total all accounted for that'll conclude the net all right so had a good speed
+bump there that's actually really good because it gives you a chance to see how
+problems get handled right you do not usually have the benefit of being in the
+same room so understand a lot of that has to be handled verbally before we
+talk about that one what did you notice I do that's weird there's plenty that's
+weird so go ahead and let's hear it lots of yielding and giving space for
+emergency or priority traffic do we really need to be doing that what's the
+deal with that it is a courtesy and you practice like you want to do it in real
+life and in real life somebody might need that channel and it's it more
+important than your stupid little radio net okay and you better believe they
+are sick of waiting for you to be done with your stupid little net to do
+something important and I have been sitting and waiting way too many times
+during disaster relief stuff for people to talk about what they ate for
+breakfast and how you know their blood pressure isn't going down because they're
+on the wrong statins and whatever I'm like buddy I need to announce that
+there's free water at the local fire department and can we please open up
+this repeater so we can use it for what's what it's for it's ignorance and
+discourteousness right it's not you don't own a frequency it's not yours even
+if it's your repeater you don't own where it's operating just like if it's
+you know you're flying an airplane you don't own you might own the airplane you
+don't own the air it's flying through you do things that are courteous right
+you don't own the lake you don't create wakes in the middle of the dock right so
+stuff like that yielding make some space pause make room for other people it's
+not yours now even if it was yours and you own it somebody might have something
+important like what a red status do you think you're gonna wait your turn to
+give your red status if you're last yeah I'm bleeding out over here and I'm
+number 13 I'm gonna wait my turn but no you're jumping in line right that's the
+reason we make space make sure you're doing that all right I've given you a
+template for nets page something 23 23 for Jordan yeah I have this kind of
+memorized at least the format but this is a template you can use so I announce
+the net I pause I announce it again I pause I might even announce it a third
+time and pause again why am I announcing it so many times because some
+of you are always late so if we say we have our net at 9 p.m. I'm gonna announce
+it at 859 at 9 at 901 maybe 902 because all our clocks aren't synchronized
+especially if there's an internet outage and a power outage you may not even have
+your cell phone with an accurate clock on it so we're gonna cast a wide net for
+opening it up no pun intended with that use of net right but we we want to cast
+a wide area for the intro I gave the instructions multiple times right what's
+specific about those instructions that might have been unusual we use coded
+language right what's the point of that why did we use these color codes are
+they top secret I said what they mean so why are we using them if they're not top
+secret right it's a brevity code saves us time all right if I said give me your
+name and status here's what would happen the first two or three of you would be
+reasonable people and you'd say this is Ock I'm good to go this is Sandra sorry
+Sonya I'm good to go and then the next guy over here Matt he's got to give a
+novel this is Matt lunch was pretty good class is okay it's a little hot for me
+but you know it's summer I like the Sun I guess I'm eight out of ten right he's
+got to be cute and now it's a competition for everybody else to see who
+can be the cutest and now our 15 second net is a 15 minute net and we're all
+ready to kill each other at the end of it that's not the point of this it's not
+that I don't love and enjoy the presence of all of you and want to get
+to know you I just want to know are you okay or not I want to do that as quickly
+and efficiently as possible so we can get on with doing stuff because radio is
+not the point of our life right for some people radio is the point of their life
+and they want to be on a net for three hours I don't I want to know do you need
+help or not and you know who you are and your status that's it we're gonna do as
+we can all right but we can't sacrifice detail right like green yellow red at
+least I have some gray area there for how severe is the problem right if I get
+a yellow back I'm probably gonna punt that and deal with it when we're done if
+I get a red we are dealing with the red right now right that's a priority kind
+of a triaging we can do but you see what's going on there brevity time
+savings efficiency and it gives clarity for everybody of how severe is the
+problem if there is a problem all right you come up with what works for you but
+I like I like using some kind of code you want to announce what that code is
+at the beginning now if you show up at a net this is the first time you've ever
+heard people using names and colors and they've already started and it's about
+to be your turn and you've heard everybody use a certain color and you're
+feeling a lot of peer pressure to go ahead and say that even though you have
+no idea what that word means should you use that word all right don't be a
+communist we don't use words we don't know what they mean right what do
+Americans do and we don't know what's going on we ask we act like normal
+people like sorry I wasn't here for the intro you mind giving the instructions
+again do not say things you don't know what they mean now I'm not saying if you
+miss the intro but we do green yellow red every day and you were late you know
+what it means right get on with it but don't say things you don't know what
+they mean why you don't know what it means you might I don't know I don't
+have enough imagination to imagine what could happen but something could happen
+so be normal try to act normal I know it's hard but act normal and do what
+normal people would do and they don't know and ask a question okay now do
+everything you can not to need to ask questions right don't be that guy who
+never knows what's going on and yet again here's here's Mike he doesn't know
+what's going on he's always late and he never knows right because he doesn't
+pay attention no but you know if you've taken responsibility it's out of your
+fine all right don't rely on context clues is what I'm getting at though if
+you don't know what's going on now at the end sorry before we get to that what
+did I do after every check-in I repeated it and then I paused what's the pause
+there for to allow for a correction okay this is why I was very clear about don't
+do anything till I ask because I ask for the next check-in I have to create the
+pause if I don't artificially force that pause there's no time for a correction
+if y'all just go this is Ock this is Sonia this is Matt you're just gonna
+bam bam bam and then Ock is like buddy that's not how you say my name we've
+been ten we're ten people in and I have to get your attention right if I go ahead
+and deal with what I got wrong right then and there that's the right time and
+place for it doesn't need to be very long one one thousand two one thousand go
+right don't spend a bunch of time on pausing also did you notice what I was
+physically doing when I paused for emergency traffic I'm getting my ducks
+in a row I'm figuring out my life over here I'm doing admin tasks I'm not
+literally just standing here no I'm doing stuff right I'm logging all these
+check-ins I gotta get my template up I gotta get my pen ready right if I if
+I'm running late and I'm a little disheveled we're gonna begin in 30
+seconds here I'm pausing for any emergency traffic okay all right I got
+30 seconds right that's a good way to use that I repeat back for confirmation
+create a pause then I asked for the next check-in if somebody were it didn't
+happen in this class usually right off the bat people try to go without me
+asking you guys did great with that but sometimes you can imagine people don't
+expect to be told to check in so they go ahead and check in you've got a nip
+that in the bud right off the bat the first time somebody does something you
+didn't ask them to do just politely say hey I got that one Sonia you're green
+hey guys from here on out just wait for me to ask for the next check-in I'm
+keeping a log here it just gives me time to jot it down right you don't need to
+be a jerk but you have to enforce anything that deviates from what you
+want you have to nip it the first time I know this sounds a bit like dictatorial
+right like you're like good lord man why do we have to be so harsh can you not
+just here's the deal we only have our voice all we have is the radio all right
+and we have to make order out of a very chaotic situation I'm trying to get
+check-ins for 15 people in an orderly way and you are all counting on that one
+dude to order it right and if he doesn't do a good job everyone is being held
+hostage by the idiots that are running amok right so it's your just being a
+good leader and a good person to nip it it's not being a jerk and you decide how
+you come across you can be gentle but you have to address it don't let it go
+if somebody gives a speech when we have brevity codes hey buddy don't forget we
+have those brevity codes let's go to the next check-in all right but you can be
+nice but you have to deal with it right there don't let it go further ask me
+how I know okay class number 80 something had had some people that give
+an inch take a mile you know anything else you notice that you had questions
+about so far what I do at the end gave a read back gave a summary that's that's
+dealers choice depending on how important the information is in this
+case what I'm simulating is like a neighborhood net that happens when the
+power goes out every night we check in at nine o'clock to check on each other
+well somebody got there late and didn't hear the first three check-ins they
+might want to know is miss Barbara okay I didn't hear right it'd be nice to hear
+the list now there's a risk reading back that list right you're reading an entire
+list of names all right we had a prescribed order you're not usually
+going to have that okay the next one we're actually not going to use our
+order so you guys will get to see what that's like it's a little different you
+notice I ask for check-ins I don't say ok check-in I say I'll take the first
+check-in why would it not be a great idea to ask for a certain person in some
+circumstances it could be an impersonator right like it's really easy
+if you just said their name like hey are you there well yeah that's me I'm good
+right I got ox radio and he's laying here dead but ox good ox green so I
+I'm not expecting to be operating in that environment that's not how I live
+in the hellholes that y'all live in that might be normal but I'm just throwing
+that out there that context is king right you might not always want to give
+away people's name you might want to wait for them to give it to you that can
+be important I did warn you about a read back right that's something important if
+you know somebody's got a copy stuff down or people are intently listening
+hey prepare to copy prepare for a read back right kind of alert them hey listen
+up you're about to get a data dump here get your pen ready that that's valuable
+it's not required if I needed to pause like some I've done this with like 40
+people at 20 I might say break and take a breath turn the page write some more
+numbers down right saying break is an indicator hey I'm pausing I'm going to
+start back hang on and then you start back when you're ready it keeps the line
+open for you and then at the end I kind of announced that it's over and then at
+the end would be an essential time in some cases to inform everyone when is
+the next net right so if there's a power outage in the neighborhood and we do
+this every night at 9 on this certain channel I would reiterate to everyone
+hey it's 910 now we're synchronizing clocks right it's 910 we will meet again
+here at the same frequency 4626125 tomorrow night at 9 p.m. if if there is
+another issue we will meet every hour at the top of the hour on the same
+frequency if there's more emergency situations and we'll hear from you then
+right why are we alerting them of the all these things why don't we just send
+them an email we don't have email right this might be the only source of
+information and they may not know it's every night you need to remind everybody
+all right so that's a good time in the outro to let them know when and where
+the next net is all right that makes sense all right we're going to run it
+again except I am done and let my voice rest a little bit I'll let one of you
+suckers run it two things are going to change okay other than me not running it
+make sure you're on page 23 I want you guys to all go somewhere in this
+building that you can't hear each other all right so like get away from earshot
+you can go outside don't go very far but like get away from each other so we are
+doing it for real over the radio we're not hearing with our ears anymore and
+you're not going in order anymore okay so what is likely to happen if we don't
+go in order they're gonna step on each other all right if you're running the
+net how do you solve that if two people go at the same time it's gonna sound
+like robot wars it's gonna go on your side all right what do you do panic cry
+in a corner all right I'll tell you what works almost every time hey I heard two
+there doubling up let's go one at a time please all right I don't know what
+it is but if you just say go one at a time even in a room of a hundred people
+only one idiot is brave enough to go again and by the time he goes everyone
+else is like oh thank God somebody else went right it fixes it I don't know what
+it is but that's the magic pill is just hey that was two let's go one at a time
+please some idiot will go first and maybe it'll be you and you'll wear it
+with a badge of honor that adding more reluctance actually emphasizes the
+functionality of that because the more reluctant everybody is the more likely
+somebody is less reluctant so anyway that's important if that doesn't work
+you might have to get creative right you might have to say okay names that start
+with this or people this age or people with this color shirt on I don't know
+figure out something to divide people up just act like a politician right you can
+follow this script roughly it is important that you keep a log and here's
+one more thing if you're running the net I want you to get you can get whatever
+information you want from people name color code but I would like you to also
+get their location because this net is going to serve a secondary purpose it's
+going to give us a clear picture of how well the radios work from this room to
+other places on campus right so if we find a dead spot we will know that from
+this net right like doesn't work from the bathroom I had to move you never
+heard me from the bathroom we'll know that in a few minutes so be as
+descriptive as you can without giving a speech about where you are and if you
+are running the net make sure you drop that down okay everyone understand what
+we're doing who wants to run it all right well Nate can run it Nate I would
+say give everybody till one five five five on the clock so one five five five
+and if it's like 330 or what I can't read this military time I'm not a rocket
+scientist if it's like 430 and you haven't heard anything on your radio you
+should come back okay yes sir no four six two six one two no you got it
+I just meant like get my paper ready get my pen out yeah I mean like if I'm
+running the net that's what I spend that couple of seconds on is get my ducks in
+a row if I need to it'll do better with it all the way but you might not notice
+a difference this close feel free to ask me anything you need night okay no rush
+give them some time make them get antsy yeah you make it up it's just
+just name and location for each person just however you want to document it
+it's just a space to capture those names
+yep you could no there's no problem with that the only issue is if someone
+doesn't know but either one is fine and you don't want to say call sign for this
+one because we don't have call signs your name and location yeah yeah not
+call sign though even this name and location but yet you say I'll take the
+first check-in please when they give it you read it back give them a second to
+correct you and then I'll take the next check-in please read it back pause I'll
+take the next check-in please this is Evan I'm in the classroom
+yep exactly and then if unless I come back to you and say no I'm Kevin not
+Evan yeah that's why you're pausing yep and you might want to announce it a
+couple times and say hey we're gonna start in one minute we're gonna start
+in 30 seconds whatever
+you
