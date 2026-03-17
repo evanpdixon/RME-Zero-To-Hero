@@ -1,0 +1,840 @@
+[00:00.000 --> 00:08.920]  Okay, so what I'm going to show you guys what I'm after here is kind of what if
+[00:08.920 --> 00:13.740]  you ever doing firearms training probably heard of Clint Smith he's got a
+[00:13.740 --> 00:19.360]  philosophy that he wants students to be students of weapons craft not students
+[00:19.360 --> 00:25.760]  of a particular weapon right what does that mean if I pick up an ak-47 off the
+[00:25.760 --> 00:30.440]  ground can make it work even if what I run at home is an AR right you ought to
+[00:30.440 --> 00:35.360]  be able to load it unload it make it safe make it fire clear basic
+[00:35.360 --> 00:39.200]  malfunctions whatever right because you're not guaranteed to be fighting
+[00:39.200 --> 00:43.240]  with your gun you might fight with somebody else's gun right so great
+[00:43.240 --> 00:48.000]  philosophy I love it I'm applying it here with radio in that you are not
+[00:48.000 --> 00:52.560]  guaranteed to be using your radio today I think it's even more likely than the
+[00:53.560 --> 00:58.440]  I got to get this radio I just found or some dude just handed me and I got to
+[00:58.440 --> 01:04.120]  make it work right so we're approaching this at a at a vague kind of generalized
+[01:04.120 --> 01:09.920]  level so that this will work for you I've put it on page 18 I've revised this
+[01:09.920 --> 01:14.480]  manual probably a hundred times and I have kept it on page 18 to help me
+[01:14.480 --> 01:19.080]  remember and on your 18th birthday you're you're a grown man now right you're on
+[01:19.080 --> 01:22.920]  you're officially an adult when you're officially adult you buy a new radio
+[01:22.920 --> 01:29.680]  come to page 18 and do this stuff right in this order this is a way to ensure
+[01:29.680 --> 01:34.680]  success with a new radio and kind of give you the basics so in the bag with
+[01:34.680 --> 01:39.160]  the radio in it go ahead and pull out the radio itself there'll be a white box
+[01:39.160 --> 01:44.960]  with a battery grab that we'll start there don't put them together yet just
+[01:44.960 --> 01:55.000]  get them out we'll all enjoy the aroma of child labor together I don't make
+[01:55.000 --> 02:02.240]  the rules all right and we just need the radio and the battery to start with
+[02:02.240 --> 02:11.240]  don't put them together yet just get them I want to show you something now
+[02:11.280 --> 02:17.560]  why am I so deliberately slowing you down here I have watched hundreds of
+[02:17.560 --> 02:23.360]  students do this and still manage to break things even even when we're being
+[02:23.360 --> 02:29.600]  careful your battery and your radio almost never come put together when you
+[02:29.600 --> 02:36.360]  get a new radio it's manufacturing I'm sorry a shipping regulation that the
+[02:36.360 --> 02:41.280]  radio needs to be separate from the battery so what happens is people get
+[02:41.280 --> 02:44.920]  real excited you get a brand new thing take it out of the box and you want to
+[02:44.920 --> 02:48.920]  use it immediately right so you start shoving stuff together well batteries
+[02:48.920 --> 02:53.640]  and radios go together differently depending on what you're using right in
+[02:53.640 --> 02:58.680]  this case lay lay radio kind of flat in your hand and then lay the battery on
+[02:58.680 --> 03:03.600]  the back of the radio with a little gap and then push it into place right but
+[03:03.600 --> 03:10.320]  it's gonna slide in right other radios don't work that way like this yesu it
+[03:10.320 --> 03:17.120]  has a flap I fold the battery into place right it kind of drops in like that and
+[03:17.120 --> 03:21.880]  then I do this flap if I try to do this one the way that one goes or that one
+[03:21.880 --> 03:26.480]  the way this one goes I'm gonna break something right so when you first get
+[03:26.480 --> 03:31.320]  the radio just take a second and look at deliberately look at how does this
+[03:31.320 --> 03:36.560]  battery go in does it slide does it fold does it latch don't break it okay
+[03:36.560 --> 03:42.160]  now up here at the top you see a little button that says push push it and slide
+[03:42.160 --> 03:46.200]  it off right slide the rate the battery back off well I'll show you some things
+[03:46.200 --> 03:50.040]  about the battery if you look down the barrel look down the bottom you see
+[03:50.040 --> 03:55.500]  those two little holes at the bottom those align with the two nubs on the
+[03:55.500 --> 03:59.760]  bottom of the radio that's what holds the battery on to the bottom of the
+[03:59.760 --> 04:07.960]  radio now you guys probably have seen these extended batteries unfortunately I
+[04:07.960 --> 04:11.880]  love these these used to be the only batteries you could field charge over
+[04:11.880 --> 04:18.480]  USB you'll notice yours is USB C now that's a $19 battery that I add to this
+[04:18.480 --> 04:23.480]  radio for you guys it doesn't come with it you used to only be able to do that
+[04:23.480 --> 04:27.960]  with the big batteries well here's something that happens all right all the
+[04:27.960 --> 04:34.040]  time because you've created this big long lever and when you drop it those
+[04:34.040 --> 04:38.320]  little nubs just shear right off right with this little battery there is no
+[04:38.320 --> 04:44.400]  chance of shearing those off unless you do something weird like click it in here
+[04:44.400 --> 04:49.480]  and try to push it on right so putting it on right is important now you also
+[04:49.480 --> 04:55.440]  see there's a little sawtooth latch on the battery and that little sawtooth
+[04:55.480 --> 05:02.440]  engages with another sawtooth on the battery I'm sorry on the radio body
+[05:02.440 --> 05:06.560]  right that's what holds it at the top that doesn't break very often usually
+[05:06.560 --> 05:11.920]  you get breaking at the bottom if it breaks it doesn't matter right tape it
+[05:11.920 --> 05:17.680]  up glue it right you're gonna lose some functionality but it still works none of
+[05:17.680 --> 05:22.920]  my kids radios have those little nubs right there's an easy way to fix a radio
+[05:22.960 --> 05:27.240]  that those nubs are broken off of all right you take all the stuff off of it
+[05:27.240 --> 05:32.840]  you hold in your hand and you find a trash can and you drop it into the trash
+[05:32.840 --> 05:37.640]  and you get a new one right that's how we fix bow things we don't operate on
+[05:37.640 --> 05:44.440]  them okay I don't really love these unless it's gonna live in a pouch or a
+[05:44.440 --> 05:50.040]  plate carrier and I need the extra runtime nowadays I'm almost always using
+[05:50.040 --> 05:55.640]  these small USB-C batteries the fact that they're USB-C is a game-changer to
+[05:55.640 --> 06:01.600]  me and that's one of my non-negotiables on a radio these days is it has to be
+[06:01.600 --> 06:07.200]  USB-C chargeable all right these are not chargeable by default but we upgrade
+[06:07.200 --> 06:12.360]  them so you guys get that with this now in your bag you should have a little
+[06:12.360 --> 06:17.920]  adapter a little black adapter and a coiled up antenna that if you're not
+[06:17.920 --> 06:23.880]  careful we'll smack you in the face so watch out
+[06:29.800 --> 06:39.240]  yeah it's part of why I say wait for my instructions all right now if you look
+[06:39.240 --> 06:43.240]  down the barrel of where the antenna goes on your radio what do you see in
+[06:43.240 --> 06:49.200]  the middle there there's a little copper wire is that incredibly confidence
+[06:49.200 --> 06:54.200]  inspiring does it look nice and rugged and tough all right that's one of those
+[06:54.200 --> 06:57.840]  things about these radios that if something were to kink or break that
+[06:57.840 --> 07:04.920]  wire it's it's ruined and going in the trash right it's very fragile if you got
+[07:04.920 --> 07:10.440]  a pin lodged in there in your backpack and it pushes it over you go to put on
+[07:10.480 --> 07:16.000]  your antenna it breaks it off it's done okay yes you can solder in new stuff but
+[07:16.000 --> 07:23.080]  you wouldn't be in this class if you did that kind of thing right we want to deal
+[07:23.080 --> 07:26.960]  with that but first one of the things I struggled with getting into radio is
+[07:26.960 --> 07:33.120]  identifying this connector right if you know there's SMA female SMA male type
+[07:33.120 --> 07:37.760]  antennas out there when you go searching on eBay and Amazon well I have done a
+[07:37.760 --> 07:42.640]  lot of plumbing and electrical work in my life and when I look at this I see
+[07:42.640 --> 07:48.720]  female threads and I think I need male stuff because that's female in radio
+[07:48.720 --> 07:52.840]  that's backwards in radio you don't worry about threads you look at the
+[07:52.840 --> 07:59.160]  center conductor that determines gender on coax on antennas on anything that
+[07:59.160 --> 08:04.200]  center conductor what gender is this one not trying to be controversial just
+[08:04.200 --> 08:11.400]  keeping it to keeping it old-school that's male right and that's all that's
+[08:11.400 --> 08:14.400]  all we're gonna do about that okay now if you look at the bottom of your
+[08:14.400 --> 08:23.160]  adapter it's female right now this is an SMA male radio but it takes an SMA
+[08:23.160 --> 08:29.960]  female antenna right we get that so the antenna is gendered based on its center
+[08:29.960 --> 08:34.000]  conductor and it's SMA female and we're not using an antenna right now we're
+[08:34.000 --> 08:38.600]  using an adapter but it's the same story now go ahead and thread that adapter on
+[08:38.600 --> 08:43.160]  there you're gonna notice you get about seven turns and it'll get finger tight
+[08:43.160 --> 08:49.520]  you don't need the Godzilla gorilla tighten it just get it finger tight now
+[08:49.520 --> 08:55.920]  where's that where's that scary little fragile wire it's totally enveloped by
+[08:55.920 --> 09:02.040]  this adapter never to be seen again all right totally protected never gonna have
+[09:02.040 --> 09:05.920]  a problem with it this adapter will now live on this radio it should never come
+[09:05.920 --> 09:12.720]  off all right we have now changed to what gender female this is a different
+[09:12.720 --> 09:19.800]  style antenna Jack this is BNC right and you notice is it threaded it's another
+[09:19.800 --> 09:23.880]  cool feature with this if you take your antenna that you got you'll feel it
+[09:23.880 --> 09:29.840]  slide on and quarter turn on to lock in that's it there's no threads what
+[09:29.840 --> 09:35.560]  happens with threads they can cross thread they can wear out they can jam
+[09:35.560 --> 09:41.680]  they get dirty threading and radios not my favorite thing this is one place I
+[09:41.680 --> 09:46.640]  can eliminate that now I put that adapter on every radio I own no matter
+[09:46.640 --> 09:52.600]  what gender it starts out as it ends up being see female no matter what so
+[09:52.600 --> 10:00.720]  what's cool is I now have one antenna type for my Yesu which is SMA female
+[10:00.720 --> 10:06.360]  natively for my Balfang that's SMA male and this Balfang that's SMA male the
+[10:06.360 --> 10:11.560]  same antenna works on all three of them I don't have to go buy a $40 antenna
+[10:11.560 --> 10:18.040]  for my Balfang that I can't put on my good radio right I buy BNC antennas they
+[10:18.080 --> 10:24.400]  work on everything all right I really love that standardization so for me very
+[10:24.400 --> 10:28.760]  first thing I'm gonna do with any radio it's gonna get a BNC adapter this one
+[10:28.760 --> 10:33.800]  you got costs about nine dollars to find those you can only buy them in packs of
+[10:33.800 --> 10:38.960]  three they're the best that's all we sell every radio we put together comes
+[10:38.960 --> 10:45.120]  with one that also for me as a retailer how many antennas do I have to carry one
+[10:45.120 --> 10:52.960]  right so I don't have to deal with BNC plus SMA female plus SMA male I get one
+[10:52.960 --> 10:58.200]  kind of antenna and I only carry them in one color all right I get yellow ones so
+[10:58.200 --> 11:02.240]  you don't steal mine all right OD green is all we get I don't know what this
+[11:02.240 --> 11:06.120]  business is of people building businesses where you have 40 color
+[11:06.120 --> 11:14.620]  choices I'd say nightmare nightmare all right okay now you're gonna notice this
+[11:14.620 --> 11:18.420]  radio has a screen what do you think is gonna be on that screen all the
+[11:18.420 --> 11:22.420]  information that you need to know about the radio right some radios don't have
+[11:22.420 --> 11:27.540]  screens what can you infer from that if there's no screen your boss doesn't
+[11:27.540 --> 11:31.140]  trust you to be able to interact with that radio right or it's just a dumber
+[11:31.140 --> 11:35.380]  radio as far as you're not likely gonna be doing any programming on it right it
+[11:35.380 --> 11:40.380]  might have a channel knob and that's it I think the radios Tony had that he said
+[11:40.380 --> 11:44.580]  where he hands out to security guys there's no screen it just has a channel
+[11:44.580 --> 11:50.460]  one two three knob and that's it there's no programming on those radios right so
+[11:50.460 --> 11:54.620]  you don't want to have a radio with a screen if there's no screen you're not
+[11:54.620 --> 12:00.120]  gonna be doing any life-saving programming on it right power so on
+[12:00.120 --> 12:05.300]  this radio the power is a part of the volume knob so everyone all together now
+[12:05.300 --> 12:08.940]  we'll just go ahead and crank that volume all the way up once and for all
+[12:08.940 --> 12:17.540]  oh yeah oh yeah right let's let that be the last time you know that will probably
+[12:17.540 --> 12:21.420]  get annoying throughout the day it's gonna turn it back off and when you turn
+[12:21.420 --> 12:25.460]  on a bow thing you turn it on just past the click okay we don't need crank the
+[12:25.460 --> 12:31.220]  volume I like to leave that voice on on this radio that's a hot take I think it
+[12:31.220 --> 12:37.860]  has some benefits that I'll talk about later but any bow thing it's just good
+[12:37.860 --> 12:41.820]  practice what whether you know the voice is on or off just turn it on past the
+[12:41.820 --> 12:46.900]  click wait a second and then crank it from there nobody wants to hear mrs.
+[12:46.900 --> 12:51.820]  chin announcing what mode you're in unless you need to know right what are
+[12:51.820 --> 12:59.060]  some reasons you might need to hear that can't see screens broken it's foggy my
+[12:59.100 --> 13:03.300]  eyes are blinded I don't know it could be handy I like to leave it on it
+[13:03.300 --> 13:08.060]  announces everything about the radio no other radio does that I think it's cool
+[13:08.060 --> 13:13.500]  it's easy to turn it off don't turn the volume up all right so that's how I run
+[13:13.500 --> 13:22.900]  it now power on a volume switch is cheap okay it's cheap to manufacture one cool
+[13:22.900 --> 13:28.180]  thing about it is it actually helps not drain the battery it's a physical switch
+[13:28.260 --> 13:33.060]  on this radio right you hear that click there's a physical switch getting thrown
+[13:33.060 --> 13:40.940]  in the radio on my esu it's a press to press and hold the power button right now
+[13:40.940 --> 13:46.380]  for that current has to be running through that button all the time and it
+[13:46.380 --> 13:49.860]  will drain this battery dead sitting in a bag just the fact that it has that
+[13:49.860 --> 13:55.060]  kind of power button right so the physical switch is cheaper to manufacture
+[13:55.060 --> 13:57.900]  and it has that but what's the vulnerability of it being on this
+[13:57.900 --> 14:04.620]  volume knob it's super easy to get it rubbing on something my first class
+[14:04.620 --> 14:10.660]  fighting rifle I wore my radio on my strong side and I had a sling on and
+[14:10.660 --> 14:15.780]  every time we'd run a drill on the first drill that you know I'd pull my rifle up
+[14:15.780 --> 14:20.820]  and it would say channel mode because it was grabbing that volume knob and the
+[14:20.820 --> 14:25.380]  first thing I did when I went to reload was move that thing over here but the
+[14:25.380 --> 14:31.260]  exoskeletons you guys see on my kids radios those protect that volume knob
+[14:31.260 --> 14:35.180]  right they physically envelop it so you can't actually have to get your finger
+[14:35.180 --> 14:43.460]  down in here to turn it on and off so no way to deal with that otherwise everyone
+[14:43.460 --> 14:48.540]  know the universal symbol for the power button it looks like a ping-pong paddle
+[14:48.540 --> 14:56.860]  a one and a zero on off that's what that means all right volume so volume on
+[14:56.860 --> 15:02.660]  this radio is that same knob not not so complicated it's infinitely variable
+[15:02.660 --> 15:08.140]  right so you have any place along that way it's gonna max out where it stops
+[15:08.140 --> 15:12.260]  turning and then obviously as you turn it down you'll feel yourself getting to
+[15:12.260 --> 15:17.520]  the wall right before it turns off you don't want to turn it off usually some
+[15:17.520 --> 15:23.200]  radios like these digital radios that Mike has they take about 15 seconds to
+[15:23.200 --> 15:28.840]  boot so you don't want to be needing to turn it on when you need it right and
+[15:28.840 --> 15:34.600]  you also don't want to accidentally turn it off when you need it so get familiar
+[15:34.600 --> 15:38.580]  with that that power switch that's something to really kind of have muscle
+[15:38.580 --> 15:45.360]  memory with and leave it alone once it's in that state channel select on this
+[15:45.360 --> 15:48.600]  radio we're gonna use arrow keys to change channels don't worry about that
+[15:48.600 --> 15:55.560]  right now but just know that is how we do it some radios have a knob dedicated
+[15:55.560 --> 16:04.640]  to that so for instance those same digital radios I was just mentioning if
+[16:04.640 --> 16:12.480]  you can listen real intently it's a baldie tinted knob right it clicks it's
+[16:12.480 --> 16:16.920]  a clicky knob if you feel a clicky knob that's channel change your knob on a
+[16:16.920 --> 16:21.680]  radio if it's infinitely variable there's no clicks that's a volume knob
+[16:21.680 --> 16:29.080]  all right why does it click that's to indicate a change right so why would
+[16:29.080 --> 16:33.840]  that be useful I don't need to look at the radio if I'm on channel 1 I want to
+[16:33.840 --> 16:41.720]  get to channel 8 feeling it 2 3 4 5 6 7 8 it can stay in the pouch it's pretty
+[16:41.760 --> 16:46.760]  foolproof right each of those clicks does indicate a change it's expensive to
+[16:46.760 --> 16:51.040]  manufacture there's a little ball bearing popping into a socket at each
+[16:51.040 --> 16:55.160]  of those positions it's way more expensive than throw two knobs that
+[16:55.160 --> 16:59.720]  press on the circuit board on the front of the radio right two buttons that's
+[16:59.720 --> 17:05.080]  what we get on this so anyone ever had to punch their zip code into the gas
+[17:05.080 --> 17:08.920]  pump right I don't know about you guys every time I get to the end I've missed
+[17:08.920 --> 17:15.800]  a number somehow buttons are not a reliable information entry system so
+[17:15.800 --> 17:19.440]  you're gonna have to really look at the radio there's not going to be you're
+[17:19.440 --> 17:22.880]  not going to change the channel of this radio with it in a pocket you're gonna
+[17:22.880 --> 17:29.280]  need to see what's happening just one of the downsides now if you hold the radio
+[17:29.280 --> 17:35.000]  in your right hand your index finger is gonna naturally land on a big button on
+[17:35.040 --> 17:40.160]  the side that's the one you want that's the push to talk the big one on that
+[17:40.160 --> 17:45.000]  side it's always the big one on that side why am I emphasizing this well
+[17:45.000 --> 17:48.320]  there's three buttons on the side of this none of them are labeled which
+[17:48.320 --> 17:51.880]  one's the push to talk it's not a mystery it's the big one right why they
+[17:51.880 --> 17:57.600]  make it big that's the one you're gonna be dealing with this one is labeled but
+[17:57.600 --> 18:02.720]  it's still the big one right again two buttons they're almost the same size but
+[18:02.720 --> 18:08.360]  the big one is the push to talk right it's not on it's not underneath a
+[18:08.360 --> 18:14.520]  button on this radio because there's only two so just keep that in mind don't
+[18:14.520 --> 18:18.120]  overthink it it's always the big one it's like the skinny pedal on the right
+[18:18.120 --> 18:22.240]  what does that do in a car it's the gas it's always the gas it's always gonna be
+[18:22.240 --> 18:29.360]  the gas roll with it okay it is the push to talk not the push to think not the
+[18:29.520 --> 18:36.680]  to ponder not to push to right be ready to talk when you push it that might mean
+[18:36.680 --> 18:40.720]  wait in a minute not a minute but a second to gather your thoughts before
+[18:40.720 --> 18:47.720]  you push it what do we know about radio as far as if someone's transmitting can
+[18:47.720 --> 18:51.400]  anybody do anything while you're transmitting right you are clogging up
+[18:51.400 --> 18:54.720]  that whole channel the whole time you press that button so when you press it
+[18:54.720 --> 19:02.880]  you better get down to business all right monitor button and this radio and
+[19:02.880 --> 19:07.080]  most of the time if there is one it is directly beneath the push to talk you'll
+[19:07.080 --> 19:12.000]  see it's labeled money all right what the heck does that mean all right well it
+[19:12.000 --> 19:17.400]  sets the squelch to zero it fully opens your squelch we have not talked about
+[19:17.960 --> 19:26.400]  so let me explain that squelch is essentially a filter based on signal
+[19:26.400 --> 19:32.600]  strength okay so think of a fence if I have a fence that's one foot tall what
+[19:32.600 --> 19:43.480]  does it keep in or out of the area that I've fenced one foot tall turtles is
+[19:43.480 --> 19:51.220]  all I can come up with not much okay but it keeps out you know anything under
+[19:51.220 --> 19:57.320]  eight inches tall right as I raise that fence it keeps in or out more stuff
+[19:57.320 --> 20:04.320]  right but at what expense it's more difficult to get over it when you want
+[20:04.320 --> 20:11.840]  to get over it right now if I set my fence to ten feet tall that's about the
+[20:11.840 --> 20:15.480]  biggest fence you encounter right ten foot tall it basically keeps out
+[20:15.480 --> 20:21.000]  everything right but if I want to get over it it's a lot of work right so
+[20:21.000 --> 20:25.800]  squelch is very similar one foot tall fence is like setting your squelch to
+[20:25.800 --> 20:33.000]  one it keeps out basically nothing right if something if a thing shows up it can
+[20:33.000 --> 20:38.400]  get over it but what it does keep out is nothingness right now with our radio it
+[20:38.400 --> 20:45.600]  hears nothingness all the time and this is what it sounds like I don't know
+[20:45.600 --> 20:51.800]  about you I don't want to listen to that all day but if I press that button it is
+[20:51.800 --> 20:56.120]  as if I take the fence and push it down to the ground so people can get in
+[20:56.120 --> 21:01.200]  right so why would I want to push it down on my radio why am I gonna push the
+[21:01.200 --> 21:07.720]  fence all the way down if my fence is too high and it is preventing things I
+[21:07.720 --> 21:12.540]  need to come in from getting in the quickest way for me to let them in is
+[21:12.540 --> 21:16.160]  push the fence all the way down right set my squelch to zero well on this
+[21:16.160 --> 21:20.960]  radio the squelch is way down in the menu so they give you a button that
+[21:20.960 --> 21:24.880]  allows you to just fully open that squelch now it's gonna you're gonna
+[21:24.880 --> 21:29.120]  hear all the other stuff too but if you hear somebody they're breaking up you
+[21:29.120 --> 21:32.120]  can't really make out what they're saying it's cutting in and out you can
+[21:32.120 --> 21:37.400]  hold down that monitor button sets the squelch to zero while you hold it as
+[21:37.400 --> 21:42.080]  soon as you let off it goes back to its setting now much like with a fence
+[21:42.080 --> 21:46.720]  about a three or a four foot squelch three or four foot fence is where I
+[21:46.720 --> 21:52.120]  start right if I notice things are getting in past my fence that I don't
+[21:52.120 --> 21:57.520]  want to what do I do with it make it higher so I make my squelch higher but
+[21:57.520 --> 22:01.760]  that means all the people I want to talk to have to be tall enough to get over
+[22:01.760 --> 22:07.840]  that fence right so it's it's never a free lunch I can set this fence ten foot
+[22:07.840 --> 22:12.500]  tall but can my friends get in the yard not very easily right they got to be
+[22:12.500 --> 22:16.920]  like in the same room with me on the radio their signal strength has to be
+[22:16.920 --> 22:23.680]  sky-high so we're always doing this dance what I what I notice if I set to
+[22:23.680 --> 22:29.680]  about a three or four I don't hear things that are annoying non-transmissions
+[22:29.680 --> 22:35.440]  right so like interference type noises but I generally hear everybody I want to
+[22:35.440 --> 22:41.080]  hear so that's where I start if I start hearing a noise in my radio that's not a
+[22:41.080 --> 22:47.840]  person or a real transmission I can raise that squelch at the expense of
+[22:47.840 --> 22:52.920]  potentially missing stuff I want to hear right does that make any sense all right
+[22:52.920 --> 22:58.200]  so the monitor button pushes the fence down just imagine pushing it down so
+[22:58.360 --> 23:02.320]  so the kids can get through right you don't stand there all day holding the
+[23:02.320 --> 23:05.600]  fence down it's very temporary
+[23:12.400 --> 23:20.080]  unwanted something that would make me raise the squelch is that what you mean
+[23:20.080 --> 23:26.000]  just like a hiss or a pop or a weird sound that you can tell is RF
+[23:26.000 --> 23:32.440]  interference yeah I mean it can come from garage door openers stuff in the
+[23:32.440 --> 23:37.720]  in the area it could be a million things that your radio is hearing that is not
+[23:37.720 --> 23:43.720]  an actual signal it's it's stuff in the atmosphere around you that's the most
+[23:43.720 --> 23:50.200]  common thing the other thing it could be is something so far away that it's
+[23:50.200 --> 23:54.800]  clearly not relevant to you but it's it's making it to your radio and you
+[23:54.800 --> 23:58.600]  don't want to hear that so let's say running security for this building I
+[23:58.600 --> 24:03.880]  know no one is further than a hundred yards from me I'm gonna go ahead and set
+[24:03.880 --> 24:09.740]  the squelch up right if I'm hearing people at a school two blocks down the
+[24:09.740 --> 24:13.600]  road that I where you just happen to be on that channel today I don't have time
+[24:13.600 --> 24:17.840]  to fix it I'm just gonna raise my squelch when I because I can hear the
+[24:17.840 --> 24:21.440]  carpool line from that spot in the building I'm just going to squelch them
+[24:21.440 --> 24:27.080]  out that would be another reason every time you do that it's a risk it's a risk
+[24:27.080 --> 24:30.800]  that you're not going to be able to hear the people you want to hear so I would
+[24:30.800 --> 24:35.960]  err on the side of being more liberal against increasing squelch right keep it
+[24:35.960 --> 24:40.560]  lower and just suck it up but if it's the difference between turning your
+[24:40.560 --> 24:44.360]  radio down that's what I want to avoid right don't want people to turn the
+[24:44.360 --> 24:49.160]  radio down that's not helpful if you turn the volume down then I can't get a
+[24:49.160 --> 25:01.240]  hold of you so that's no it's set it's set permanently in the menu till you
+[25:01.240 --> 25:08.800]  change it yep all right with the radio on remember we turned on just past the
+[25:08.800 --> 25:13.320]  click you guys are doing great I've only heard Mrs. Chen a couple of times all
+[25:13.320 --> 25:17.280]  right we're gonna look at this other button the VFO MR button in this case
+[25:17.280 --> 25:23.920]  every radio is going to have something along these lines V slash M this is
+[25:23.920 --> 25:26.920]  another one of those situations we're knowing what the word stands with a
+[25:26.920 --> 25:30.880]  letter stand for is not helpful VFO anybody want to take a stab at it
+[25:30.880 --> 25:35.960]  variable frequency oscillator all right I don't know what that is we're not going
+[25:35.960 --> 25:42.560]  to worry about that M is for memory the EFO is the other one all right M is for
+[25:42.560 --> 25:46.920]  memory what do you think we do over in memory mode we look at what's in the
+[25:46.920 --> 25:53.360]  memory our saved stuff the other one is manual or variable entry mode that's
+[25:53.360 --> 25:57.520]  where we're going to do our programming okay now this button is a big orange one
+[25:57.520 --> 26:01.600]  on the front there's two types of people in the world when they come across a
+[26:01.600 --> 26:06.240]  button they don't know what it does all right one of them cowers in fear and
+[26:06.240 --> 26:10.200]  they set it on the table and they run and hide from it and wait for a
+[26:10.200 --> 26:14.360]  millennial to show up to teach them all right there's other group of people that
+[26:14.360 --> 26:18.360]  they see a button they're like I wonder what that does and they press it over and
+[26:18.360 --> 26:22.520]  over and they observe what happens all right that's who I'm inviting you to be
+[26:22.520 --> 26:27.680]  in this class if become a button presser at least for today all right in this
+[26:27.680 --> 26:33.920]  case press it and tell me literally use your most autistic interpretation what is
+[26:33.920 --> 26:39.340]  actually happening on the screen not not what you think it means but what is
+[26:39.340 --> 26:47.780]  happening what numbers okay the right-hand side is where we want to
+[26:47.780 --> 26:53.380]  direct our attention all right numbers and then no numbers all right what do
+[26:53.380 --> 26:58.060]  you think those numbers mean when they appear and those are channel numbers
+[26:58.060 --> 27:03.180]  that's what's stored in that spot when they disappear what mode do you think
+[27:03.180 --> 27:09.100]  you're in frequency mode or manual entry mode right so when they appear
+[27:09.100 --> 27:14.060]  we're in channel mode or memory mode right we're going to use our channels
+[27:14.060 --> 27:18.820]  we're going to use our memories they are assigned to numbers right they are saved
+[27:18.820 --> 27:24.500]  in there have we saved anything yet so those aren't useful all right if those
+[27:24.500 --> 27:29.320]  numbers disappear we can punch stuff into the radio right that's where we
+[27:29.880 --> 27:34.560]  want to be we want to be in frequency mode right now now if you want to save
+[27:34.560 --> 27:41.560]  something into memory on this radio you have to start in frequency mode right
+[27:41.560 --> 27:47.480]  there is no editing a memory in this radio I will remind you of this over and
+[27:47.480 --> 27:51.120]  over and over and one of you is still going to be trying to edit something
+[27:51.120 --> 27:56.040]  that's in memory because it will allow you to appear to edit it it doesn't say
+[27:56.040 --> 28:03.600]  error it just says cool you thought you changed the offset to five instead of
+[28:03.600 --> 28:10.040]  point six cool did I change it no did I tell you no just let you try over and
+[28:10.040 --> 28:14.080]  over and over and over and over until you remember oh Evan said you can't do
+[28:14.080 --> 28:18.520]  that I forgot so please don't try to edit memories you have to work from
+[28:18.520 --> 28:24.720]  frequency mode all right now your a B button what do we do with buttons all
+[28:24.720 --> 28:31.760]  right what does it do all right arrow points up arrow points down what do you
+[28:31.760 --> 28:38.320]  think that means which one is currently active right this radio has kind of two
+[28:38.320 --> 28:42.400]  parking spots they're fully independent all right all your settings are
+[28:42.400 --> 28:47.480]  independent for the a line and the B line it's a quick change all right so in
+[28:47.480 --> 28:52.480]  frequency mode I can set up two different things or in memory mode I can
+[28:52.480 --> 28:56.920]  have channel 8 and channel 42 right a primary and an alternate it's a quick
+[28:56.920 --> 29:03.200]  change now if you didn't have that you'd have to press your button you know 30
+[29:03.200 --> 29:08.680]  some times to get from 8 to 42 but you can set them up to quickly alternate in
+[29:08.680 --> 29:14.720]  memory mode over here in frequency mode I can store stuff in either parking spot
+[29:14.720 --> 29:21.000]  you have to be on the a line which one's a line you think a for above B for below
+[29:21.000 --> 29:26.720]  all right the a line is the only place that can be written into memory mode
+[29:26.720 --> 29:31.920]  all right if you do a bunch of work on the B line the bottom line can you save
+[29:31.920 --> 29:36.320]  it you can do all that work there all you want you can't save it you're gonna
+[29:36.320 --> 29:40.040]  start totally over and do it on the a line please don't work from the B line
+[29:40.040 --> 29:45.760]  work from the a line that arrow should be pointing up all right last thing on
+[29:45.760 --> 29:50.120]  this radio or any radio that little hole above the a B button if you can believe
+[29:50.120 --> 29:53.920]  it that tiny little hole is the microphone hole now why am I pointing
+[29:53.920 --> 30:00.360]  that out to you well that is where you need to talk into all right so please
+[30:00.360 --> 30:08.200]  don't be one of these people this is Evan do you hear me this is Evan I can
+[30:08.200 --> 30:11.480]  just barely hear you Evan I don't know what the problem is I'm talking right
+[30:11.480 --> 30:16.080]  in it must be a broken radio I'm gonna tell Evan I need a new one what's the
+[30:16.080 --> 30:21.520]  problem talk into the microphone I know you're used to this cell phone on
+[30:21.520 --> 30:26.720]  speaker right don't be doing this this this that straight up and down right
+[30:26.720 --> 30:32.280]  another problem is your antenna needs to be vertical right I don't want another
+[30:32.280 --> 30:37.120]  Instagram video or some hamfud tells me don't you know you're supposed to hold
+[30:37.120 --> 30:40.960]  it vertical you should tell your students yes I tell them every time they
+[30:40.960 --> 30:44.240]  still walk around like this I don't know what to do with y'all you're making me
+[30:44.240 --> 30:50.320]  look bad all right why don't we want the antenna vertical is it I think of
+[30:50.320 --> 30:55.560]  the signal it's emanating from this wire perpendicular unless the people I want
+[30:55.560 --> 31:00.200]  to talk to you are in the basement or or above or below me this is not the way I
+[31:00.200 --> 31:05.680]  want to go now it's forgiving because it's bulbous right so you get away with
+[31:05.680 --> 31:10.040]  it like this when you're in the same room and it gives you a bad habit right
+[31:10.040 --> 31:15.000]  because it works in here where it doesn't work is at the edges of its
+[31:15.000 --> 31:19.680]  capability so it's a good idea straight up and down right in front of your face
+[31:19.680 --> 31:26.920]  please okay I'm begging you right these are this is the manual of arms of the
+[31:26.920 --> 31:33.120]  radio right any radio you get find this stuff now some exceptions like these
+[31:33.120 --> 31:39.840]  DMR radios it does not have a V slash M button this is a pet peeve of mine some
+[31:39.840 --> 31:44.560]  radios they have eliminated that and made it weird to find on this it's not
+[31:44.560 --> 31:49.840]  weird to find we have a p1 and a p2 button on this radio those are user
+[31:49.840 --> 31:55.320]  programmable buttons I decide what they do I can set them to do anything one of
+[31:55.320 --> 31:59.600]  them usually does that job okay switching between channel and memory
+[31:59.600 --> 32:07.120]  mode all right now if there is nothing on there like with this radio I have to
+[32:07.120 --> 32:14.080]  power it on while holding the menu button completely retarded right like how
+[32:14.080 --> 32:18.600]  would you figure that out without having a manual actually I think it's
+[32:18.600 --> 32:23.440]  the exit button see I don't even know there's some button while you power it
+[32:23.440 --> 32:28.160]  on I don't like that I don't want to be turning the radio on and off I want a VM
+[32:28.160 --> 32:32.520]  button all right I'm sick of them making new radios that don't have it but that's
+[32:32.520 --> 32:38.120]  I think it's going that way to be honest because so few people know how to hand
+[32:38.120 --> 32:43.440]  program the radio anyway they just take the button off so when you hand it to
+[32:43.440 --> 32:48.040]  some some idiot that has no business in frequency mode he doesn't accidentally
+[32:48.040 --> 32:53.120]  change it I think it's I think that's why it's so it but for my philosophy it's
+[32:53.120 --> 32:59.880]  essential questions about this stuff we are not talking about everything these
+[32:59.880 --> 33:06.120]  are the essentials right all right essential functions this is everything
+[33:06.120 --> 33:11.040]  with a new radio you better figure out how to do all right if you don't know
+[33:11.040 --> 33:16.120]  how to do all this you have no business carrying it around okay this is the bare
+[33:16.120 --> 33:20.520]  minimum I need to know how to switch between VFO and memory mode all right
+[33:21.120 --> 33:34.680]  that VFO slash MR right what might it be labeled sure don't even worry about the
+[33:34.680 --> 33:39.760]  label what does it do when the numbers appear what what functionally is
+[33:39.760 --> 33:45.640]  happening those numbers are what there's memories so you're in memory mode right
+[33:45.640 --> 33:52.200]  the the reason I don't focus on it this radio says the voice says channel mode
+[33:52.200 --> 33:56.600]  well that's called memory mode but they call it channel mode so now we got two
+[33:56.600 --> 34:02.200]  names for the same thing all right VFO it calls it frequency mode we could call
+[34:02.200 --> 34:08.720]  it that but it's labeled VFO all right so it's confusing so I I basically just
+[34:08.720 --> 34:13.680]  want you to know that button it changes that thing but what I'm looking for is a
+[34:13.680 --> 34:19.800]  visual cue which mode am I in by seeing do the numbers appear or disappear
+[34:19.800 --> 34:24.120]  right don't worry about what it's called what do I want to do if I want to punch
+[34:24.120 --> 34:28.080]  something in by hand should I see numbers on the right I can't punch it in
+[34:28.080 --> 34:33.480]  by hand if I'm seeing numbers that indicates I'm in memory mode right if I
+[34:33.480 --> 34:38.760]  want to use something I have saved okay now I want to see numbers right because
+[34:38.760 --> 34:44.960]  that's what indicates they are saved so just primarily focus on this button
+[34:44.960 --> 34:49.440]  changes the between modes I don't need to know what the button means I don't
+[34:49.440 --> 34:54.620]  need to know what each mode is called use the context of do I see channel
+[34:54.620 --> 34:59.680]  numbers okay that means I'm navigating by channels or memories there's so many
+[34:59.680 --> 35:05.760]  different words for it that it it becomes very convoluted so I would
+[35:05.760 --> 35:12.320]  recommend just depending on the context more than anything I hope that helps
+[35:12.320 --> 35:18.900]  technically VFO is the manual entry or frequency mode without the channel
+[35:18.900 --> 35:26.080]  numbers that's the that's the actual answer to your question all right you
+[35:26.080 --> 35:29.200]  should know how to switch between those that's the very first thing I do when I
+[35:29.200 --> 35:32.720]  get a radio out of the box the next thing is I want to know how to enter a
+[35:32.720 --> 35:37.760]  frequency right a simplex channel just I'm going to talk on this channel I'm
+[35:37.760 --> 35:42.600]  going to listen on this channel we don't move it's just one one lane we use that
+[35:42.600 --> 35:47.480]  lane for both directions all right I want to know how to program a repeater
+[35:47.480 --> 35:54.360]  by hand right non-negotiable it's the iron sites of radio you have to know how
+[35:54.360 --> 35:59.000]  to use it are you going to use it all the time of course not is it fast no it
+[35:59.000 --> 36:02.880]  might be all you have you have to know how to do it all right that is the
+[36:02.880 --> 36:06.760]  hardest thing we'll do today but you will leave here confidently knowing how
+[36:06.760 --> 36:11.760]  all right this is probably the worst radio to do it on so if you can do it on
+[36:11.760 --> 36:16.840]  this one you can do it on any radio okay all right squelch adjustment you need to
+[36:16.840 --> 36:21.040]  know how to adjust that we already talked about why it's down in the menu on
+[36:21.040 --> 36:25.400]  this radio some radios there's a dedicated knob for it I don't like that
+[36:25.400 --> 36:30.480]  but they do have knobs for squelch sometimes it's something you're gonna
+[36:30.480 --> 36:35.600]  deal with occasionally it's good to know you know I want to know how to lock the
+[36:35.600 --> 36:41.840]  keypad okay now on this radio the bottom right button the number sign or the
+[36:41.840 --> 36:49.200]  pound sign has a little blue key icon yes a key is the opposite of lock but it
+[36:49.200 --> 36:53.480]  was opposite day at the bow thing factory I guess if you press and hold
+[36:53.480 --> 36:59.920]  that it'll lock the radio the way you know it's locked is the same icon shows
+[36:59.920 --> 37:06.680]  up next to the battery level indicator okay now what does locked mean try to do
+[37:06.680 --> 37:15.880]  stuff your front keys are all disabled it does not disable the side keys you
+[37:15.880 --> 37:20.960]  can still transmit okay now if you want it also does not prevent you from
+[37:21.160 --> 37:26.280]  adjusting volume or you know accidentally turning off the radio if
+[37:26.280 --> 37:31.600]  you want to protect those other buttons from accidental presses that's where
+[37:31.600 --> 37:36.520]  this exoskeleton comes in handy because it kind of forces you to push a finger
+[37:36.520 --> 37:40.840]  in the hole instead of pushing up against something now why are we locking
+[37:40.840 --> 37:46.080]  the keypad I got ahead of myself if this is going to go into a pouch or a pocket
+[37:46.080 --> 37:50.160]  you need to lock the keypad right because what can happen when this is in
+[37:50.160 --> 37:55.000]  your pocket you sit down your pants get tighter it presses the channel changer
+[37:55.000 --> 38:00.000]  and you're on a different channel now do you know it no but you are and you spend
+[38:00.000 --> 38:03.440]  four hours wondering why nobody talked to you and you look down at your radio
+[38:03.440 --> 38:07.440]  and realize oh crap I'm on their own channel all right so we don't want to
+[38:07.440 --> 38:13.120]  accidentally press buttons to unlock what do you think we do it's a it's very
+[38:13.120 --> 38:21.240]  difficult press and hold again okay you might want to turn off the beep sound
+[38:21.240 --> 38:26.040]  the beep is different than the voice it's the the sound it makes every key
+[38:26.040 --> 38:31.280]  press on some radios I don't see a purpose in that so I usually turn that
+[38:31.280 --> 38:36.720]  off on this radio it actually says what you're doing so if I press the number
+[38:36.720 --> 38:48.640]  four well it's locked like it's kind of nice that it tells me what button I'm
+[38:48.640 --> 38:52.640]  looking at if for some reason that button got worn off or I don't know it
+[38:52.640 --> 38:56.080]  could be useful right you can disable that though so if you're going to be
+[38:56.080 --> 39:00.800]  running CQB with your Balfang and that's going to give away your position turn it
+[39:00.800 --> 39:06.520]  off but you probably should get a different radio all right scanning okay
+[39:06.520 --> 39:15.560]  is this a scanner can it scan right so am I a marathon runner probably not
+[39:15.560 --> 39:19.920]  could I run a marathon probably not but I guess if my life depended on it right
+[39:19.920 --> 39:25.480]  like I can run I am NOT a runner right same deal with this this can scan it's
+[39:25.480 --> 39:33.080]  not a scanner so what does scanning even mean it's gonna incrementally go
+[39:33.080 --> 39:38.880]  through either frequencies or channels one at a time until it hears activity
+[39:38.880 --> 39:44.980]  how does it define activity relates to something we talked about earlier has to
+[39:44.980 --> 39:53.120]  break squelch something break squelch it stops all right now scanning is a lot
+[39:53.120 --> 39:57.400]  like waiting for the bus right how do you know if you're early or late for the
+[39:57.400 --> 40:04.720]  bus if it's not there so you don't know right you are there the only way you
+[40:04.720 --> 40:08.600]  know if you're at the right place at the right time is if you and the bus are at
+[40:08.600 --> 40:12.920]  the same place right so you wait till the bus comes you either are late or
+[40:12.920 --> 40:17.240]  you're early you don't know same deal with scanning I have to be listening
+[40:17.240 --> 40:22.800]  where the conversation happens if I'm scanning let's just imagine this is me
+[40:22.800 --> 40:27.420]  cycling through my channels about this fast so I have four channels and move
+[40:27.420 --> 40:32.760]  about this fast through them one two three four one two three four if I miss
+[40:32.760 --> 40:37.880]  if this is activity and I'm over here and then they stop and then I'm over
+[40:37.880 --> 40:44.080]  here and then they stop am I ever gonna hear it right so you can only hear when
+[40:44.080 --> 40:51.280]  you land on the activity at the time it occurs this radio is slow as molasses at
+[40:51.320 --> 40:55.680]  scanning it's about one per second right if you put a hundred twenty eight
+[40:55.680 --> 41:00.600]  memories in here it has it takes almost over two minutes to get through the
+[41:00.600 --> 41:06.920]  whole memory right cycling through if you're going by frequency good luck
+[41:06.920 --> 41:11.620]  right it's going two and a half kilohertz at a time that's point oh two
+[41:11.620 --> 41:19.400]  five at a time slowly moving through the frequencies right now if I put less
+[41:19.400 --> 41:24.200]  things in the radio it's more valuable right let's say I have four things I
+[41:24.200 --> 41:28.240]  want to possibly monitor it's gonna do that every three or four seconds that's
+[41:28.240 --> 41:34.440]  that is useful what it's also useful for is if if I don't really know if anything
+[41:34.440 --> 41:38.800]  is happening at all in my area I programmed it and I just want it to catch
+[41:38.800 --> 41:43.960]  stuff I'm not on a mission I just kind of want it to sit there and monitor and I
+[41:43.960 --> 41:47.720]  don't know where the activities happening I can leave it on scan all the
+[41:47.720 --> 41:52.820]  time and it'll occasionally grab stuff but just know the the broader the
+[41:52.820 --> 41:59.360]  scanning range the less likely it is to catch anything now a scanner like that
+[41:59.360 --> 42:04.660]  does that and only that like a marathon runner it's better at scanning right so
+[42:04.660 --> 42:11.760]  it's gonna go way faster like 10 per second and it can do quite a bit more
+[42:11.760 --> 42:15.280]  have a higher likelihood of catching what you want to hear but you're
+[42:15.280 --> 42:20.040]  talking six seven eight hundred dollars for a device that all it does is listen
+[42:20.040 --> 42:27.640]  so very different can of worms the last thing is the power level change on this
+[42:27.640 --> 42:31.960]  radio to change the power level you can just tap the number sign tap it don't
+[42:31.960 --> 42:40.320]  hold it just tap it tell me what you see L appears and then disappears what does
+[42:40.320 --> 42:47.720]  L stand for low low power right would we want to put underpowered ammo in our
+[42:47.720 --> 42:55.040]  concealed carry pistol all right this is already a pistol we are not running low
+[42:55.040 --> 42:59.960]  power ammo in our in our pistol okay I don't really know what the functional
+[42:59.960 --> 43:05.360]  purposes of low power in real life but usually I don't know how much power it's
+[43:05.360 --> 43:09.440]  gonna take to talk to the people I want to talk to I'm not really interested in
+[43:09.480 --> 43:14.960]  experimenting right I'm gonna use all of it it's a handheld radio I'm gonna use
+[43:14.960 --> 43:19.640]  all the power it has now if I know for sure I only want to talk to people in
+[43:19.640 --> 43:24.720]  the same room as me it's not gonna go beyond this room there's nobody I don't
+[43:24.720 --> 43:30.080]  know where they are I know it reaches that far with low power when that what
+[43:30.080 --> 43:36.320]  would that gain me by going to low power if I know it's gonna function what's the
+[43:36.320 --> 43:41.780]  benefit yeah it conserves battery right if I can't reach the people I need to
+[43:41.780 --> 43:47.240]  reach do I care about conserving battery I'm not comprehending why this would be
+[43:47.240 --> 43:53.640]  a common use if you see an L get it to go away please we're not using L for
+[43:53.640 --> 43:59.480]  anything in this class all right it's only gonna hurt you does that make
+[43:59.480 --> 44:06.680]  sense now on other radios that is not always true on a hundred watt radio you
+[44:06.680 --> 44:10.920]  better believe I don't need to run a hundred watts all the time if five watts
+[44:10.920 --> 44:15.680]  does the job that is crazy to be running a hundred watts so I'm talking to my
+[44:15.680 --> 44:22.280]  wife in the backyard on a hundred watts it's a waste and it's polluting the
+[44:22.280 --> 44:27.360]  environment with extra energy that I don't need to be occupying right I'm
+[44:27.520 --> 44:33.360]  potentially interfering with people for no reason but for handhelds I'm running
+[44:33.360 --> 44:38.880]  high power now some other radios will have more minute adjustment you know low
+[44:38.880 --> 44:44.840]  medium high I think the BTEC has low medium high and turbo guess what I run
+[44:44.840 --> 44:52.120]  all the time turbo right I'm a grown man we're running full bore all right I'm
+[44:52.160 --> 44:56.920]  seriously I would not I would not consider low power for anything
+[44:56.920 --> 45:03.840]  practical okay questions about anything how about we use some radios how's that
+[45:03.840 --> 45:14.400]  sound finally we made it yes sir yes and then unlock is hold it again look for
+[45:14.400 --> 45:24.040]  that key icon even though it means the opposite of lock all right so what we're
+[45:24.040 --> 45:28.440]  going to do is we're going to program a simplex frequency into our radio if you
+[45:28.440 --> 45:36.520]  turn to page 19 you'll see what simplex kind of does look at the two radios you
+[45:36.520 --> 45:40.400]  see this I know this is a very impressive illustration I'm giving you
+[45:40.400 --> 45:49.560]  here all right these are these are copyrighted so don't go copying my stuff
+[45:49.560 --> 45:55.320]  all right now you'll notice the transmit and receive frequencies what what's the
+[45:55.320 --> 46:00.960]  difference they're not they're the same right so this is simplex it's simple
+[46:00.960 --> 46:04.840]  it's the simplest kind of comms we're going to transmit and receive in the
+[46:04.840 --> 46:09.080]  same location we're not going to use this number but this number here is the
+[46:09.080 --> 46:13.960]  national calling frequency for ham radio it's the most commonly monitored
+[46:13.960 --> 46:19.440]  frequency in all of radio so it's a really good one to keep in your mind
+[46:19.440 --> 46:24.240]  because that's a place you can find help sometimes if you need it when we're
+[46:24.240 --> 46:30.480]  going to start with you want to write this down four six two six one two five
+[46:30.480 --> 46:37.800]  that's four six two dot six one two five this is FRS channel three in your
+[46:37.800 --> 46:45.180]  chart back on page 13 or 12 or so but four six two six one two five now you
+[46:45.180 --> 46:49.360]  might already be realizing your radio doesn't go that many digits right it
+[46:49.360 --> 46:54.160]  only goes three decimal places it will automatically add that five you don't
+[46:54.160 --> 46:58.240]  have to type in that five so you're going to type four six two six one two
+[46:58.240 --> 47:02.880]  now where do we want to start this procedure where do we go to put stuff
+[47:02.880 --> 47:10.920]  into our radio frequency mode and how do we know we're there no numbers on the
+[47:10.920 --> 47:17.440]  right how do we get to that place what button VFO MR all right no buttons on
+[47:17.440 --> 47:23.300]  the right if I see I'm sorry no numbers on the right if I see numbers press the
+[47:23.300 --> 47:28.300]  button all right and I want to be on the a line or the B line the a line how do
+[47:28.300 --> 47:32.100]  I get there a B button and how do I know I'm there
+[47:32.100 --> 47:38.420]  arrow points up for above a for above okay go ahead and type that number in four
+[47:38.420 --> 47:41.740]  six two six one two
+[47:45.780 --> 47:50.780]  all right four six two six one two and you should see that tiny little five up
+[47:50.780 --> 47:54.580]  here all right turn your volume up you should be able to hear me this is Evan
+[47:54.580 --> 47:59.880]  with radio made easy on frs channel three testing one two three three two
+[47:59.880 --> 48:07.100]  one everybody hearing me I don't need to blast it all right okay so we did it we
+[48:07.100 --> 48:11.980]  programmed a simplex frequency that'll be it that'll be it for the day no let's
+[48:11.980 --> 48:18.580]  let's use it so what we're gonna do is what we call a net okay so a net is this
+[48:18.580 --> 48:24.380]  many-to-many information sharing strategy so what I'm gonna do is gather
+[48:24.380 --> 48:29.980]  some information from all of you and all of you will hear it from all other
+[48:29.980 --> 48:37.660]  members so if there's 15 people in a room all 15 people both participate and
+[48:37.660 --> 48:45.020]  hear the check-ins of all other 15 people so it's actually it's like 15
+[48:45.020 --> 48:50.740]  times 15 combinations whatever that is it's a lot of handing out notes and
+[48:50.740 --> 48:55.660]  passing information accomplished in one setting right it would take us
+[48:55.660 --> 49:01.660]  tremendous amount of time to do it what I'm gonna do is give you all the
+[49:01.660 --> 49:07.620]  instructions over the radio okay so have your volume up a reasonable level and
+[49:07.620 --> 49:13.780]  just do exactly what you hear me ask you to do if I don't ask you to do
+[49:13.780 --> 49:21.900]  anything should you do anything if I don't say if I don't specifically ask to
+[49:21.900 --> 49:26.940]  do something please do nothing okay wait for me to ask if you're in doubt if you
+[49:26.940 --> 49:32.100]  should do something don't do anything it will be very clear okay only do what
+[49:32.100 --> 49:35.500]  you're asked and then it'll go just fine all right so I'm gonna give all the
+[49:35.500 --> 49:40.260]  instructions over the radio just pretend we're not all in the room together we're
+[49:40.260 --> 49:43.940]  gonna make it nice and easy for this first one this will be the last time we
+[49:43.940 --> 49:49.620]  do it in the same room but we got to start somewhere right okay this is Evan
+[49:49.620 --> 49:54.960]  with the zero to hero radio operator net here on frs channel three four six two
+[49:54.960 --> 50:00.740]  dot six one two five that's four six two dot six one two five we're gonna have a
+[50:00.740 --> 50:05.500]  little net here in just a moment we're gonna give our name and color code I'll
+[50:05.500 --> 50:09.220]  explain that momentarily but I'm gonna pause here for ten seconds for any
+[50:09.220 --> 50:15.700]  emergency traffic if you have priority or emergency traffic please come now
+[50:23.220 --> 50:29.380]  all right again this is Evan with the zero to hero radio operator net here on
+[50:29.380 --> 50:34.540]  frs channel three four six two six one two five we're gonna have a net here
+[50:34.540 --> 50:41.500]  with our name and color code color codes are green yellow or red green means I am
+[50:41.500 --> 50:46.700]  okay I'm just fine I'm doing good yellow means I might need some help let's talk
+[50:46.700 --> 50:53.140]  about it and red means I need help right now urgently I can see that you all are
+[50:53.140 --> 50:59.740]  just fine so I expect all greens please no silliness first name color code only
+[50:59.740 --> 51:03.700]  that's all I need and we're gonna go in the order that we introduced ourselves
+[51:03.700 --> 51:08.940]  so please keep that same order I'm gonna pause again for emergency traffic for
+[51:08.940 --> 51:19.780]  five seconds any priority traffic now okay again same order as we introduced
+[51:19.780 --> 51:23.980]  ourselves just your first name and your color code I'll take the first check-in
+[51:23.980 --> 51:34.900]  please okay I don't hear awk I hear a beep in the room but I would not have
+[51:34.900 --> 51:38.380]  heard that if we're not in the same room you didn't do anything wrong it's a trick
+[51:38.380 --> 51:44.260]  everybody has the same problem but what would I do this is what I would do if I
+[51:44.260 --> 51:47.900]  didn't hear anything nothing heard there I'll take that first check-in please if
+[51:47.900 --> 51:55.860]  you can try again please okay so it's not working what you don't know is none
+[51:55.860 --> 52:00.300]  of your radios are gonna work okay now this happened by accident the first time
+[52:00.300 --> 52:06.980]  I did this these radios come locked from the factory they won't transmit on FRS
+[52:06.980 --> 52:11.420]  they only transmit on the amateur frequencies and you have to unlock them
+[52:11.420 --> 52:18.460]  like you're playing Nintendo and you got put in a cheat code all right so I'd
+[52:18.460 --> 52:22.220]  leave this in here on purpose though because if I had just sent you guys out
+[52:22.220 --> 52:28.300]  right you all can hear me must be working you can hear me all right rock
+[52:28.300 --> 52:35.380]  and roll let's run the mission no all you have is half the equation just being
+[52:35.380 --> 52:39.820]  able to hear somebody does not guarantee they can hear you you have to do a
+[52:39.820 --> 52:46.660]  bi-directional comms check unless unless it's life or death right we can't but if
+[52:46.660 --> 52:50.860]  you're doing a legit comms check it's two-way right just because you can hear
+[52:50.860 --> 52:56.260]  me doesn't matter it does not mean I can hear you all right so in this case I
+[52:56.260 --> 53:01.140]  have a radio that can receive on a frequency but it physically can't
+[53:01.140 --> 53:04.900]  transmit there at all you're on the right channel you have all the right
+[53:04.900 --> 53:08.340]  settings but when you you can try it press the button you're all gonna get a
+[53:08.340 --> 53:13.620]  beep all right now thankfully that's easy to fix and one or two of you might
+[53:13.620 --> 53:18.780]  have it working and that's just a manufacturing fluke that one got under
+[53:18.780 --> 53:24.460]  the quality assurance radar of a child labor but we'll go all together and
+[53:24.460 --> 53:29.260]  unlock these so turn them off all right and just to warn you we're like breaking
+[53:29.260 --> 53:35.700]  15 that we're all gonna be felons after this so welcome to the jungle all right
+[53:35.740 --> 53:40.020]  you're gonna want to hold it the way I'm describing or you're gonna need three
+[53:40.020 --> 53:44.340]  hands so you decide but I'm warning you do it how I'm saying or you're not gonna
+[53:44.340 --> 53:50.300]  be able to get it on all right thumb on VFO the orange button middle finger on
+[53:50.300 --> 53:56.860]  monitor and pointer finger on PTT all those three at the same time VFO monitor
+[53:56.860 --> 54:01.620]  and PTT you got to have them all pressed down while they are pressed down keep
+[54:01.620 --> 54:07.500]  them held down power it on and wait to see the word factory on the screen what
+[54:07.500 --> 54:12.500]  that does is it teleports you back to China it unlocks the radio and brings
+[54:12.500 --> 54:20.060]  you back here and now it can transmit there just let go all right nobody
+[54:20.060 --> 54:26.460]  laughed about the teleporting that's concerning I'm trying trying to keep
+[54:26.460 --> 54:32.380]  spirit alive in here all right so if you didn't see factory you're not gonna
+[54:32.380 --> 54:35.860]  get away with it check with your neighbor your radio is not gonna work if
+[54:35.860 --> 54:44.700]  it didn't happen yep yep but if you didn't see factory it's gonna be no
+[54:44.700 --> 54:50.820]  mystery here in a second well we will all know okay everybody good all right
+[54:50.820 --> 54:54.660]  let's try again okay we had some technical difficulties there but we're
+[54:54.660 --> 54:59.100]  back here zero to hero radio operator net again we're gonna take first name
+[54:59.100 --> 55:04.740]  and color code green good yellow maybe need help red means I need help right
+[55:04.740 --> 55:08.820]  now urgently I expect all greens are gonna go in the order that we introduced
+[55:08.820 --> 55:19.580]  ourselves first name and color code only please take the first check-in all right
+[55:19.620 --> 55:31.860]  I got green I'll take the next check-in please I got Sonia green next check-in
+[55:31.860 --> 55:46.420]  please I got Matt green next check-in please I got Greg green next check-in
+[55:46.420 --> 56:00.080]  please I got John green next check-in please I got Ian green next check-in
+[56:00.080 --> 56:08.500]  please all right we caught you Mike you did not unlock your radio turn it off
+[56:08.500 --> 56:16.500]  VFOMR monitor and push to talk and then turn it on it's a it's a fun one you
+[56:16.500 --> 56:26.100]  guys see the word factory it opens up the transmit capability of the radio
+[56:26.100 --> 56:32.740]  beyond the amateur frequencies and now it can do FRS it can do other stuff too
+[56:32.740 --> 56:38.300]  but that's our primary goal is to do that far as I can talk a little bit more
+[56:38.300 --> 56:44.100]  about that once we once we get through it let me see if I can help you
+[56:49.860 --> 56:59.760]  no push to talk monitor and VFO and turn it on all right stand by just one
+[56:59.760 --> 57:07.920]  second VC factory okay all right we'll take give him a moment let's go to the
+[57:07.920 --> 57:21.480]  next check-in please I got Anderson green next check-in please I got Tony green
+[57:21.540 --> 57:34.140]  next check-in please I got Aaron green next check-in please I got Nate green
+[57:34.140 --> 57:47.620]  next check-in please I got Kyle green next check-in please I got Sean green I
+[57:47.680 --> 57:58.780]  will go back for that one we missed got you there Mike green any additional
+[57:58.780 --> 58:05.660]  check-ins all right nothing heard this is Evan I'm also green that makes 14
+[58:05.660 --> 58:13.900]  total check-ins prepare for a read back here of all check-ins all right here's a
+[58:13.900 --> 58:20.880]  read back here I have Oc Sonia Matt Greg John Ian Mike Anderson Tony Aaron
+[58:20.880 --> 58:27.640]  Nate Kyle and Sean I am Evan and I'm also green all others were green that's 14
+[58:27.640 --> 58:35.140]  total all accounted for that'll conclude the net all right so had a good speed
+[58:35.140 --> 58:38.720]  bump there that's actually really good because it gives you a chance to see how
+[58:38.720 --> 58:43.360]  problems get handled right you do not usually have the benefit of being in the
+[58:43.540 --> 58:48.420]  same room so understand a lot of that has to be handled verbally before we
+[58:48.420 --> 58:53.340]  talk about that one what did you notice I do that's weird there's plenty that's
+[58:53.340 --> 59:01.260]  weird so go ahead and let's hear it lots of yielding and giving space for
+[59:01.260 --> 59:05.500]  emergency or priority traffic do we really need to be doing that what's the
+[59:05.500 --> 59:11.540]  deal with that it is a courtesy and you practice like you want to do it in real
+[59:11.540 --> 59:16.080]  life and in real life somebody might need that channel and it's it more
+[59:16.080 --> 59:20.640]  important than your stupid little radio net okay and you better believe they
+[59:20.640 --> 59:24.520]  are sick of waiting for you to be done with your stupid little net to do
+[59:24.520 --> 59:28.760]  something important and I have been sitting and waiting way too many times
+[59:28.760 --> 59:32.840]  during disaster relief stuff for people to talk about what they ate for
+[59:32.840 --> 59:36.760]  breakfast and how you know their blood pressure isn't going down because they're
+[59:36.760 --> 59:41.580]  on the wrong statins and whatever I'm like buddy I need to announce that
+[59:41.580 --> 59:46.220]  there's free water at the local fire department and can we please open up
+[59:46.220 --> 59:52.340]  this repeater so we can use it for what's what it's for it's ignorance and
+[59:52.340 --> 59:58.340]  discourteousness right it's not you don't own a frequency it's not yours even
+[59:58.340 --> 01:00:02.060]  if it's your repeater you don't own where it's operating just like if it's
+[01:00:02.060 --> 01:00:06.840]  you know you're flying an airplane you don't own you might own the airplane you
+[01:00:06.840 --> 01:00:10.200]  don't own the air it's flying through you do things that are courteous right
+[01:00:10.200 --> 01:00:15.080]  you don't own the lake you don't create wakes in the middle of the dock right so
+[01:00:15.080 --> 01:00:22.240]  stuff like that yielding make some space pause make room for other people it's
+[01:00:22.240 --> 01:00:27.800]  not yours now even if it was yours and you own it somebody might have something
+[01:00:27.800 --> 01:00:33.340]  important like what a red status do you think you're gonna wait your turn to
+[01:00:33.340 --> 01:00:40.300]  give your red status if you're last yeah I'm bleeding out over here and I'm
+[01:00:40.300 --> 01:00:45.140]  number 13 I'm gonna wait my turn but no you're jumping in line right that's the
+[01:00:45.140 --> 01:00:50.500]  reason we make space make sure you're doing that all right I've given you a
+[01:00:50.500 --> 01:01:06.160]  template for nets page something 23 23 for Jordan yeah I have this kind of
+[01:01:06.160 --> 01:01:10.880]  memorized at least the format but this is a template you can use so I announce
+[01:01:10.880 --> 01:01:16.280]  the net I pause I announce it again I pause I might even announce it a third
+[01:01:16.280 --> 01:01:22.360]  time and pause again why am I announcing it so many times because some
+[01:01:22.360 --> 01:01:27.860]  of you are always late so if we say we have our net at 9 p.m. I'm gonna announce
+[01:01:27.860 --> 01:01:35.700]  it at 859 at 9 at 901 maybe 902 because all our clocks aren't synchronized
+[01:01:35.700 --> 01:01:40.300]  especially if there's an internet outage and a power outage you may not even have
+[01:01:40.300 --> 01:01:45.100]  your cell phone with an accurate clock on it so we're gonna cast a wide net for
+[01:01:45.100 --> 01:01:50.200]  opening it up no pun intended with that use of net right but we we want to cast
+[01:01:50.200 --> 01:01:58.400]  a wide area for the intro I gave the instructions multiple times right what's
+[01:01:58.400 --> 01:02:09.320]  specific about those instructions that might have been unusual we use coded
+[01:02:09.320 --> 01:02:14.440]  language right what's the point of that why did we use these color codes are
+[01:02:14.460 --> 01:02:19.860]  they top secret I said what they mean so why are we using them if they're not top
+[01:02:19.860 --> 01:02:25.220]  secret right it's a brevity code saves us time all right if I said give me your
+[01:02:25.220 --> 01:02:28.900]  name and status here's what would happen the first two or three of you would be
+[01:02:28.900 --> 01:02:35.780]  reasonable people and you'd say this is Ock I'm good to go this is Sandra sorry
+[01:02:35.780 --> 01:02:40.300]  Sonya I'm good to go and then the next guy over here Matt he's got to give a
+[01:02:40.300 --> 01:02:47.160]  novel this is Matt lunch was pretty good class is okay it's a little hot for me
+[01:02:47.160 --> 01:02:51.960]  but you know it's summer I like the Sun I guess I'm eight out of ten right he's
+[01:02:51.960 --> 01:02:56.760]  got to be cute and now it's a competition for everybody else to see who
+[01:02:56.760 --> 01:03:02.440]  can be the cutest and now our 15 second net is a 15 minute net and we're all
+[01:03:02.440 --> 01:03:06.640]  ready to kill each other at the end of it that's not the point of this it's not
+[01:03:06.640 --> 01:03:10.300]  that I don't love and enjoy the presence of all of you and want to get
+[01:03:10.300 --> 01:03:14.820]  to know you I just want to know are you okay or not I want to do that as quickly
+[01:03:14.820 --> 01:03:19.340]  and efficiently as possible so we can get on with doing stuff because radio is
+[01:03:19.340 --> 01:03:24.620]  not the point of our life right for some people radio is the point of their life
+[01:03:24.620 --> 01:03:29.140]  and they want to be on a net for three hours I don't I want to know do you need
+[01:03:29.140 --> 01:03:32.860]  help or not and you know who you are and your status that's it we're gonna do as
+[01:03:33.240 --> 01:03:41.120]  we can all right but we can't sacrifice detail right like green yellow red at
+[01:03:41.120 --> 01:03:45.920]  least I have some gray area there for how severe is the problem right if I get
+[01:03:45.920 --> 01:03:50.880]  a yellow back I'm probably gonna punt that and deal with it when we're done if
+[01:03:50.880 --> 01:03:56.040]  I get a red we are dealing with the red right now right that's a priority kind
+[01:03:56.040 --> 01:04:01.960]  of a triaging we can do but you see what's going on there brevity time
+[01:04:01.960 --> 01:04:08.980]  savings efficiency and it gives clarity for everybody of how severe is the
+[01:04:08.980 --> 01:04:13.700]  problem if there is a problem all right you come up with what works for you but
+[01:04:13.700 --> 01:04:17.980]  I like I like using some kind of code you want to announce what that code is
+[01:04:17.980 --> 01:04:21.980]  at the beginning now if you show up at a net this is the first time you've ever
+[01:04:21.980 --> 01:04:25.500]  heard people using names and colors and they've already started and it's about
+[01:04:25.500 --> 01:04:30.400]  to be your turn and you've heard everybody use a certain color and you're
+[01:04:30.400 --> 01:04:33.840]  feeling a lot of peer pressure to go ahead and say that even though you have
+[01:04:33.840 --> 01:04:38.640]  no idea what that word means should you use that word all right don't be a
+[01:04:38.640 --> 01:04:43.680]  communist we don't use words we don't know what they mean right what do
+[01:04:43.680 --> 01:04:48.560]  Americans do and we don't know what's going on we ask we act like normal
+[01:04:48.560 --> 01:04:53.760]  people like sorry I wasn't here for the intro you mind giving the instructions
+[01:04:53.760 --> 01:04:58.800]  again do not say things you don't know what they mean now I'm not saying if you
+[01:04:58.800 --> 01:05:03.920]  miss the intro but we do green yellow red every day and you were late you know
+[01:05:03.920 --> 01:05:07.080]  what it means right get on with it but don't say things you don't know what
+[01:05:07.080 --> 01:05:13.560]  they mean why you don't know what it means you might I don't know I don't
+[01:05:13.560 --> 01:05:17.760]  have enough imagination to imagine what could happen but something could happen
+[01:05:17.760 --> 01:05:25.120]  so be normal try to act normal I know it's hard but act normal and do what
+[01:05:25.120 --> 01:05:31.880]  normal people would do and they don't know and ask a question okay now do
+[01:05:31.880 --> 01:05:35.960]  everything you can not to need to ask questions right don't be that guy who
+[01:05:35.960 --> 01:05:40.840]  never knows what's going on and yet again here's here's Mike he doesn't know
+[01:05:40.840 --> 01:05:44.720]  what's going on he's always late and he never knows right because he doesn't
+[01:05:44.720 --> 01:05:49.680]  pay attention no but you know if you've taken responsibility it's out of your
+[01:05:50.280 --> 01:05:56.000]  fine all right don't rely on context clues is what I'm getting at though if
+[01:05:56.000 --> 01:06:00.200]  you don't know what's going on now at the end sorry before we get to that what
+[01:06:00.200 --> 01:06:07.520]  did I do after every check-in I repeated it and then I paused what's the pause
+[01:06:07.520 --> 01:06:16.600]  there for to allow for a correction okay this is why I was very clear about don't
+[01:06:16.640 --> 01:06:22.240]  do anything till I ask because I ask for the next check-in I have to create the
+[01:06:22.240 --> 01:06:28.200]  pause if I don't artificially force that pause there's no time for a correction
+[01:06:28.200 --> 01:06:31.520]  if y'all just go this is Ock this is Sonia this is Matt you're just gonna
+[01:06:31.520 --> 01:06:37.280]  bam bam bam and then Ock is like buddy that's not how you say my name we've
+[01:06:37.280 --> 01:06:41.480]  been ten we're ten people in and I have to get your attention right if I go ahead
+[01:06:41.480 --> 01:06:45.680]  and deal with what I got wrong right then and there that's the right time and
+[01:06:45.680 --> 01:06:49.720]  place for it doesn't need to be very long one one thousand two one thousand go
+[01:06:49.720 --> 01:06:55.440]  right don't spend a bunch of time on pausing also did you notice what I was
+[01:06:55.440 --> 01:07:00.080]  physically doing when I paused for emergency traffic I'm getting my ducks
+[01:07:00.080 --> 01:07:04.720]  in a row I'm figuring out my life over here I'm doing admin tasks I'm not
+[01:07:04.720 --> 01:07:12.320]  literally just standing here no I'm doing stuff right I'm logging all these
+[01:07:12.320 --> 01:07:17.120]  check-ins I gotta get my template up I gotta get my pen ready right if I if
+[01:07:17.120 --> 01:07:20.740]  I'm running late and I'm a little disheveled we're gonna begin in 30
+[01:07:20.740 --> 01:07:24.080]  seconds here I'm pausing for any emergency traffic okay all right I got
+[01:07:24.080 --> 01:07:30.200]  30 seconds right that's a good way to use that I repeat back for confirmation
+[01:07:30.200 --> 01:07:35.200]  create a pause then I asked for the next check-in if somebody were it didn't
+[01:07:35.200 --> 01:07:39.640]  happen in this class usually right off the bat people try to go without me
+[01:07:39.640 --> 01:07:43.600]  asking you guys did great with that but sometimes you can imagine people don't
+[01:07:43.600 --> 01:07:49.160]  expect to be told to check in so they go ahead and check in you've got a nip
+[01:07:49.160 --> 01:07:53.360]  that in the bud right off the bat the first time somebody does something you
+[01:07:53.360 --> 01:07:58.880]  didn't ask them to do just politely say hey I got that one Sonia you're green
+[01:07:58.880 --> 01:08:02.600]  hey guys from here on out just wait for me to ask for the next check-in I'm
+[01:08:02.600 --> 01:08:06.680]  keeping a log here it just gives me time to jot it down right you don't need to
+[01:08:06.680 --> 01:08:12.440]  be a jerk but you have to enforce anything that deviates from what you
+[01:08:12.440 --> 01:08:19.080]  want you have to nip it the first time I know this sounds a bit like dictatorial
+[01:08:19.080 --> 01:08:22.400]  right like you're like good lord man why do we have to be so harsh can you not
+[01:08:22.400 --> 01:08:29.120]  just here's the deal we only have our voice all we have is the radio all right
+[01:08:29.120 --> 01:08:33.440]  and we have to make order out of a very chaotic situation I'm trying to get
+[01:08:33.440 --> 01:08:40.240]  check-ins for 15 people in an orderly way and you are all counting on that one
+[01:08:40.240 --> 01:08:44.800]  dude to order it right and if he doesn't do a good job everyone is being held
+[01:08:44.800 --> 01:08:50.480]  hostage by the idiots that are running amok right so it's your just being a
+[01:08:50.480 --> 01:08:55.680]  good leader and a good person to nip it it's not being a jerk and you decide how
+[01:08:55.680 --> 01:09:00.040]  you come across you can be gentle but you have to address it don't let it go
+[01:09:00.040 --> 01:09:05.440]  if somebody gives a speech when we have brevity codes hey buddy don't forget we
+[01:09:05.440 --> 01:09:09.760]  have those brevity codes let's go to the next check-in all right but you can be
+[01:09:09.760 --> 01:09:15.400]  nice but you have to deal with it right there don't let it go further ask me
+[01:09:15.400 --> 01:09:22.120]  how I know okay class number 80 something had had some people that give
+[01:09:22.120 --> 01:09:27.400]  an inch take a mile you know anything else you notice that you had questions
+[01:09:27.400 --> 01:09:35.800]  about so far what I do at the end gave a read back gave a summary that's that's
+[01:09:35.800 --> 01:09:40.640]  dealers choice depending on how important the information is in this
+[01:09:40.640 --> 01:09:45.220]  case what I'm simulating is like a neighborhood net that happens when the
+[01:09:45.220 --> 01:09:48.880]  power goes out every night we check in at nine o'clock to check on each other
+[01:09:48.880 --> 01:09:53.440]  well somebody got there late and didn't hear the first three check-ins they
+[01:09:53.440 --> 01:09:58.360]  might want to know is miss Barbara okay I didn't hear right it'd be nice to hear
+[01:09:58.360 --> 01:10:02.880]  the list now there's a risk reading back that list right you're reading an entire
+[01:10:02.880 --> 01:10:09.120]  list of names all right we had a prescribed order you're not usually
+[01:10:09.120 --> 01:10:14.680]  going to have that okay the next one we're actually not going to use our
+[01:10:14.680 --> 01:10:19.560]  order so you guys will get to see what that's like it's a little different you
+[01:10:19.560 --> 01:10:25.960]  notice I ask for check-ins I don't say ok check-in I say I'll take the first
+[01:10:25.960 --> 01:10:31.480]  check-in why would it not be a great idea to ask for a certain person in some
+[01:10:31.480 --> 01:10:37.440]  circumstances it could be an impersonator right like it's really easy
+[01:10:37.440 --> 01:10:42.600]  if you just said their name like hey are you there well yeah that's me I'm good
+[01:10:42.600 --> 01:10:49.540]  right I got ox radio and he's laying here dead but ox good ox green so I
+[01:10:49.540 --> 01:10:53.860]  I'm not expecting to be operating in that environment that's not how I live
+[01:10:53.860 --> 01:11:00.140]  in the hellholes that y'all live in that might be normal but I'm just throwing
+[01:11:00.140 --> 01:11:03.740]  that out there that context is king right you might not always want to give
+[01:11:03.740 --> 01:11:08.500]  away people's name you might want to wait for them to give it to you that can
+[01:11:08.500 --> 01:11:14.160]  be important I did warn you about a read back right that's something important if
+[01:11:14.160 --> 01:11:17.860]  you know somebody's got a copy stuff down or people are intently listening
+[01:11:17.860 --> 01:11:24.020]  hey prepare to copy prepare for a read back right kind of alert them hey listen
+[01:11:24.020 --> 01:11:30.260]  up you're about to get a data dump here get your pen ready that that's valuable
+[01:11:30.260 --> 01:11:35.340]  it's not required if I needed to pause like some I've done this with like 40
+[01:11:35.340 --> 01:11:42.860]  people at 20 I might say break and take a breath turn the page write some more
+[01:11:42.860 --> 01:11:47.980]  numbers down right saying break is an indicator hey I'm pausing I'm going to
+[01:11:47.980 --> 01:11:52.140]  start back hang on and then you start back when you're ready it keeps the line
+[01:11:52.140 --> 01:11:58.100]  open for you and then at the end I kind of announced that it's over and then at
+[01:11:58.100 --> 01:12:02.740]  the end would be an essential time in some cases to inform everyone when is
+[01:12:02.740 --> 01:12:07.080]  the next net right so if there's a power outage in the neighborhood and we do
+[01:12:07.080 --> 01:12:11.540]  this every night at 9 on this certain channel I would reiterate to everyone
+[01:12:11.540 --> 01:12:19.060]  hey it's 910 now we're synchronizing clocks right it's 910 we will meet again
+[01:12:19.060 --> 01:12:27.420]  here at the same frequency 4626125 tomorrow night at 9 p.m. if if there is
+[01:12:27.420 --> 01:12:31.340]  another issue we will meet every hour at the top of the hour on the same
+[01:12:31.340 --> 01:12:35.940]  frequency if there's more emergency situations and we'll hear from you then
+[01:12:35.940 --> 01:12:40.180]  right why are we alerting them of the all these things why don't we just send
+[01:12:40.180 --> 01:12:44.980]  them an email we don't have email right this might be the only source of
+[01:12:44.980 --> 01:12:48.940]  information and they may not know it's every night you need to remind everybody
+[01:12:48.940 --> 01:12:53.780]  all right so that's a good time in the outro to let them know when and where
+[01:12:53.780 --> 01:12:59.540]  the next net is all right that makes sense all right we're going to run it
+[01:12:59.540 --> 01:13:03.700]  again except I am done and let my voice rest a little bit I'll let one of you
+[01:13:03.700 --> 01:13:09.180]  suckers run it two things are going to change okay other than me not running it
+[01:13:09.340 --> 01:13:16.740]  make sure you're on page 23 I want you guys to all go somewhere in this
+[01:13:16.740 --> 01:13:22.660]  building that you can't hear each other all right so like get away from earshot
+[01:13:22.660 --> 01:13:28.340]  you can go outside don't go very far but like get away from each other so we are
+[01:13:28.340 --> 01:13:33.580]  doing it for real over the radio we're not hearing with our ears anymore and
+[01:13:33.580 --> 01:13:38.620]  you're not going in order anymore okay so what is likely to happen if we don't
+[01:13:38.620 --> 01:13:44.780]  go in order they're gonna step on each other all right if you're running the
+[01:13:44.780 --> 01:13:51.100]  net how do you solve that if two people go at the same time it's gonna sound
+[01:13:51.100 --> 01:13:58.500]  like robot wars it's gonna go on your side all right what do you do panic cry
+[01:13:58.500 --> 01:14:06.220]  in a corner all right I'll tell you what works almost every time hey I heard two
+[01:14:06.220 --> 01:14:10.240]  there doubling up let's go one at a time please all right I don't know what
+[01:14:10.240 --> 01:14:14.060]  it is but if you just say go one at a time even in a room of a hundred people
+[01:14:14.060 --> 01:14:20.620]  only one idiot is brave enough to go again and by the time he goes everyone
+[01:14:20.620 --> 01:14:24.620]  else is like oh thank God somebody else went right it fixes it I don't know what
+[01:14:24.620 --> 01:14:28.860]  it is but that's the magic pill is just hey that was two let's go one at a time
+[01:14:28.860 --> 01:14:33.740]  please some idiot will go first and maybe it'll be you and you'll wear it
+[01:14:33.740 --> 01:14:42.900]  with a badge of honor that adding more reluctance actually emphasizes the
+[01:14:42.900 --> 01:14:48.060]  functionality of that because the more reluctant everybody is the more likely
+[01:14:48.060 --> 01:14:54.940]  somebody is less reluctant so anyway that's important if that doesn't work
+[01:14:54.940 --> 01:14:59.780]  you might have to get creative right you might have to say okay names that start
+[01:14:59.780 --> 01:15:05.580]  with this or people this age or people with this color shirt on I don't know
+[01:15:05.580 --> 01:15:14.940]  figure out something to divide people up just act like a politician right you can
+[01:15:14.940 --> 01:15:18.700]  follow this script roughly it is important that you keep a log and here's
+[01:15:18.700 --> 01:15:22.660]  one more thing if you're running the net I want you to get you can get whatever
+[01:15:22.660 --> 01:15:26.900]  information you want from people name color code but I would like you to also
+[01:15:26.900 --> 01:15:31.460]  get their location because this net is going to serve a secondary purpose it's
+[01:15:31.460 --> 01:15:37.340]  going to give us a clear picture of how well the radios work from this room to
+[01:15:37.340 --> 01:15:42.700]  other places on campus right so if we find a dead spot we will know that from
+[01:15:42.700 --> 01:15:46.620]  this net right like doesn't work from the bathroom I had to move you never
+[01:15:46.620 --> 01:15:51.500]  heard me from the bathroom we'll know that in a few minutes so be as
+[01:15:51.580 --> 01:15:57.580]  descriptive as you can without giving a speech about where you are and if you
+[01:15:57.580 --> 01:16:02.180]  are running the net make sure you drop that down okay everyone understand what
+[01:16:02.180 --> 01:16:11.300]  we're doing who wants to run it all right well Nate can run it Nate I would
+[01:16:11.300 --> 01:16:17.020]  say give everybody till one five five five on the clock so one five five five
+[01:16:17.020 --> 01:16:24.380]  and if it's like 330 or what I can't read this military time I'm not a rocket
+[01:16:24.380 --> 01:16:29.700]  scientist if it's like 430 and you haven't heard anything on your radio you
+[01:16:29.700 --> 01:16:45.300]  should come back okay yes sir no four six two six one two no you got it
+[01:16:47.020 --> 01:17:09.380]  I just meant like get my paper ready get my pen out yeah I mean like if I'm
+[01:17:09.380 --> 01:17:13.380]  running the net that's what I spend that couple of seconds on is get my ducks in
+[01:17:13.380 --> 01:17:22.320]  a row if I need to it'll do better with it all the way but you might not notice
+[01:17:22.320 --> 01:17:40.580]  a difference this close feel free to ask me anything you need night okay no rush
+[01:17:40.580 --> 01:18:01.660]  give them some time make them get antsy yeah you make it up it's just
+[01:18:10.580 --> 01:18:33.860]  just name and location for each person just however you want to document it
+[01:18:33.860 --> 01:18:38.380]  it's just a space to capture those names
+[01:18:38.380 --> 01:19:06.900]  yep you could no there's no problem with that the only issue is if someone
+[01:19:06.940 --> 01:19:22.020]  doesn't know but either one is fine and you don't want to say call sign for this
+[01:19:22.020 --> 01:19:44.260]  one because we don't have call signs your name and location yeah yeah not
+[01:19:44.260 --> 01:19:51.480]  call sign though even this name and location but yet you say I'll take the
+[01:19:51.560 --> 01:19:56.840]  first check-in please when they give it you read it back give them a second to
+[01:19:56.840 --> 01:20:02.000]  correct you and then I'll take the next check-in please read it back pause I'll
+[01:20:02.000 --> 01:20:12.760]  take the next check-in please this is Evan I'm in the classroom
+[01:20:12.760 --> 01:20:23.520]  yep exactly and then if unless I come back to you and say no I'm Kevin not
+[01:20:23.520 --> 01:20:33.680]  Evan yeah that's why you're pausing yep and you might want to announce it a
+[01:20:33.680 --> 01:20:37.200]  couple times and say hey we're gonna start in one minute we're gonna start
+[01:20:37.200 --> 01:20:40.600]  in 30 seconds whatever
+[01:21:07.200 --> 01:21:09.840]  you

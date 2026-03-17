@@ -17,19 +17,20 @@ Proposed chapter structure derived from course manual. Order can shift as the bo
 ## Part III — Getting on the Air
 - [ ] Ch 9: Your First Radio — handheld hardware, components, essential functions
 - [ ] Ch 10: Programming — front panel, computer, Bluetooth, cloning
-- [ ] Ch 11: Principles of Use — identification, etiquette, testing, privacy
-- [ ] Ch 12: Communication Strategies — simplex, repeaters, cross-band, radio nets
+- [ ] Ch 11: Principles of Use — identification, testing, privacy, "on/right channel/volume up"
+- [ ] Ch 12: How to Talk on a Radio — etiquette, pro words, brevity, efficiency of speech across services. Covers: universal pro words (over, out, roger, wilco, say again, break, copy), phonetic alphabet, amateur Q codes (QSO, QTH, QRM, QRN, QSY, etc.), police 10-codes and their pitfalls (not universal nationwide, department-to-department variation, trend toward plain language), CB conventions, marine/aviation phraseology, military radio discipline. Why ZTH classes do not enforce pro words (accessibility over gatekeeping, plain language gets the message through), but pro words have their place and can increase efficiency. Also: pro words as a fingerprint, when you overhear radio traffic the language tells you who you are listening to (military, police, amateur, CB). Common mistakes, when formality matters vs. when it does not
+- [ ] Ch 13: Communication Strategies — simplex, repeaters, cross-band, radio nets
 
 ## Part IV — Going Further
-- [ ] Ch 13: Setting Up Comms for a Group — PACE plan, communication planning
-- [ ] Ch 14: HF Radio — overview, transmission modes, antennas (portable/vehicle/stationary)
-- [ ] Ch 15: Power — electrical basics, batteries, charging, field power, wire sizing
-- [ ] Ch 16: Gear Recommendations — VHF/UHF and HF, what to buy and why
+- [ ] Ch 14: Setting Up Comms for a Group — PACE plan, communication planning
+- [ ] Ch 15: HF Radio — overview, transmission modes, antennas (portable/vehicle/stationary)
+- [ ] Ch 16: Power — electrical basics, batteries, charging, field power, wire sizing
+- [ ] Ch 17: Gear Recommendations — VHF/UHF and HF, what to buy and why
 
 ## Part V — Putting It Together
-- [ ] Ch 17: Mission Planning
-- [ ] Ch 18: Licensing — GMRS, amateur, and why able comes before allowed
-- [ ] Ch 19: Resources (appendix) — frequencies, learning, YouTube, retailers, hamfests, used gear
+- [ ] Ch 18: Mission Planning
+- [ ] Ch 19: Licensing — GMRS, amateur, and why able comes before allowed
+- [ ] Ch 20: Resources (appendix) — frequencies, learning, YouTube, retailers, hamfests, used gear
 
 ## Excluded (class-specific)
 - UV-5R programming visual guide

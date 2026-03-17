@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zero to Hero Radio Operator — Book Dashboard</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #0d0d0d;
+    color: #d8d0c4;
+    line-height: 1.8;
+  }
+
+  /* ── SIDEBAR ── */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    overflow-y: auto;
+    background: #0a0a0a;
+    border-right: 1px solid #1a1a1a;
+    padding: 24px 16px 40px;
+    z-index: 200;
+    scrollbar-width: thin;
+    scrollbar-color: #333 transparent;
+    transition: transform 0.25s ease;
+  }
+
+  .sidebar-header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #222;
+  }
+
+  .sidebar-header h1 {
+    font-size: 1.1em;
+    color: #B8860B;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  .sidebar-header .subtitle {
+    font-family: 'Courier New', monospace;
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #555;
+    margin-top: 4px;
+  }
+
+  .nav-part {
+    font-family: 'Courier New', monospace;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #B8860B;
+    margin: 18px 0 8px;
+    padding-left: 8px;
+  }
+
+  .sidebar a {
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 0.78em;
+    color: #777;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-left: 2px solid transparent;
+    line-height: 1.4;
+    margin-bottom: 1px;
+    transition: color 0.1s, border-color 0.1s;
+  }
+
+  .sidebar a:hover,
+  .sidebar a.active {
+    color: #d8d0c4;
+    border-left-color: #B8860B;
+  }
+
+  .sidebar a.unwritten {
+    color: #444;
+    font-style: italic;
+  }
+
+  .sidebar a.unwritten:hover {
+    color: #666;
+    border-left-color: #444;
+  }
+
+  .draft-badge {
+    font-family: 'Courier New', monospace;
+    font-size: 8px;
+    color: #555;
+    letter-spacing: 0.05em;
+    margin-left: 4px;
+  }
+
+  /* ── HAMBURGER ── */
+  .menu-toggle {
+    display: none;
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    z-index: 300;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    color: #B8860B;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .menu-toggle:hover {
+    background: #222;
+    border-color: #B8860B;
+  }
+
+  /* ── MAIN CONTENT ── */
+  .main {
+    margin-left: 260px;
+    max-width: 780px;
+    padding: 48px 40px 120px;
+  }
+
+  /* ── COVER ── */
+  .cover {
+    text-align: center;
+    padding: 80px 0 60px;
+    border-bottom: 1px solid #222;
+    margin-bottom: 48px;
+  }
+
+  .cover h1 {
+    font-size: 2.8em;
+    color: #1F3C6E;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .cover h2 {
+    font-size: 1.8em;
+    color: #1F3C6E;
+    font-weight: 700;
+    margin-top: 8px;
+  }
+
+  .cover .byline {
+    font-size: 1em;
+    color: #666;
+    font-style: italic;
+    margin-top: 20px;
+  }
+
+  .cover .brand {
+    font-size: 0.9em;
+    color: #4A90D9;
+    margin-top: 32px;
+  }
+
+  .cover .brand-url {
+    font-family: 'Courier New', monospace;
+    font-size: 0.75em;
+    color: #555;
+    margin-top: 4px;
+  }
+
+  /* ── PROGRESS BAR ── */
+  .progress-bar {
+    margin: 0 0 48px;
+    padding: 16px 20px;
+    background: #111;
+    border: 1px solid #1a1a1a;
+    border-radius: 4px;
+  }
+
+  .progress-bar .label {
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 8px;
+  }
+
+  .progress-track {
+    background: #1a1a1a;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    background: linear-gradient(90deg, #B8860B, #d4a020);
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+  }
+
+  .progress-stats {
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    color: #555;
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* ── CHAPTERS ── */
+  .chapter {
+    margin-bottom: 64px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #1a1a1a;
+  }
+
+  .chapter:last-child { border-bottom: none; }
+
+  .chapter-title {
+    font-size: 1.5em;
+    color: #1F3C6E;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4A90D9;
+    margin-bottom: 20px;
+  }
+
+  .legend {
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    color: #555;
+    margin-bottom: 24px;
+  }
+
+  .legend .ai-added {
+    background: rgba(255, 255, 0, 0.15);
+    color: #b8a040;
+    padding: 1px 4px;
+  }
+
+  .book-para {
+    font-size: 1em;
+    color: #c8c0b4;
+    text-indent: 2em;
+    margin-bottom: 16px;
+  }
+
+  .book-para.ai-added,
+  .book-para .ai-added {
+    background: rgba(255, 255, 0, 0.08);
+    color: #b8a040;
+    border-left: 2px solid rgba(184, 134, 11, 0.3);
+    padding-left: 6px;
+  }
+
+  p.ai-added {
+    text-indent: 0;
+    padding: 4px 8px 4px 12px;
+  }
+
+  .expand-note {
+    font-family: 'Courier New', monospace;
+    font-size: 0.82em;
+    color: #B8860B;
+    background: rgba(255, 243, 205, 0.08);
+    border-left: 3px solid #B8860B;
+    padding: 10px 14px;
+    margin: 16px 0 20px;
+    line-height: 1.5;
+  }
+
+  .placeholder-chapter {
+    opacity: 0.4;
+  }
+
+  .placeholder-text {
+    font-style: italic;
+    color: #555;
+    padding: 20px 0;
+  }
+
+  /* ── OVERLAY for mobile ── */
+  .sidebar-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 150;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .sidebar {
+      transform: translateX(-100%);
+    }
+
+    .sidebar.open {
+      transform: translateX(0);
+    }
+
+    .sidebar-overlay.open {
+      display: block;
+    }
+
+    .menu-toggle {
+      display: block;
+    }
+
+    .main {
+      margin-left: 0;
+      padding: 60px 20px 100px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .cover h1 { font-size: 2em; }
+    .cover h2 { font-size: 1.3em; }
+    .main { padding: 56px 16px 80px; }
+    .book-para { font-size: 0.95em; }
+  }
+</style>
+</head>
+<body>
+
+<button class="menu-toggle" id="menuToggle">&#9776;</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<nav class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <h1>Zero to Hero</h1>
+    <div class="subtitle">Radio Operator &mdash; Book Draft</div>
+  </div>
+  <div class="nav-part">Part I: The Story</div>
+      <a href="#ch1" data-target="ch1" class="">The Conversation That Started Everything</a>
+      <a href="#ch2" data-target="ch2" class="">The Internet Was Not Very Helpful</a>
+      <a href="#ch3" data-target="ch3" class="">First Contact</a>
+      <a href="#ch4" data-target="ch4" class="">Allowed versus Able</a>
+      <a href="#ch5" data-target="ch5" class="">413 Slides</a>
+<div class="nav-part">Part II: Understanding Radio</div>
+      <a href="#ch6" data-target="ch6" class="unwritten">Why Radio <span class="draft-badge">planned</span></a>
+      <a href="#ch7" data-target="ch7" class="unwritten">How Radio Works <span class="draft-badge">planned</span></a>
+      <a href="#ch8" data-target="ch8" class="unwritten">Radio Theory <span class="draft-badge">planned</span></a>
+<div class="nav-part">Part III: Getting on the Air</div>
+      <a href="#ch9" data-target="ch9" class="unwritten">Your First Radio <span class="draft-badge">planned</span></a>
+      <a href="#ch10" data-target="ch10" class="unwritten">Programming <span class="draft-badge">planned</span></a>
+      <a href="#ch11" data-target="ch11" class="unwritten">Principles of Use <span class="draft-badge">planned</span></a>
+      <a href="#ch12" data-target="ch12" class="unwritten">How to Talk on a Radio <span class="draft-badge">planned</span></a>
+      <a href="#ch13" data-target="ch13" class="unwritten">Communication Strategies <span class="draft-badge">planned</span></a>
+<div class="nav-part">Part IV: Going Further</div>
+      <a href="#ch14" data-target="ch14" class="unwritten">Setting Up Comms for a Group <span class="draft-badge">planned</span></a>
+      <a href="#ch15" data-target="ch15" class="unwritten">HF Radio <span class="draft-badge">planned</span></a>
+      <a href="#ch16" data-target="ch16" class="unwritten">Power <span class="draft-badge">planned</span></a>
+      <a href="#ch17" data-target="ch17" class="unwritten">Gear Recommendations <span class="draft-badge">planned</span></a>
+<div class="nav-part">Part V: Putting It Together</div>
+      <a href="#ch18" data-target="ch18" class="unwritten">Mission Planning <span class="draft-badge">planned</span></a>
+      <a href="#ch19" data-target="ch19" class="unwritten">Licensing <span class="draft-badge">planned</span></a>
+      <a href="#ch20" data-target="ch20" class="unwritten">Resources <span class="draft-badge">planned</span></a>
+
+</nav>
+
+<div class="main">
+  <div class="cover">
+    <h1>Zero to Hero</h1>
+    <h2>Radio Operator</h2>
+    <div class="byline">by Evan Dixon</div>
+    <div class="brand">Radio Made Easy</div>
+    <div class="brand-url">radiomadeeasy.com</div>
+  </div>
+
+  <div class="progress-bar">
+    <div class="label">Book Progress</div>
+    <div class="progress-track">
+      <div class="progress-fill" style="width: 25%"></div>
+    </div>
+    <div class="progress-stats">
+      <span>5 of 19 chapters drafted</span>
+      <span>25%</span>
+    </div>
+  </div>
+
+  
+    <section id="ch1" class="chapter">
+      <h2 class="chapter-title">Chapter One: The Conversation That Started Everything</h2>
+      <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
+      <p class="book-para mixed" data-idx="0"><span class="ai-added">About fifteen years ago, I was sitting in a cubicle at a large bank in Charlotte, North Carolina, doing what IT professionals at large banks in Charlotte do: waiting for the next ticket, watching the clock, and trying to remember why I had chosen this career path. The answer, I suspect, was the same as most of my colleagues. You do not so much choose to work IT at a bank in Charlotte as you end up there. </span>There is a saying in the industry, at least in that part of the world: if you are in IT, you have to do your time at a bank, much like doing your time in prison. <span class="ai-added">Most of us were just trying to finish our sentences.</span></p>
+      <p class="book-para ai-added" data-idx="1">The man sitting across from me was closer to parole than I was. He was a quiet, methodical guy who kept to himself, counted his days, and had his retirement mapped out with the precision of someone who had been waiting a long time to get back to the things that actually mattered to him. One of those things, I was about to accidentally discover, was amateur radio.</p>
+      <div class="expand-note" data-idx="2"><strong>EXPAND:</strong> Add more texture here about the office environment, your relationship with this coworker, what the culture was like. What did a typical day look like? This grounds the reader before the turn.</div>
+      <p class="book-para mixed" data-idx="3">He mentioned, almost in passing, that he was headed to Texas on vacation to pick up radio gear from a friend he had met over the radio. <span class="ai-added">I heard the words, registered the geography, and felt something click in my brain that I could not immediately name.</span></p>
+      <p class="book-para ai-added" data-idx="4">Texas. From North Carolina. On a radio.</p>
+      <p class="book-para ai-added" data-idx="5">I did the math quietly. That was roughly twelve hundred miles. And he was not talking about a satellite phone or some exotic military technology. He was talking about a hobby radio. A thing people used to talk to strangers.</p>
+      <p class="book-para ai-added" data-idx="6">I had encountered ham radio before, the way most people have, in the background of old movies or in throwaway references. It had always registered as a relic. Something retirees did in garages. Something with a lot of knobs and not a lot of relevance. But this was different. This was a real person, sitting three feet from me, who had made a friend in Texas on a radio and was now driving there to meet him.</p>
+      <p class="book-para" data-idx="7">You cannot unring that bell.</p>
+      <div class="expand-note" data-idx="8"><strong>EXPAND:</strong> This is a strong beat. Consider slowing down here. What did it feel like to have that realization? What does it mean to have a bell you cannot unring? A paragraph or two of interiority here would land well in a book.</div>
+      <p class="book-para mixed" data-idx="9">I barely got started on my questions before I read the room. <span class="ai-added">The vibe was clear: he was not interested in becoming my guide into this hobby. He had mentioned it in passing, not as an invitation. </span>He was almost done serving out his sentence and he wanted to gracefully sail off into retirement without a young whippersnapper in tow. I read the room and backed off after little more than a surface-level acknowledgment that yes, radio was a thing he did.</p>
+      <p class="book-para mixed" data-idx="10">Looking back, I wonder if I read it wrong. <span class="ai-added">He may have been more willing to talk than I gave him credit for. He may have warmed up if I had pressed a little more gently, or asked better questions, or caught him at a different moment. I will never know. What I know is that I left that conversation with a question I could not put down and no one to help me answer it. That missed opportunity, real or imagined, is probably what sent me to the internet. And the internet, as we will get to shortly, was not particularly helpful.</span></p>
+    </section>
+    <section id="ch2" class="chapter">
+      <h2 class="chapter-title">Chapter Two: The Internet Was Not Very Helpful</h2>
+      <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
+      <p class="book-para ai-added" data-idx="0">So I did what any millennial without a real-life mentor does: I turned to the internet.</p>
+      <p class="book-para ai-added" data-idx="1">This was not the internet of today. It was a less polished, less indexed, and in some ways less trustworthy place. But it was still the internet, and the internet has always been a treasure trove if you are willing to wade through the swamp to find the treasure. In the world of amateur radio, the swamp was considerable.</p>
+      <div class="expand-note" data-idx="2"><strong>EXPAND:</strong> This is a rich area for a how-to book. Consider a short sidebar or paragraph here that names the specific types of bad information you encountered. What were the most common wrong answers? What made them feel credible? This helps readers recognize the same traps.</div>
+      <p class="book-para mixed" data-idx="3">What I discovered was this: roughly half of the information available online about how to get started with radio was wrong. Not a little wrong. Just wrong. <span class="ai-added">Misinformed at the source, copied by someone who did not know it was misinformed, repeated until it had the patina of authority. Technical explanations that started with a false premise and built logically from there. Beginner guides written by people who had forgotten what it was like to be a beginner. Forums where the answer to every question was a longer, more technical question in return.</span></p>
+      <p class="book-para mixed" data-idx="4">But every once in a while, you would come across something that helped you, gave you the will to live, and you would keep on trudging through. <span class="ai-added">A forum post from someone who explained things like they remembered being confused. A YouTube video that skipped the jargon and just showed you what to do. A website that was three years out of date but still had the one piece of information you needed to take the next step. You kept those. You bookmarked them. You kept trudging.</span></p>
+      <p class="book-para ai-added" data-idx="5">That process, of sifting through noise for signal, of almost giving up and then finding the one thing that gave you the will to continue, is familiar to almost everyone who has tried to learn amateur radio on their own. It is also, I would argue, the reason this book exists. There should have been a better on-ramp. There still should be.</p>
+    </section>
+    <section id="ch3" class="chapter">
+      <h2 class="chapter-title">Chapter Three: First Contact</h2>
+      <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
+      <p class="book-para" data-idx="0">After some time, I managed to order a radio and a couple of antennas, got it programmed through CHIRP, and turned it on to one of the local repeaters in the Charlotte area.</p>
+      <div class="expand-note" data-idx="1"><strong>EXPAND:</strong> Walk the reader through what this process actually looked like. What radio did you get? What was CHIRP like for a first-timer? What is a repeater and why does it matter? This is instructional territory and deserves a fuller treatment, either here or in a companion chapter.</div>
+      <p class="book-para mixed" data-idx="2"><span class="ai-added">I remember the moment clearly. </span>The radio was the size of a large walkie-talkie. I was standing in my dining room. And this little device was picking up conversations between people who were counties apart. I stood there and just listened.</p>
+      <p class="book-para ai-added" data-idx="3">Then I spent a few months doing just that: listening. I had recently passed my amateur radio exam and received my call sign, but having a license and actually keying up on a live repeater are two different things. There is a moment of hesitation that I think most new operators know. The fear that you will do something wrong, say something wrong, or simply not be heard at all.</p>
+      <p class="book-para mixed" data-idx="4">Eventually I braved it. <span class="ai-added">My first real transmission went out on the W4CQ repeater, and the voice that came back to me belonged to Oscar Norris, call sign W4OXH.</span></p>
+      <p class="book-para mixed" data-idx="5">Oscar came back almost immediately, but with a problem. He could not hear me well. His advice was simple and direct: hold the radio very still, and speak clearly into it. <span class="ai-added">That might sound like nothing, but it is actually one of the most practically useful pieces of guidance a new handheld radio operator can receive. When you are running low power and relying on a small antenna to hit a distant repeater, the orientation and stability of that antenna matters more than most people expect. </span>I did exactly what he said. I held the radio still, spoke deliberately, and keyed up again.</p>
+      <p class="book-para mixed" data-idx="6">He could hear me. He gave me a signal report. We had a brief conversation. <span class="ai-added">It was not long, and I do not remember most of what was said. </span>What I remember is that I was elated. I was standing in my home in Iron Station, North Carolina, talking to a man in a nursing home in Gastonia, <span class="ai-added">on a handheld radio the size of a TV remote, </span>and it was working.</p>
+      <p class="book-para mixed" data-idx="7"><span class="ai-added">What I did not know at the time was </span>that he was blind, elderly, and that the W4CQ repeater was essentially his social world. He sat in his room and talked on it for much of the day, part of a loose community of regulars who had congregated on that frequency over decades. The repeater had tremendous range and had become, without anyone planning it, a gathering place. People checked in, caught up, kept tabs on one another. Oscar was a vital part of that network. <span class="ai-added">It was a real community. Just a verbal one, conducted over radio waves.</span></p>
+      <div class="expand-note" data-idx="8"><strong>EXPAND:</strong> If you have any specific memories of conversations with Oscar, or anything else you learned about him over time, this is the place for it. Even a small detail would make this land harder.</div>
+      <p class="book-para mixed" data-idx="9">He passed away a few years later. <span class="ai-added">I am glad that when I finally braved that first transmission, he was the one who answered.</span></p>
+      <p class="book-para mixed" data-idx="10">I eventually earned my amateur radio license, made some contacts, and did not make it my whole personality. I moved on. <span class="ai-added">That was not the point. The point was that I had proved to myself that the door was real and that I could walk through it. That was enough, for a while.</span></p>
+    </section>
+    <section id="ch4" class="chapter">
+      <h2 class="chapter-title">Chapter Four: Allowed versus Able</h2>
+      <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
+      <p class="book-para mixed" data-idx="0"><span class="ai-added">My next chapter took me in a direction that might seem unrelated: </span>firearms and medical training. I traveled to Tennessee and trained at a school called Tactical Response, and from there I got plugged into a community of people who took preparedness seriously across multiple disciplines.</p>
+      <div class="expand-note" data-idx="1"><strong>EXPAND:</strong> This transition is worth more space in the book. What drew you to tactical training? How does it connect to the broader worldview that led you to radio in the first place? Readers coming from a preparedness background will recognize this path. Readers who are not will benefit from understanding it.</div>
+      <p class="book-para mixed" data-idx="2">Tactical Response had a profound influence on how I think about teaching, not just about shooting. Their flagship course, Fighting Pistol, is one of the most well-designed pieces of curriculum I have ever encountered. The philosophy behind it stuck with me: stop optimizing for the approval of internet gurus and social media audiences, and start equipping ordinary people with real, practical competence that holds up when it actually matters. <span class="ai-added">The emphasis is not on gear. It is not on credentials or the appearance of expertise. It is on building a capable, thinking human being who can perform under pressure with whatever tools are available. That philosophy shaped how I approach radio instruction more than anything else I have encountered.</span></p>
+      <p class="book-para mixed" data-idx="3">I have had students compare this class to Fighting Pistol, calling it the Fighting Pistol of radio. <span class="ai-added">I want to be careful not to overclaim that. Comparing anything I have built to that curriculum is generous to the point of embarrassment. But I take the spirit of the comparison seriously, because it is exactly what I am reaching for: the same commitment to practical outcomes over theoretical knowledge, the same respect for the student’s time and investment, the same belief that the common person, properly taught, is more than capable of real competence.</span></p>
+      <p class="book-para mixed" data-idx="4"><span class="ai-added">One concept from that world has stayed with me, and it translates directly into how I teach radio. </span>It is the distinction between allowed and able.</p>
+      <p class="book-para ai-added" data-idx="5">In the firearms community, there is a certain kind of instructor who is consumed by what is permitted in which jurisdiction: what the law says you may carry, where you may carry it, and under what circumstances you are legally justified in acting. That knowledge has its place. But there is a separate and arguably more important question: what are you actually able to do when a situation demands it? What are you capable of, trained for, and ready to execute? Allowed and able are not the same thing, and they do not always overlap.</p>
+      <p class="book-para ai-added" data-idx="6">Radio has its own version of this dynamic. The amateur radio world, in particular, has no shortage of people who are deeply invested in the rules. Licensing structures, band plans, permitted power levels, proper procedure. Again, that knowledge has its place. But if your goal is to be genuinely useful in a difficult situation, to communicate when communication matters most, the more important question is whether you are able. Whether you have the skills, the equipment, the practiced familiarity with your gear to actually get a message through when it counts. A license does not make you a radio operator any more than a carry permit makes you capable under pressure.</p>
+      <p class="book-para mixed" data-idx="7">What you are allowed to do and what you are able to do are two different conversations. <span class="ai-added">This book is primarily about the second one. My goal is to send you home able, </span>because able is what lets you prevail when it matters most.</p>
+      <p class="book-para mixed" data-idx="8">In that training community, I started to notice something consistent. The people around me understood the value of communication. Many of them had heard of the fighting triad: shoot, move, communicate. <span class="ai-added">They knew that a radio was a tool they were supposed to have. But very few of them could actually make their radios work. Programming was a mystery. Frequencies were a foreign language. They had the gear but not the knowledge, and the gap between having a radio and being a radio operator was wider than most of them had expected.</span></p>
+      <p class="book-para" data-idx="9">I was not the only person in that community known for radio. There were others who had earned the same reputation, and I want to be clear about that. But I was one of them, and that was enough to put me in a position I had not expected to be in. People started asking me not just to fix their radios, but to explain what I was doing. And eventually, to teach.</p>
+      <p class="book-para ai-added" data-idx="10">I said yes. That was, in retrospect, a pivotal decision that led somewhere I could not have predicted.</p>
+    </section>
+    <section id="ch5" class="chapter">
+      <h2 class="chapter-title">Chapter Five: 413 Slides</h2>
+      <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
+      <p class="book-para mixed" data-idx="0"><span class="ai-added">My first attempt at teaching radio </span><span class="ai-added">was exactly what you would expect from someone with a background in corporate IT who had never taught anything before. </span>I built a PowerPoint presentation. It had 413 slides. It covered every technical detail I had managed to accumulate over years of self-directed learning. The students in that room found it useful. They told me so.</p>
+      <p class="book-para mixed" data-idx="1">But I knew something was wrong. <span class="ai-added">I had set out to build the class I wished had existed when I was starting out, and what I had built instead was a technical reference that happened to be delivered out loud. That is not the same thing. The people in that room learned something. They did not leave as radio operators.</span></p>
+      <div class="expand-note" data-idx="2"><strong>EXPAND:</strong> This is a rich area to develop. What did you set out to build versus what you actually built? What did the gap look like from the front of the room? What specific moment or observation made you realize the approach needed to change? Specifics here will help readers understand the difference between delivering information and actually teaching.</div>
+      <p class="book-para ai-added" data-idx="3">That gap between what I intended and what I produced was the most useful piece of information I had ever collected about teaching. It sent me back to the drawing board, and the drawing board after that, and the one after that. Knowing a subject deeply and being able to transfer it to someone else are not the same skill. The students did not need everything I knew. They needed the right things, in the right order, connected to something they already understood. They needed a ramp, not a wall. And I had handed them a wall with a very thorough index.</p>
+      <p class="book-para ai-added" data-idx="4">Everything that came after that class was an attempt to build a better ramp.</p>
+      <p class="book-para mixed" data-idx="5">What exists today is roughly eighty evolutions later. <span class="ai-added">The curriculum has been torn down and rebuilt more times than I can count. Content has been added, cut, reorganized, and field-tested in front of hundreds of students in rooms across the country. Every class taught me something about what worked and what did not. Every confused face in the audience was data. Every moment when I watched something click for a student was a signal to do more of whatever had just happened.</span></p>
+      <div class="expand-note" data-idx="6"><strong>EXPAND:</strong> Consider a brief summary here of the evolution arc. What were the biggest shifts? Going from all technical to mostly practical? Adding scenarios? Cutting the license exam content? Readers interested in the pedagogy will appreciate a glimpse behind the curtain.</div>
+      <p class="book-para ai-added" data-idx="7">The class I teach today is the class I wish had existed when I started. That is not a marketing line. It is the organizing principle behind every decision I have made about what to include, what to cut, and how to sequence the material. If the fifteen-years-ago version of me, sitting in that cubicle, freshly ignited by a story about Texas and a radio, could have walked into this class the following weekend, it would have saved him years.</p>
+      <p class="book-para ai-added" data-idx="8">That is why I built it. And that is why you are holding this book.</p>
+    </section>
+    <section id="ch6" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 6: Why Radio</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch7" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 7: How Radio Works</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch8" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 8: Radio Theory</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch9" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 9: Your First Radio</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch10" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 10: Programming</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch11" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 11: Principles of Use</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch12" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 12: How to Talk on a Radio</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch13" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 13: Communication Strategies</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch14" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 14: Setting Up Comms for a Group</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch15" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 15: HF Radio</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch16" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 16: Power</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch17" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 17: Gear Recommendations</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch18" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 18: Mission Planning</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch19" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 19: Licensing</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+    <section id="ch20" class="chapter placeholder-chapter">
+      <h2 class="chapter-title">Ch 20: Resources</h2>
+      <p class="placeholder-text">This chapter has not been written yet.</p>
+    </section>
+</div>
+
+<script>
+  // ── Sidebar toggle (mobile) ──
+  var sidebar = document.getElementById('sidebar');
+  var overlay = document.getElementById('sidebarOverlay');
+  var toggle = document.getElementById('menuToggle');
+
+  function openSidebar() {
+    sidebar.classList.add('open');
+    overlay.classList.add('open');
+  }
+  function closeSidebar() {
+    sidebar.classList.remove('open');
+    overlay.classList.remove('open');
+  }
+
+  toggle.addEventListener('click', function() {
+    sidebar.classList.contains('open') ? closeSidebar() : openSidebar();
+  });
+  overlay.addEventListener('click', closeSidebar);
+
+  // Close sidebar on nav click (mobile)
+  sidebar.querySelectorAll('a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) closeSidebar();
+    });
+  });
+
+  // ── Scroll-based active link tracking ──
+  var links = document.querySelectorAll('.sidebar a[data-target]');
+  var targets = Array.from(links).map(function(a) {
+    return document.getElementById(a.dataset.target);
+  });
+
+  function onScroll() {
+    var scrollY = window.scrollY + 140;
+    var active = 0;
+    for (var i = 0; i < targets.length; i++) {
+      if (targets[i] && targets[i].getBoundingClientRect().top + window.scrollY <= scrollY) {
+        active = i;
+      }
+    }
+    links.forEach(function(a, i) {
+      a.classList.toggle('active', i === active);
+    });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+</script>
+
+</body>
+</html>
