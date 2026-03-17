@@ -652,6 +652,43 @@ const ch13 = [
   expandNote("Add material on repeaters and cross-band repeat from the class. Also consider adding the dispersed net exercise results and what they revealed about radio coverage and dead spots."),
 ];
 
+const ch10 = [
+  chapterHead("Chapter Ten: Programming"),
+  legendNote(),
+
+  sectionHead("The Iron Sights of Radio"),
+
+  body("Programming a repeater by hand is the iron sights of radio. You have to know how to do it. Are you going to use it all the time? Of course not. Is it fast? No. But it might be all you have. You have to know how to do it. This is probably the hardest thing we will cover, but you will leave here confidently knowing how. And if you can do it on a Baofeng, you can do it on any radio."),
+
+  sectionHead("Programming a Simplex Frequency"),
+
+  body("Start by making sure you are in frequency mode. How do you know? No channel numbers on the right side of the screen. If you see numbers, press the VFO/MR button until they disappear. Make sure you are on the A line. The arrow should be pointing up."),
+
+  body("Type the frequency on the keypad. For example, FRS channel three is 462.6125. Your radio only goes three decimal places, so you type four-six-two-six-one-two. It will automatically add the five. That is it. You have programmed a simplex frequency. You are transmitting and receiving on the same frequency. One lane, both directions."),
+
+  bodyMixed([
+    ["The national calling frequency for ham radio is 146.520. ", true],
+    ["It is the most commonly monitored frequency in all of radio. It is a really good one to keep in your mind because that is a place you can find help sometimes if you need it.", false],
+  ]),
+
+  sectionHead("The Factory Unlock"),
+
+  body("These radios come locked from the factory. They will only transmit on amateur frequencies. To unlock them, you need to put in what amounts to a cheat code. Turn the radio off. Hold down VFO, Monitor, and Push to Talk all at the same time. While holding all three, power on the radio. Wait to see the word FACTORY on the screen. That resets the transmit restrictions and the radio can now transmit on FRS and other frequencies."),
+
+  bodyMixed([
+    ["This happened by accident the first time I did this exercise in class. ", false],
+    ["Now I leave it in on purpose because it teaches an essential lesson: just being able to hear me does not mean your radio can transmit. You can be on the right channel with all the right settings, and your radio physically cannot transmit there. You will not know unless you try.", false],
+  ]),
+
+  sectionHead("Saving to Memory"),
+
+  body("To save a frequency into memory on a Baofeng, you have to start in frequency mode. There is no editing a memory on this radio. It will allow you to appear to edit it. It does not say error. It just lets you try. Over and over. Until you remember you cannot do that. Please do not try to edit memories. You have to work from frequency mode."),
+
+  bodyAI("The process for saving a frequency to memory varies by radio model, but the general principle is the same: configure the frequency and all its settings in frequency mode first, then write it to a memory slot. On a Baofeng, this is done through the MENU button, selecting the memory channel number, and confirming the write. The A line (top line) is the only one that can write to memory. If you do work on the B line, you cannot save it."),
+
+  expandNote("Add detailed step-by-step for saving to memory on a Baofeng: MENU > 027 > select channel number > MENU to confirm. Also cover programming a repeater by hand (offset, CTCSS tone) and computer programming via CHIRP. Reference the chirp-tutorial-outline.md for the CHIRP section."),
+];
+
 const ch11 = [
   chapterHead("Chapter Eleven: Principles of Use"),
   legendNote(),
@@ -792,8 +829,9 @@ const bookDoc = new Document({
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Five") }, children: [...ch5, pageBreak()] },
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Six") }, children: [...ch6, pageBreak()] },
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Nine") }, children: [...ch9, pageBreak()] },
-    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Thirteen") }, children: [...ch13, pageBreak()] },
+    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Ten") }, children: [...ch10, pageBreak()] },
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Eleven") }, children: [...ch11, pageBreak()] },
+    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Thirteen") }, children: [...ch13, pageBreak()] },
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Seventeen") }, children: ch17 }
   ]
 });

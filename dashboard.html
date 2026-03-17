@@ -360,7 +360,7 @@
 <div class="nav-part">Part III: Getting on the Air</div>
       <a href="#ch9" data-target="ch9" class="">Your First Radio</a>
       <a href="#ch10" data-target="ch10" class="">Programming</a>
-      <a href="#ch11" data-target="ch11" class="unwritten">Principles of Use <span class="draft-badge">planned</span></a>
+      <a href="#ch11" data-target="ch11" class="">Principles of Use</a>
       <a href="#ch12" data-target="ch12" class="unwritten">How to Talk on a Radio <span class="draft-badge">planned</span></a>
       <a href="#ch13" data-target="ch13" class="unwritten">Communication Strategies <span class="draft-badge">planned</span></a>
 <div class="nav-part">Part IV: Going Further</div>
@@ -387,11 +387,11 @@
   <div class="progress-bar">
     <div class="label">Book Progress</div>
     <div class="progress-track">
-      <div class="progress-fill" style="width: 50%"></div>
+      <div class="progress-fill" style="width: 55%"></div>
     </div>
     <div class="progress-stats">
-      <span>10 of 19 chapters drafted</span>
-      <span>50%</span>
+      <span>11 of 19 chapters drafted</span>
+      <span>55%</span>
     </div>
   </div>
 
@@ -604,6 +604,23 @@
       <div class="expand-note" data-idx="35"><strong>EXPAND:</strong> Add material on repeaters and cross-band repeat from the class. Also consider adding the dispersed net exercise results and what they revealed about radio coverage and dead spots.</div>
     </section>
     <section id="ch9" class="chapter">
+      <h2 class="chapter-title">Chapter Ten: Programming</h2>
+      <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
+      <h3 class="section-title" data-idx="0">The Iron Sights of Radio</h3>
+      <p class="book-para" data-idx="1">Programming a repeater by hand is the iron sights of radio. You have to know how to do it. Are you going to use it all the time? Of course not. Is it fast? No. But it might be all you have. You have to know how to do it. This is probably the hardest thing we will cover, but you will leave here confidently knowing how. And if you can do it on a Baofeng, you can do it on any radio.</p>
+      <h3 class="section-title" data-idx="2">Programming a Simplex Frequency</h3>
+      <p class="book-para" data-idx="3">Start by making sure you are in frequency mode. How do you know? No channel numbers on the right side of the screen. If you see numbers, press the VFO/MR button until they disappear. Make sure you are on the A line. The arrow should be pointing up.</p>
+      <p class="book-para" data-idx="4">Type the frequency on the keypad. For example, FRS channel three is 462.6125. Your radio only goes three decimal places, so you type four-six-two-six-one-two. It will automatically add the five. That is it. You have programmed a simplex frequency. You are transmitting and receiving on the same frequency. One lane, both directions.</p>
+      <p class="book-para mixed" data-idx="5"><span class="ai-added">The national calling frequency for ham radio is 146.520. </span>It is the most commonly monitored frequency in all of radio. It is a really good one to keep in your mind because that is a place you can find help sometimes if you need it.</p>
+      <h3 class="section-title" data-idx="6">The Factory Unlock</h3>
+      <p class="book-para" data-idx="7">These radios come locked from the factory. They will only transmit on amateur frequencies. To unlock them, you need to put in what amounts to a cheat code. Turn the radio off. Hold down VFO, Monitor, and Push to Talk all at the same time. While holding all three, power on the radio. Wait to see the word FACTORY on the screen. That resets the transmit restrictions and the radio can now transmit on FRS and other frequencies.</p>
+      <p class="book-para mixed" data-idx="8">This happened by accident the first time I did this exercise in class. Now I leave it in on purpose because it teaches an essential lesson: just being able to hear me does not mean your radio can transmit. You can be on the right channel with all the right settings, and your radio physically cannot transmit there. You will not know unless you try.</p>
+      <h3 class="section-title" data-idx="9">Saving to Memory</h3>
+      <p class="book-para" data-idx="10">To save a frequency into memory on a Baofeng, you have to start in frequency mode. There is no editing a memory on this radio. It will allow you to appear to edit it. It does not say error. It just lets you try. Over and over. Until you remember you cannot do that. Please do not try to edit memories. You have to work from frequency mode.</p>
+      <p class="book-para ai-added" data-idx="11">The process for saving a frequency to memory varies by radio model, but the general principle is the same: configure the frequency and all its settings in frequency mode first, then write it to a memory slot. On a Baofeng, this is done through the MENU button, selecting the memory channel number, and confirming the write. The A line (top line) is the only one that can write to memory. If you do work on the B line, you cannot save it.</p>
+      <div class="expand-note" data-idx="12"><strong>EXPAND:</strong> Add detailed step-by-step for saving to memory on a Baofeng: MENU &gt; 027 &gt; select channel number &gt; MENU to confirm. Also cover programming a repeater by hand (offset, CTCSS tone) and computer programming via CHIRP. Reference the chirp-tutorial-outline.md for the CHIRP section.</div>
+    </section>
+    <section id="ch10" class="chapter">
       <h2 class="chapter-title">Chapter Eleven: Principles of Use</h2>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       <h3 class="section-title" data-idx="0">On, On the Right Channel, Volume Up</h3>
@@ -620,7 +637,7 @@
       <p class="book-para" data-idx="11">I am going to teach you how to make sure the radio is not making noise when you do not want it to make noise. This is something nobody talks about. They can teach you how to make them work. They cannot teach you how to make them not annoying so you turn them off. You do not want to listen to squawks and chirps and nonsense going on. You want to listen to: does my wife need me or not? That is important.</p>
       <div class="expand-note" data-idx="12"><strong>EXPAND:</strong> Expand on CTCSS/DCS tones as the primary tool for filtering unwanted traffic. Also cover channel discipline, monitoring etiquette, and the difference between scan monitoring and dedicated channel monitoring.</div>
     </section>
-    <section id="ch10" class="chapter">
+    <section id="ch11" class="chapter">
       <h2 class="chapter-title">Chapter Seventeen: Gear Recommendations</h2>
       <div class="legend">plain text = Evan&#39;s words <span class="ai-added">yellow = AI-added prose</span></div>
       <p class="book-para ai-added" data-idx="0">There are five tiers of radio deployment, ranging from most portable and least capable to least portable and most capable. As you move down the list, portability decreases but reliability, dependability, and capability increase. Understanding where each tier fits will help you decide what to invest in and where.</p>
@@ -650,10 +667,6 @@
       <h3 class="section-title" data-idx="24">The Trade-Off</h3>
       <p class="book-para" data-idx="25">At the bottom of the list, we have controlled the most variables. It is the most capable, most reliable, most dependable. As we go backwards up the list, reliability and dependability go down. But what goes up? Portability, convenience, size, weight. Most of these, you could do everything on this list for about a hundred dollars each. You can do all of them with a Baofeng. It will not be great, but you can fill that role.</p>
       <div class="expand-note" data-idx="26"><strong>EXPAND:</strong> Add the firearms analogy from class: EDC radio = concealed carry pistol (.380), tactical handheld = duty pistol, mobile radio = AR-15/carbine, base station = precision rifle. Each tier trades portability for capability. Also add specific product recommendations for each tier.</div>
-    </section>
-    <section id="ch11" class="chapter placeholder-chapter">
-      <h2 class="chapter-title">Ch 11: Principles of Use</h2>
-      <p class="placeholder-text">This chapter has not been written yet.</p>
     </section>
     <section id="ch12" class="chapter placeholder-chapter">
       <h2 class="chapter-title">Ch 12: How to Talk on a Radio</h2>
