@@ -652,6 +652,108 @@ const ch13 = [
   expandNote("Add material on repeaters and cross-band repeat from the class. Also consider adding the dispersed net exercise results and what they revealed about radio coverage and dead spots."),
 ];
 
+const ch11 = [
+  chapterHead("Chapter Eleven: Principles of Use"),
+  legendNote(),
+
+  sectionHead("On, On the Right Channel, Volume Up"),
+
+  body("If the radio is on, it is on the right channel, and the volume is up, you cannot ignore me. I am in your ear. You cannot get rid of me. That is the whole point."),
+
+  body("Do you think if your kid just broke their leg and their femur is poking out and you just put them in the car and your wife is going to follow you, do you think either of you are going to think to turn on your radio? Not right now. And guess when you are going to need it? Like that day, when they are not on. It is absolutely critical to me that it comes on with the car, that it is on the right channel, and the volume is up."),
+
+  body("Why is the right channel so important? So they are listening where you are talking. If they are not there, I do not care if it is on. It does not help. What about the volume? You are on the right channel and it is on, but you turned the volume down because there is an annoying interference on that channel every day. You will turn it up when you need it, right? Are you going to remember to turn the volume up? Non-negotiable."),
+
+  bodyAI("This is the mantra that runs through every deployment tier, every use case, every exercise in this book. If those three conditions are not met, nothing else matters. The radio is a paperweight."),
+
+  sectionHead("The Bidirectional Comms Check"),
+
+  body("Just being able to hear somebody does not guarantee they can hear you. You have to do a bidirectional comms check. Just because you can hear me does not mean I can hear you. You might be on the right channel with all the right settings, but your radio physically cannot transmit. You will not know unless you test it both ways."),
+
+  bodyMixed([
+    ["I have watched this happen with a room full of students. Everyone could hear me perfectly. Must be working. Let us run the mission. No. All you have is half the equation. ", false],
+    ["Receiving does not guarantee transmitting. Always confirm both directions before you depend on the link.", true],
+  ]),
+
+  sectionHead("Practice Now, Not During Armageddon"),
+
+  body("This is not just something we set up and operate in our basement during Armageddon. That is almost not even relevant to what we are learning here. This is something that can be useful to you every day. And I think if you have any chance of using it during Armageddon, you are going to need to implement it now in your everyday life so you have some clue what the heck it does and you are familiar with it when it matters."),
+
+  sectionHead("Making the Radio Not Annoying"),
+
+  body("I am going to teach you how to make sure the radio is not making noise when you do not want it to make noise. This is something nobody talks about. They can teach you how to make them work. They cannot teach you how to make them not annoying so you turn them off. You do not want to listen to squawks and chirps and nonsense going on. You want to listen to: does my wife need me or not? That is important."),
+
+  expandNote("Expand on CTCSS/DCS tones as the primary tool for filtering unwanted traffic. Also cover channel discipline, monitoring etiquette, and the difference between scan monitoring and dedicated channel monitoring."),
+];
+
+const ch17 = [
+  chapterHead("Chapter Seventeen: Gear Recommendations"),
+  legendNote(),
+
+  bodyAI("There are five tiers of radio deployment, ranging from most portable and least capable to least portable and most capable. As you move down the list, portability decreases but reliability, dependability, and capability increase. Understanding where each tier fits will help you decide what to invest in and where."),
+
+  sectionHead("Tier 1: EDC (Everyday Carry)"),
+
+  body("This is a handheld radio with a stubby antenna. I am the radio guy. It is my job. I do not carry a radio on my person. Everyday carry for me means it is in my bag. I have it accessible to me every day, everywhere I am, but it is not on me. Part of the reason it is not on me, just to be frank, is I do not have any room left."),
+
+  body("How many radios are there in this equation? One. What can you do with one radio? This is my pet peeve with every bug-out bag video on YouTube where some dude dumps out his bag full of stuff he just bought at Bass Pro Shop on his comforter. It has not been washed in four years, but he is hoping you do not notice. There is always a radio. One radio, not a scratch on it. And it is assumed that radio is going to help him contact the people he needs to get in touch with when the world is falling apart. There is never any explanation about how exactly it is going to do that. That is called a good luck charm. A magic talisman. It is a paperweight for that guy."),
+
+  bodyMixed([
+    ["What is good about the EDC radio? It is small, portable, compact, has its own power, convenient. ", false],
+    ["What are the downsides? There is only one, which means no redundancy. And I can really only contact people that also have radios. The stubby antenna reduces range significantly. What we do to cripple it, to make it more convenient, cripples it.", false],
+  ]),
+
+  body("There is a very popular company on the internet that has invested a lot in advertising. They show a little tiny device with an antenna smaller than a stubby that can talk thousands of miles. What does that operate on? It is a cellular radio. We already have cellular radios. My phone has eight radios in it. I do not need another one that I can get wet. What is not cool about it is that it does not work when my other cellular radio does not work. That is what they imply when they put the image of this and Hurricane Helene in the background. That really bothers me. Very personal issue for me as someone that gave hundreds of radios to people during Helene where that product would not have worked."),
+
+  sectionHead("Tier 2: Duty / Tactical"),
+
+  body("I can take that exact same radio. Nothing changes about the hardware. But I clip it to my belt and all my buddies do the same thing. They are programmed the same. They are on. They are on the right channel and the volume is up. It is now tactical."),
+
+  body("We might just run Walmart. I might be a cashier. You have a mop. You are the manager. We are tactically using radio, meaning we are implementing these radios as a part of our work. It is a part of my equipment. It is on me. It is on. It is on the same channel and the volume is up. This is a total game changer for capability. What is better than me with my radio? Taking that same radio and distributing copies to all my buddies, and they are on with the volume up on the same channel. We are coordinated. We are in a system together."),
+
+  body("That is why I built three-radio kits. The idea is me and the two people who showed up today have a system, a quick-deploy system to solve problems with. This is not something I robbed to run my farm with. This is a kit that stays in places where I might need to implement them. Because my buddies who I told to bring their radios, did they bring them? Or if they did, did they just order them on Amazon the night before? Are they programmed and ready? These are programmed, ready, and identical. They work."),
+
+  bodyMixed([
+    ["Is it multi-cam? Am I wearing a plate carrier? I might be wearing chainsaw chaps and a tow strap for my truck. That is tactical. In the sense that we are doing work with the radio. ", false],
+    ["I do not care if your work involves guns and cool guy stuff. That is not what I mean when I say tactical. It is not exclusive of that, but it is not exclusively that.", false],
+  ]),
+
+  sectionHead("Tier 3: Vehicle-Mounted (Mobile)"),
+
+  body("This is a mobile radio. In a vehicle, it would be mounted under the seat or on the dash. It has a detachable faceplate that I can locate remotely. What is required to make it work? External power. In a vehicle, it gets power from the alternator and the battery. It is designed to run on twelve-volt power. Unlike a handheld that has onboard power, mobile radios do not. You bring the power with you. That adds complexity. But with that complexity, more capability."),
+
+  body("It also does not have an antenna. In a vehicle, I actually need my signal to get outside the metal cage, so I need it on the roof or mounted somewhere externally. A more complex solution, but what increases? Range, possibly. Features, ease of use. Big clicky knobs, big buttons, bigger screens. It is built for a vehicle environment where I need big buttons because I need to focus on driving. I do not have time to look at a tiny keypad."),
+
+  body("One unsung hero of mobile radios: the remote microphone. I can pick it up, bring it to my mouth, and talk. Never take my eyes off what I am doing. Very big benefit when driving."),
+
+  sectionHead("Tier 4: Man-Pack / Go-Bag"),
+
+  body("Take that same mobile radio and put it in a self-contained portable package. It has the mobile radio installed, a handle, a battery and an antenna, all in one bag. A grab-and-go versatile radio system. I can use it as a base station, in a vehicle, hiking or camping, all in one bag."),
+
+  body("Now, why am I saying you probably do not need one of these? I mentioned the vehicle radio is a non-negotiable. Every car I own is going to have one. Some of you are thinking: I will put it on my desk at home as a base station, then take it to work in the car. Time to go to work? Disconnect the antenna, grab the bag, hook it up in the truck. Come home, set it back up on the desk. How many times is that going to happen? About one day. And it will live where it lands for the rest of its life. I know you aspire to do more with it. You are not going to. I have never seen somebody have the discipline to move them around. I am the radio guy, and even I know I have to bolt it in if it is going to be there when I need it."),
+
+  body("So what are the real use cases? For me, I travel a ton. I need something versatile. I am not always in my vehicle. Sometimes I rent vehicles. I am teaching classes where I need something I can hand to someone and say, go set this up in your car, we are leaving in five minutes. It has everything in the bag. It is supplemental to all the other tiers. It comes last."),
+
+  sectionHead("Tier 5: Base Station"),
+
+  body("Take that radio and mount it to your master closet shelf. It lives there. Set up a mast on your roof and it never moves. What is so cool about that? It is dependable. Why? Because it is always there. If it is always there, it is always got power. Am I plugging and unplugging anything? No."),
+
+  body("If I need to keep my drinks cold at work today, do I load my refrigerator into the truck and take it with me to work every day? What would start to happen to that refrigerator? It is going to break. It is not made to be moving around all the time. A base radio is an appliance. It does a certain job. It sits there, and all it does is that job. When do you mess with your fridge? When it breaks or when you get a new one. That is it."),
+
+  bodyMixed([
+    ["Guess what likes to get involved when we plug and unplug things? Murphy. Murphy shows up. ", false],
+    ["Leaving it where it is and not messing with it. Things can still go wrong. I have a client that has some goats. I installed a bunch of cool stuff for him. He called me about a year later. Radio is not working anymore up on the hill. Guess what the culprit is? Goats and coax are not friends. They had chewed through it in five places.", false],
+  ]),
+
+  body("What else is cool about the base station? If I set up a big antenna at my house, and it can reach somewhere today that I need to reach, guess what is going to happen tomorrow? It is still going to reach there. With handheld radios, you can move one foot and lose a contact fifty miles away. I promise you it is that quirky. When I mount an antenna, I have dependable, reliable performance. There are really only two things that change it. One is seasonal: leaves on the trees can cause just enough interference to miss a long-range contact. The other is the thing you are trying to reach is down. You cannot control that. We are controlling variables with a base station."),
+
+  sectionHead("The Trade-Off"),
+
+  body("At the bottom of the list, we have controlled the most variables. It is the most capable, most reliable, most dependable. As we go backwards up the list, reliability and dependability go down. But what goes up? Portability, convenience, size, weight. Most of these, you could do everything on this list for about a hundred dollars each. You can do all of them with a Baofeng. It will not be great, but you can fill that role."),
+
+  expandNote("Add the firearms analogy from class: EDC radio = concealed carry pistol (.380), tactical handheld = duty pistol, mobile radio = AR-15/carbine, base station = precision rifle. Each tier trades portability for capability. Also add specific product recommendations for each tier."),
+];
+
 const bookDoc = new Document({
   styles: {
     default: { document: { run: { font: "Georgia", size: 24 } } },
@@ -690,7 +792,9 @@ const bookDoc = new Document({
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Five") }, children: [...ch5, pageBreak()] },
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Six") }, children: [...ch6, pageBreak()] },
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Nine") }, children: [...ch9, pageBreak()] },
-    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Thirteen") }, children: ch13 }
+    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Thirteen") }, children: [...ch13, pageBreak()] },
+    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Eleven") }, children: [...ch11, pageBreak()] },
+    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Seventeen") }, children: ch17 }
   ]
 });
 
