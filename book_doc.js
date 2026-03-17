@@ -434,6 +434,135 @@ const ch6 = [
   expandNote("Add the radio summary statement from class: 'Radios are a versatile communication medium' and the breakdown of each phrase: silent/invisible, multiple recipients, at distance, mechanically simple, minimal visual interruption, when other means are ineffective or unavailable."),
 ];
 
+const ch9 = [
+  chapterHead("Chapter Nine: Your First Radio"),
+  legendNote(),
+
+  bodyMixed([
+    ["If you have ever done firearms training, you have probably heard of Clint Smith. He has a philosophy that he wants students to be students of weapons craft, not students of a particular weapon. What does that mean? If I pick up an AK-47 off the ground, I can make it work, even if what I run at home is an AR. You ought to be able to load it, unload it, make it safe, make it fire, clear basic malfunctions, because you are not guaranteed to be fighting with your gun. You might fight with somebody else's gun.", false],
+  ]),
+
+  body("I love that philosophy, and I am applying it here with radio. You are not guaranteed to be using your radio. I think it is even more likely with radio than with firearms that you will end up with something unfamiliar in your hands. Someone just handed you a radio and you have to make it work. So we are approaching this at a generalized level so that it will work for you regardless of what you are holding."),
+
+  sectionHead("The Battery"),
+
+  body("Your battery and your radio almost never come assembled when you get a new radio. It is a shipping regulation that the radio needs to be separate from the battery. What happens is people get real excited, take it out of the box, and start shoving stuff together. Batteries and radios go together differently depending on what you are using. Some slide in. Some fold in with a flap. Some latch. If I try to install one the way the other goes, I am going to break something. When you first get a radio, just take a second and deliberately look at how the battery goes in. Does it slide? Does it fold? Does it latch? Do not break it."),
+
+  bodyMixed([
+    ["On the bottom of the battery, there are two little holes that align with two nubs on the bottom of the radio. That is what holds the battery on. ", false],
+    ["Those nubs are surprisingly fragile. If you use an extended battery, you create a long lever, and when you drop it, those nubs shear right off. ", false],
+    ["With the compact battery, there is almost no chance of shearing them off. ", true],
+    ["None of my kids' radios have those nubs anymore. Here is an easy way to fix a radio where those nubs are broken off: you take all the stuff off of it, hold it in your hand, find a trash can, and drop it in. Then you get a new one. That is how we fix Baofengs. We do not operate on them.", false],
+  ]),
+
+  body("Nowadays I am almost always using the small USB-C batteries. The fact that they are USB-C is a game changer, and that is one of my non-negotiables on a radio these days: it has to be USB-C chargeable."),
+
+  sectionHead("The Antenna Connector"),
+
+  body("If you look down the barrel of where the antenna goes on your radio, you will see a little copper wire in the middle. That is not incredibly confidence-inspiring. It is very fragile. If something were to kink or break that wire, the radio is ruined and going in the trash. If you get a pin lodged in there in your backpack and it pushes it over, you go to put your antenna on and it breaks it off. Done."),
+
+  body("One of the things I struggled with getting into radio was identifying this connector. If you know, there is SMA female and SMA male. I have done a lot of plumbing and electrical work in my life, and when I look at the threads, I see female threads and I think I need male stuff. In radio, that is backwards. You do not worry about threads. You look at the center conductor. That determines gender on coax, on antennas, on anything. The center conductor is what matters."),
+
+  sectionHead("The BNC Adapter"),
+
+  body("The very first thing I do with any radio is put a BNC adapter on it. You thread it on, about seven turns, finger tight. Where is that scary little fragile wire? Totally enveloped by this adapter, never to be seen again. Totally protected. This adapter will now live on this radio. It should never come off."),
+
+  body("We have now changed to a BNC jack, which is a different style. It is not threaded. You slide the antenna on and give it a quarter turn to lock. That is it. What happens with threads? They can cross-thread. They can wear out. They can jam. They get dirty. Threading and radios is not my favorite thing. This is one place I can eliminate that."),
+
+  body("I put that adapter on every radio I own, no matter what gender it starts out as. It ends up being BNC female, no matter what. So what is cool is I now have one antenna type. My Yaesu, which is SMA female natively. My Baofeng, which is SMA male. They all take the same antenna. I do not have to go buy a forty-dollar antenna for my Baofeng that I cannot put on my good radio. I buy BNC antennas. They work on everything. I really love that standardization."),
+
+  sectionHead("The Screen"),
+
+  bodyMixed([
+    ["If your radio has a screen, it shows you all the information you need to know about the radio. ", false],
+    ["Some radios do not have screens. What can you infer from that? Either your boss does not trust you to interact with that radio, or it is a simpler radio with just a channel knob and nothing else. If there is no screen, you are not going to be doing any programming on it.", false],
+  ]),
+
+  sectionHead("Power and Volume"),
+
+  body("On a Baofeng, the power is part of the volume knob. It is a physical switch. You hear that click when you turn it on. Turn it on just past the click. We do not need to crank the volume. I like to leave the voice announcements on. That is a hot take, but I think it has benefits. It announces everything about the radio. No other radio does that. I think it is cool. It is easy to turn off. So just turn it on past the click, wait a second, and then adjust from there. Nobody wants to hear Mrs. Chen announcing what mode you are in unless you need to know."),
+
+  bodyMixed([
+    ["A physical power switch is cheap to manufacture. But one cool thing about it is it actually helps not drain the battery. ", false],
+    ["On a Yaesu, the power is a press-and-hold button. For that to work, current has to be running through that button all the time, and it will drain the battery dead sitting in a bag. ", false],
+    ["The vulnerability of the physical switch being on the volume knob is that it is easy to get it rubbing on something. ", true],
+    ["At my first Fighting Rifle class, I wore my radio on my strong side with a sling, and every time I pulled my rifle up, it would grab the volume knob. The first thing I did when I went to reload was move the radio to the other side. The exoskeletons protect that volume knob. They physically envelop it so you have to get your finger down in there to turn it on and off.", false],
+  ]),
+
+  sectionHead("Channel Selection"),
+
+  body("Some radios have a dedicated channel knob. It is a clicky, detented knob. If you feel a clicky knob, that is channel change. If it is infinitely variable with no clicks, that is a volume knob. Why does it click? To indicate a change. If I am on channel one and I want to get to channel eight, I can feel it without looking: two, three, four, five, six, seven, eight. It can stay in the pouch. Each click indicates a change. It is expensive to manufacture. There is a little ball bearing popping into a socket at each position."),
+
+  body("On a Baofeng, we use arrow buttons to change channels. That is cheaper to make. But anyone who has ever had to punch their zip code into a gas pump knows: buttons are not a reliable information entry system. You are going to have to really look at the radio. You are not going to change the channel with it in a pocket. Just one of the downsides."),
+
+  sectionHead("Push to Talk"),
+
+  body("Hold the radio in your right hand. Your index finger naturally lands on a big button on the side. That is the push to talk. It is always the big one on that side. Why do they make it big? That is the one you are going to be dealing with. It is like the skinny pedal on the right. What does that do in a car? Gas. It is always the gas. Roll with it."),
+
+  body("It is the push to talk, not the push to think, not the push to ponder. Be ready to talk when you push it. That might mean waiting a second to gather your thoughts before you push it. If someone is transmitting, nobody else can do anything. You are clogging up that whole channel the entire time you press that button. So when you press it, you better get down to business."),
+
+  sectionHead("Squelch"),
+
+  body("Squelch is essentially a filter based on signal strength. Think of a fence. If I have a fence that is one foot tall, what does it keep out? Not much. But it keeps out nothingness. Your radio hears nothingness all the time, and it sounds like static. As I raise that fence, it keeps out more stuff, but at what expense: it is more difficult to get over it when you want to get over it."),
+
+  body("If I set my fence to ten feet tall, it keeps out basically everything. But if I want my friends to get in the yard, they cannot do it very easily. Their signal strength has to be sky-high. So we are always doing this dance. If I set it to about a three or four, I do not hear things that are annoying non-transmissions, interference-type noises, but I generally hear everybody I want to hear. That is where I start."),
+
+  body("If I start hearing noise in my radio that is not a person or a real transmission, I can raise the squelch at the expense of potentially missing stuff I want to hear. Garage door openers, stuff in the atmosphere, or something so far away that it is clearly not relevant. It is never a free lunch. Every time you raise the squelch, it is a risk that you are not going to hear the people you want to hear. I err on the side of being more liberal. Keep it lower and suck it up. But if it is the difference between keeping the radio on and turning the volume down, keep the squelch up. Turning the volume down is what I want to avoid. If you turn the volume down, I cannot get ahold of you."),
+
+  body("The monitor button sets the squelch to zero. It fully opens the squelch. Think of pushing the fence all the way down so people can get through. You do not stand there all day holding the fence down. It is very temporary. If you hear somebody breaking up, cutting in and out, you can hold down that monitor button while you listen, and as soon as you let off, it goes back to its setting."),
+
+  sectionHead("VFO and Memory Mode"),
+
+  body("The VFO/MR button. Every radio is going to have something along these lines. VFO stands for variable frequency oscillator. I do not know what that is. We are not going to worry about it. M is for memory. What do you think we do in memory mode? We look at our saved stuff. The other one is manual or variable entry mode. That is where we do our programming."),
+
+  body("Press the button. The right-hand side of the screen is where we direct our attention. Numbers appear, then they disappear. What do those numbers mean when they appear? Channel numbers. That is what is stored in that spot. When they disappear, you are in frequency mode or manual entry mode. When they appear, you are in channel mode or memory mode. I do not focus on what the button is labeled or what each mode is called. I use the context: do I see channel numbers? That means I am navigating by channels. No numbers? I can punch stuff in by hand."),
+
+  bodyMixed([
+    ["If you want to save something into memory on this radio, you have to start in frequency mode. There is no editing a memory. ", false],
+    ["The radio will allow you to appear to edit it. It does not say error. It just lets you try. Over and over. Until you remember you cannot do that. Please do not try to edit memories. You have to work from frequency mode.", false],
+  ]),
+
+  body("The A/B button gives you two parking spots. They are fully independent. All your settings are independent for the A line and the B line. It is a quick change. In memory mode, I can have channel eight and channel forty-two, a primary and an alternate. Without that, I would have to press the button thirty-some times to get from eight to forty-two. The A line is the top line, and it is the only one that can write into memory. If you do a bunch of work on the B line, you cannot save it. Please work from the A line. That arrow should be pointing up."),
+
+  sectionHead("The Microphone"),
+
+  body("That tiny little hole above the A/B button is the microphone. That is where you need to talk into. Please do not hold it like a speakerphone. Straight up and down, right in front of your face. Your antenna needs to be vertical. The signal emanates from the antenna perpendicular. Unless the people you want to talk to are in the basement or above you, vertical is how you want it. It is forgiving in the same room, but that gives you a bad habit. Where it does not work is at the edges of its capability. So straight up and down, right in front of your face."),
+
+  sectionHead("Keypad Lock"),
+
+  body("The pound sign has a little key icon. Press and hold it and it locks the radio. The same icon shows up next to the battery level indicator. Your front keys are all disabled. It does not disable the side keys. You can still transmit. It does not prevent you from adjusting volume or accidentally turning off the radio. If this is going to go into a pouch or a pocket, lock the keypad. What can happen otherwise? You sit down, your pants get tighter, it presses the channel changer, and you are on a different channel. You spend four hours wondering why nobody talked to you. To unlock, press and hold again."),
+
+  sectionHead("Scanning"),
+
+  body("This can scan. It is not a scanner. It is going to incrementally go through either frequencies or channels one at a time until it hears activity. How does it define activity? Something has to break the squelch."),
+
+  body("Scanning is a lot like waiting for the bus. How do you know if you are early or late for the bus? If it is not there, you do not know. The only way you know you are at the right place at the right time is if you and the bus are at the same place. Same deal with scanning. I have to be listening where the conversation happens when it happens. If I am scanning four channels at about one per second and I miss the activity, I might never hear it."),
+
+  bodyMixed([
+    ["This radio is slow at scanning. About one per second. If you put a hundred twenty-eight memories in here, it takes over two minutes to get through the whole list. ", false],
+    ["If you put fewer things in the radio, it is more valuable. Four channels scanned every three or four seconds is useful. ", true],
+    ["A dedicated scanner does about ten per second, but you are talking six to eight hundred dollars for a device that all it does is listen.", false],
+  ]),
+
+  sectionHead("Power Level"),
+
+  body("To change the power level on a Baofeng, tap the pound sign. Do not hold it, just tap. You will see L appear and disappear. L stands for low power. Would we want to put underpowered ammo in our concealed carry pistol? This is already a pistol. We are not running low-power ammo in our pistol. I do not really know what the functional purpose of low power is for a handheld in real life. I am going to use all the power it has. If you see an L, get it to go away."),
+
+  bodyMixed([
+    ["Now on other radios, that is not always true. On a hundred-watt radio, you better believe I do not need to run a hundred watts all the time. ", false],
+    ["If five watts does the job, it is crazy to run a hundred watts to talk to my wife in the backyard. That is a waste. It is polluting the environment with extra energy and potentially interfering with people for no reason. ", false],
+    ["But for handhelds, I am running high power. The BTEC has low, medium, high, and turbo. Guess what I run all the time. Turbo.", false],
+  ]),
+
+  sectionHead("Essential Functions Checklist"),
+
+  bodyAI("Every radio you pick up, these are the things you need to figure out before you carry it anywhere. This is the bare minimum:"),
+
+  body("Switch between VFO and memory mode. Enter a simplex frequency. Program a repeater by hand. That is the iron sights of radio. You have to know how to use it. Are you going to use it all the time? Of course not. Is it fast? No. But it might be all you have. You have to know how to do it. Adjust the squelch. Lock and unlock the keypad. That is it. If you do not know how to do all of this, you have no business carrying it around."),
+
+  expandNote("Consider adding a visual reference or quick-reference card format for the essential functions checklist, similar to the manual page 18 reference from class."),
+];
+
 const bookDoc = new Document({
   styles: {
     default: { document: { run: { font: "Georgia", size: 24 } } },
@@ -470,7 +599,8 @@ const bookDoc = new Document({
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Three") }, children: [...ch3, pageBreak()] },
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Four") }, children: [...ch4, pageBreak()] },
     { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Five") }, children: [...ch5, pageBreak()] },
-    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Six") }, children: ch6 }
+    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Six") }, children: [...ch6, pageBreak()] },
+    { properties: { page: pageProps }, footers: { default: makeFooter("Chapter Nine") }, children: ch9 }
   ]
 });
 
