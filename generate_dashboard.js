@@ -228,12 +228,18 @@ const html = `<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zero to Hero Radio Operator — Book Dashboard</title>
 <style>
+  /* Palette: Tailwind Slate / GitHub Dark Dimmed inspired
+     bg-base: #1c1c1e   sidebar: #161618   surface: #242428
+     text-primary: #e4e4e7   text-secondary: #a1a1aa   text-muted: #71717a
+     border: #2e2e32   accent-gold: #d4a030   accent-blue: #6ba3d6
+     heading-navy: #7ba4d4 (lightened for dark bg)  */
+
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
   body {
     font-family: Georgia, 'Times New Roman', serif;
-    background: #0d0d0d;
-    color: #d8d0c4;
+    background: #1c1c1e;
+    color: #e4e4e7;
     line-height: 1.8;
   }
 
@@ -245,12 +251,12 @@ const html = `<!DOCTYPE html>
     width: 260px;
     height: 100vh;
     overflow-y: auto;
-    background: #0a0a0a;
-    border-right: 1px solid #1a1a1a;
+    background: #161618;
+    border-right: 1px solid #2e2e32;
     padding: 24px 16px 40px;
     z-index: 200;
     scrollbar-width: thin;
-    scrollbar-color: #333 transparent;
+    scrollbar-color: #3f3f46 transparent;
     transition: transform 0.25s ease;
   }
 
@@ -258,12 +264,12 @@ const html = `<!DOCTYPE html>
     text-align: center;
     margin-bottom: 24px;
     padding-bottom: 16px;
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid #2e2e32;
   }
 
   .sidebar-header h1 {
     font-size: 1.1em;
-    color: #B8860B;
+    color: #d4a030;
     font-weight: 700;
     letter-spacing: 0.02em;
   }
@@ -273,7 +279,7 @@ const html = `<!DOCTYPE html>
     font-size: 9px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #555;
+    color: #71717a;
     margin-top: 4px;
   }
 
@@ -282,7 +288,7 @@ const html = `<!DOCTYPE html>
     font-size: 9px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: #B8860B;
+    color: #d4a030;
     margin: 18px 0 8px;
     padding-left: 8px;
   }
@@ -291,7 +297,7 @@ const html = `<!DOCTYPE html>
     display: block;
     font-family: Georgia, serif;
     font-size: 0.78em;
-    color: #777;
+    color: #a1a1aa;
     text-decoration: none;
     padding: 4px 8px;
     border-left: 2px solid transparent;
@@ -302,24 +308,24 @@ const html = `<!DOCTYPE html>
 
   .sidebar a:hover,
   .sidebar a.active {
-    color: #d8d0c4;
-    border-left-color: #B8860B;
+    color: #e4e4e7;
+    border-left-color: #d4a030;
   }
 
   .sidebar a.unwritten {
-    color: #444;
+    color: #52525b;
     font-style: italic;
   }
 
   .sidebar a.unwritten:hover {
-    color: #666;
-    border-left-color: #444;
+    color: #71717a;
+    border-left-color: #52525b;
   }
 
   .draft-badge {
     font-family: 'Courier New', monospace;
     font-size: 8px;
-    color: #555;
+    color: #71717a;
     letter-spacing: 0.05em;
     margin-left: 4px;
   }
@@ -331,9 +337,9 @@ const html = `<!DOCTYPE html>
     top: 12px;
     left: 12px;
     z-index: 300;
-    background: #1a1a1a;
-    border: 1px solid #333;
-    color: #B8860B;
+    background: #242428;
+    border: 1px solid #3f3f46;
+    color: #d4a030;
     font-size: 20px;
     width: 40px;
     height: 40px;
@@ -344,8 +350,8 @@ const html = `<!DOCTYPE html>
   }
 
   .menu-toggle:hover {
-    background: #222;
-    border-color: #B8860B;
+    background: #2e2e32;
+    border-color: #d4a030;
   }
 
   /* ── MAIN CONTENT ── */
@@ -359,41 +365,41 @@ const html = `<!DOCTYPE html>
   .cover {
     text-align: center;
     padding: 80px 0 60px;
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid #2e2e32;
     margin-bottom: 48px;
   }
 
   .cover h1 {
     font-size: 2.8em;
-    color: #1F3C6E;
+    color: #7ba4d4;
     font-weight: 700;
     line-height: 1.1;
   }
 
   .cover h2 {
     font-size: 1.8em;
-    color: #1F3C6E;
+    color: #7ba4d4;
     font-weight: 700;
     margin-top: 8px;
   }
 
   .cover .byline {
     font-size: 1em;
-    color: #666;
+    color: #a1a1aa;
     font-style: italic;
     margin-top: 20px;
   }
 
   .cover .brand {
     font-size: 0.9em;
-    color: #4A90D9;
+    color: #6ba3d6;
     margin-top: 32px;
   }
 
   .cover .brand-url {
     font-family: 'Courier New', monospace;
     font-size: 0.75em;
-    color: #555;
+    color: #71717a;
     margin-top: 4px;
   }
 
@@ -401,8 +407,8 @@ const html = `<!DOCTYPE html>
   .progress-bar {
     margin: 0 0 48px;
     padding: 16px 20px;
-    background: #111;
-    border: 1px solid #1a1a1a;
+    background: #242428;
+    border: 1px solid #2e2e32;
     border-radius: 4px;
   }
 
@@ -411,19 +417,19 @@ const html = `<!DOCTYPE html>
     font-size: 10px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #666;
+    color: #a1a1aa;
     margin-bottom: 8px;
   }
 
   .progress-track {
-    background: #1a1a1a;
+    background: #2e2e32;
     height: 8px;
     border-radius: 4px;
     overflow: hidden;
   }
 
   .progress-fill {
-    background: linear-gradient(90deg, #B8860B, #d4a020);
+    background: linear-gradient(90deg, #d4a030, #e8b840);
     height: 100%;
     border-radius: 4px;
     transition: width 0.3s ease;
@@ -432,7 +438,7 @@ const html = `<!DOCTYPE html>
   .progress-stats {
     font-family: 'Courier New', monospace;
     font-size: 10px;
-    color: #555;
+    color: #71717a;
     margin-top: 6px;
     display: flex;
     justify-content: space-between;
@@ -442,54 +448,54 @@ const html = `<!DOCTYPE html>
   .chapter {
     margin-bottom: 64px;
     padding-bottom: 48px;
-    border-bottom: 1px solid #1a1a1a;
+    border-bottom: 1px solid #2e2e32;
   }
 
   .chapter:last-child { border-bottom: none; }
 
   .chapter-title {
     font-size: 1.5em;
-    color: #1F3C6E;
+    color: #7ba4d4;
     font-weight: 700;
     padding-bottom: 10px;
-    border-bottom: 2px solid #4A90D9;
+    border-bottom: 2px solid #6ba3d6;
     margin-bottom: 20px;
   }
 
   .section-title {
     font-size: 1.2em;
-    color: #1F3C6E;
+    color: #7ba4d4;
     font-weight: 700;
     padding-bottom: 6px;
-    border-bottom: 1px solid #4A90D9;
+    border-bottom: 1px solid #3f3f46;
     margin: 32px 0 16px;
   }
 
   .legend {
     font-family: 'Courier New', monospace;
     font-size: 10px;
-    color: #555;
+    color: #71717a;
     margin-bottom: 24px;
   }
 
   .legend .ai-added {
-    background: rgba(255, 255, 0, 0.15);
-    color: #b8a040;
+    background: rgba(212, 160, 48, 0.15);
+    color: #d4a030;
     padding: 1px 4px;
   }
 
   .book-para {
     font-size: 1em;
-    color: #c8c0b4;
+    color: #d4d4d8;
     text-indent: 2em;
     margin-bottom: 16px;
   }
 
   .book-para.ai-added,
   .book-para .ai-added {
-    background: rgba(255, 255, 0, 0.08);
-    color: #b8a040;
-    border-left: 2px solid rgba(184, 134, 11, 0.3);
+    background: rgba(212, 160, 48, 0.1);
+    color: #d4a030;
+    border-left: 2px solid rgba(212, 160, 48, 0.4);
     padding-left: 6px;
   }
 
@@ -501,21 +507,21 @@ const html = `<!DOCTYPE html>
   .expand-note {
     font-family: 'Courier New', monospace;
     font-size: 0.82em;
-    color: #B8860B;
-    background: rgba(255, 243, 205, 0.08);
-    border-left: 3px solid #B8860B;
+    color: #d4a030;
+    background: rgba(212, 160, 48, 0.08);
+    border-left: 3px solid #d4a030;
     padding: 10px 14px;
     margin: 16px 0 20px;
     line-height: 1.5;
   }
 
   .placeholder-chapter {
-    opacity: 0.4;
+    opacity: 0.35;
   }
 
   .placeholder-text {
     font-style: italic;
-    color: #555;
+    color: #71717a;
     padding: 20px 0;
   }
 
@@ -524,7 +530,7 @@ const html = `<!DOCTYPE html>
     display: none;
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.5);
     z-index: 150;
   }
 
