@@ -1033,20 +1033,36 @@
       return;
     }
 
+    // Cancel any prior speech to avoid queue buildup
+    tts.synth.cancel();
+
     var el = paras[tts.paraIdx];
     var text = el.textContent.replace(/^EXPAND:s*/, '');
     highlightPara(el);
     updatePlayerUI();
 
+    // Re-pick voice each time in case voices loaded late
+    if (!tts.voice) tts.voice = pickVoice();
+
     var u = new SpeechSynthesisUtterance(text);
     u.rate = tts.rate;
     u.pitch = 1.0;
+    u.volume = 1.0;
     if (tts.voice) u.voice = tts.voice;
+
+    // Show voice info in player for debugging
+    var paraEl = document.getElementById('playerPara');
+    paraEl.textContent = (tts.paraIdx + 1) + '/' + paras.length + (tts.voice ? ' [' + tts.voice.name.split(' ').pop() + ']' : ' [no voice]');
+
     u.onend = function() {
       tts.paraIdx++;
-      if (tts.playing && !tts.paused) speakPara();
+      if (tts.playing && !tts.paused) {
+        // Small delay between paragraphs for natural pacing
+        setTimeout(function() { speakPara(); }, 300);
+      }
     };
-    u.onerror = function() {
+    u.onerror = function(e) {
+      console.error('TTS error:', e);
       tts.paraIdx++;
       if (tts.playing && !tts.paused) speakPara();
     };
@@ -1117,13 +1133,16 @@
     }
   });
 
-  // Chrome has a bug where synthesis stops after ~15s. Keep-alive workaround.
+  // Chrome has a bug where synthesis stops after ~15s.
+  // Workaround: restart the current utterance if it goes silent.
   setInterval(function() {
-    if (tts.playing && !tts.paused && tts.synth.speaking) {
-      tts.synth.pause();
-      tts.synth.resume();
+    if (tts.playing && !tts.paused) {
+      if (!tts.synth.speaking) {
+        // Synthesis died silently — restart current paragraph
+        speakPara();
+      }
     }
-  }, 10000);
+  }, 14000);
 </script>
 
 </body>
