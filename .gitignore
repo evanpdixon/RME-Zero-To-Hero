@@ -1,2 +1,11 @@
 node_modules/
 *.docx
+
+# Standard ignores
+__pycache__/
+*.pyc
+*.log
+*.db-shm
+*.db-wal
+.env
+*.xml
