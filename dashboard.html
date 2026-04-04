@@ -470,6 +470,40 @@
     .main { padding: 56px 16px 80px; }
     .book-para { font-size: 0.95em; }
   }
+
+  /* Safe-area padding for notched / rounded-corner devices */
+  body {
+    padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+  }
+  .player-bar {
+    padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+  }
+
+  /* Show hover-only TTS buttons on touch devices */
+  @media (hover: none) {
+    .tts-btn { opacity: 1; }
+  }
+
+  /* Touch-friendly tap targets on mobile */
+  @media (max-width: 900px) {
+    .tts-btn {
+      min-height: 44px;
+    }
+    .player-bar button {
+      min-height: 44px;
+    }
+  }
+
+  /* Respect reduced-motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      transition-duration: 0s !important;
+      animation-duration: 0s !important;
+    }
+    .sidebar {
+      transition: none !important;
+    }
+  }
 </style>
 </head>
 <body>
