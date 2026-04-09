@@ -696,9 +696,23 @@ const html = `<!DOCTYPE html>
     .main { padding: 56px 16px 80px; }
     .book-para { font-size: 0.95em; }
   }
+
+  /* Project directory badge */
+  #rme-dir-badge {
+    position: fixed; top: 8px; right: 12px; z-index: 99999;
+    font-family: 'Cascadia Code', 'Fira Code', Consolas, monospace;
+    font-size: 10px; color: rgba(156,163,175,0.8);
+    background: rgba(0,0,0,0.55); padding: 3px 9px;
+    border-radius: 4px; border: 1px solid rgba(255,255,255,0.1);
+    user-select: text; pointer-events: auto;
+  }
+  #rme-dir-badge::before { content: "dir: "; opacity: 0.55; }
+  #rme-dir-badge:hover { color: rgba(255,255,255,0.95); background: rgba(0,0,0,0.75); }
+  @media (max-width: 480px) { #rme-dir-badge { font-size: 9px; top: 4px; right: 6px; padding: 2px 6px; } }
 </style>
 </head>
 <body>
+<div id="rme-dir-badge" title="Directory: C:/Claude/RME-Zero-To-Hero">RME-Zero-To-Hero</div>
 
 <button class="menu-toggle" id="menuToggle">&#9776;</button>
 <div class="sidebar-overlay" id="sidebarOverlay"></div>
